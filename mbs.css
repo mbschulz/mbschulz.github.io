@@ -76,7 +76,7 @@ div.content {
 }
 
 /* On screens that are less than ???px, display the bar vertically, instead of horizontally */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .sidebar a {
     text-align: center;
     float: none;
@@ -119,6 +119,13 @@ div.desc {
   width: 24.99999%;
 }
 
+@media only screen and (max-width: 2100px) {
+  .responsive {
+    width: 33.3%;
+    margin: 16px 0;
+  }
+}
+
 @media only screen and (max-width: 1400px) {
   .responsive {
     width: 49.99999%;
@@ -126,7 +133,7 @@ div.desc {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .responsive {
     width: 100%;
   }

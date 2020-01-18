@@ -1,10 +1,29 @@
 /* GENERAL */
 
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+ 
+html,body,h1,h2,h3,h4,h5,h6 {font-family: Helvetica, sans-serif;}
 
 body {
-  background-color: #e6e6e6;
+  background-color: #f2f2f2;
 }
+
+.footer {
+   margin-left: 0px;
+   padding: 20px;
+   position: fixed;
+   left:  0;
+   bottom: 0;
+   width: 100%;
+}
+ 
+.copyright {
+   padding: 20px;
+   color: #666;
+}
+ 
+ 
+ 
+
 
  /* The side navigation menu */
 .sidebar {
@@ -40,12 +59,12 @@ body {
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 div.content {
   margin-left: 200px;
-  padding: 1px 16px;
-  height: 1000px;
+  padding: 5px 36px;
+  height: 100%;
 }
 
-/* On screens that are less than 700px wide, make the sidebar into a topbar */
-@media screen and (max-width: 700px) {
+/* On screens that are less than ???px wide, make the sidebar into a topbar */
+@media screen and (max-width: 1000px) {
   .sidebar {
     width: 100%;
     height: auto;
@@ -55,8 +74,8 @@ div.content {
   div.content {margin-left: 0;}
 }
 
-/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-@media screen and (max-width: 400px) {
+/* On screens that are less than ???px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 600px) {
   .sidebar a {
     text-align: center;
     float: none;
@@ -64,14 +83,16 @@ div.content {
 } 
 
 
+
 /* Gallery */ 
 
+
 div.gallery {
-<!--  border: 1px solid #ccc; -->
+/*  border: 1px solid #ccc; */
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+/*    border: 1px solid #777; */
 }
 
 div.gallery img {
@@ -89,15 +110,15 @@ div.desc {
 }
 
 .responsive {
-  padding: 0 6px;
+  padding: 0 15px;
   float: left;
   width: 24.99999%;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1400px) {
   .responsive {
     width: 49.99999%;
-    margin: 6px 0;
+    margin: 15px 0;
   }
 }
 

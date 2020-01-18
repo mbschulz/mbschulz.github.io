@@ -30,12 +30,13 @@ body {
   color: black;
   padding: 16px;
   text-decoration: none;
+  border: 4px outset #e6e6e6;
 }
 
 .sidebar .copyright {
   display: block;
   color: gray;
-  padding: 16px;
+  padding: 20px;
   text-decoration: none;
   position: absolute;
   bottom: 0px;

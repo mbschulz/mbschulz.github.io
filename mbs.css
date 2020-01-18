@@ -1,15 +1,17 @@
 /* GENERAL */
-
  
 html,body,h1,h2,h3,h4,h5,h6 {font-family: Helvetica, sans-serif;}
-
 
 body {
   background-color: #f2f2f2;
 }
 
-
-
+.footer {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  width: 45px;
+}
 
  /* The side navigation menu */
 .sidebar {
@@ -30,6 +32,15 @@ body {
   text-decoration: none;
 }
 
+.sidebar .copyright {
+  display: block;
+  color: gray;
+  padding: 16px;
+  text-decoration: none;
+  position: absolute;
+  bottom: 0px;
+}
+
 /* Active/current link */
 .sidebar a.active {
   background-color: #4d4d4d;
@@ -38,7 +49,7 @@ body {
 
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
-  background-color: #555;
+  background-color: #737373;
   color: white;
 }
 
@@ -58,6 +69,10 @@ div.content {
   }
   .sidebar a {float: left;}
   div.content {margin-left: 0;}
+  .sidebar .copyright {
+    position: relative;
+    float: right;
+   }  
 }
 
 /* On screens that are less than ???px, display the bar vertically, instead of horizontally */
@@ -66,8 +81,11 @@ div.content {
     text-align: center;
     float: none;
   }
-} 
-
+  .sidebar .copyright {
+    text-align: center;
+    float: none;}  
+}
+ 
 
 
 /* Gallery */ 

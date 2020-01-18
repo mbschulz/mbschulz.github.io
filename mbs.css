@@ -3,26 +3,12 @@
  
 html,body,h1,h2,h3,h4,h5,h6 {font-family: Helvetica, sans-serif;}
 
+
 body {
   background-color: #f2f2f2;
 }
 
-.footer {
-   margin-left: 0px;
-   padding: 20px;
-   position: fixed;
-   left:  0;
-   bottom: 0;
-   width: 100%;
-}
- 
-.copyright {
-   padding: 20px;
-   color: #666;
-}
- 
- 
- 
+
 
 
  /* The side navigation menu */
@@ -110,7 +96,7 @@ div.desc {
 }
 
 .responsive {
-  padding: 0 15px;
+  padding: 0 16px;
   float: left;
   width: 24.99999%;
 }
@@ -118,7 +104,7 @@ div.desc {
 @media only screen and (max-width: 1400px) {
   .responsive {
     width: 49.99999%;
-    margin: 15px 0;
+    margin: 16px 0;
   }
 }
 

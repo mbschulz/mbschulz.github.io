@@ -25,19 +25,21 @@ body {
 }
 
 /* Sidebar links */
-.sidebar a {
+.sidebar a, .sidebar .copyright {
   display: block;
-  color: black;
-  padding: 16px;
+  font-size: large;
   text-decoration: none;
+}
+
+.sidebar a {
+  color: black;
+  padding: 12px 6px;
   border: 4px outset #e6e6e6;
 }
 
 .sidebar .copyright {
-  display: block;
   color: gray;
-  padding: 20px;
-  text-decoration: none;
+  padding: 16px;
   position: absolute;
   bottom: 0px;
 }

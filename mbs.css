@@ -100,6 +100,7 @@ div.gallery {
 
 div.gallery:hover {
 /*    border: 1px solid #777; */
+transform: scale(1.17);
 }
 
 div.gallery img {

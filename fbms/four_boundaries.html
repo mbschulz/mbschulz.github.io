@@ -7,6 +7,24 @@
 <meta name="keywords" content="Mario B. Schulz, free boundary, minimal surfaces, LaTeX, TikZ"/>
 <meta name="description" content="free boundary minimal surfaces"/>
 <link href="../mbs.css" rel="stylesheet" type="text/css" />
+<style>
+.C5b4 {
+	width: 100%;
+    padding-top: 100%; /* 1:1 Aspect Ratio */
+  	background-image: url("four_boundaries/C5b4.png") ;
+    background-size: 3600%;
+    background-repeat: no-repeat;
+ 	animation: C5b4ani 1s steps(36) infinite;
+    animation-play-state:paused;
+}
+.C5b4:hover {
+    animation-play-state:running;
+}
+@keyframes C5b4ani {
+  from { background-position: 0px; }
+  to { background-position: 102.857142857142857%; }	
+}
+</style>
 </head>
 <link rel="icon" href="../images/pmhgm.png">
 
@@ -41,19 +59,19 @@ preprint (<a href="https://arxiv.org/abs/2001.04240" target="_blank">arXiv:2001.
 
 <div class="responsive">
     <div class="gallery">
-        <img src="C5b4.gif" alt="C5b4"><div class="desc">genus = 9</div>
+        <div class="C5b4"></div><div class="desc">genus = 9</div>
     </div>
 </div>
 
 <div class="responsive">
     <div class="gallery">
-        <img src="C6b4.gif" alt="C6b4"><div class="desc">genus = 11</div>
+        <img src="four_boundaries/C6b4.gif" alt="C6b4"><div class="desc">genus = 11</div>
     </div>
 </div>
 
 <div class="responsive">
     <div class="gallery">
-        <img src="C7b4.gif" alt="C7b4"><div class="desc">genus = 13</div>
+        <img src="four_boundaries/C7b4.gif" alt="C7b4"><div class="desc">genus = 13</div>
     </div>
 </div>
  

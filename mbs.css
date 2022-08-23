@@ -98,9 +98,9 @@ div.gallery {
 /*  border: 1px solid #ccc; */
 }
 
-div.gallery:hover {
+ div.gallery:hover {
 /*    border: 1px solid #777; */
-transform: scale(1.025);
+transform: scale(1.005); 
 }
 
 div.gallery img {
@@ -108,6 +108,20 @@ div.gallery img {
   height: auto;
 }
 
+/* start gif on over */ 
+.gallery .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.gallery:hover .img-top {
+    display: inline;
+	transform: scale(1.005); 
+}
+ 
+/* image description */ 
 div.desc {
   padding: 15px;
   text-align: center;
@@ -170,6 +184,11 @@ div.desc {
   margin-left: -0.36em;
   margin-right: -0.15em;
 }
+
+
+ 
+
+
 
 
 

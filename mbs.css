@@ -177,6 +177,10 @@ div.desc {
 body:after{
    position:absolute; width:0; height:0; overflow:hidden; z-index:-1; 
    content:
+   url("fbms/connected_boundary/g1b1-spr.gif") 
+   url("fbms/connected_boundary/g2b1-spr.gif") 
+   url("fbms/connected_boundary/g3b1-spr.gif") 
+   url("fbms/connected_boundary/g4b1-spr.gif")    
    url("fbms/three_boundaries/g2b3KL-spr.gif") 
    url("fbms/three_boundaries/g2b3CSW-spr.gif") 
    url("fbms/four_boundaries/C5b4-spr.gif") 

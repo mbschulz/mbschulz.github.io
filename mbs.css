@@ -89,11 +89,7 @@ div.content {
     float: none;}  
 }
  
-
-
 /* Gallery */ 
-
-
 div.gallery {
 /*  border: 1px solid #ccc; */
 }
@@ -112,6 +108,14 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+}
+div.descAni {
+  padding: 15px;
+  text-align: center;
+}
+.descAni:after { 
+  content: "\00a0\00a0\00a0\00a0\25B6";
+  color: green;
 }
 
 * {
@@ -173,7 +177,7 @@ div.desc {
 }
 
 
-/* preload images */ 
+/* preload some images */ 
 body:after{
    position:absolute; width:0; height:0; overflow:hidden; z-index:-1; 
    content:
@@ -181,24 +185,44 @@ body:after{
    url("fbms/connected_boundary/g1b1-spr.gif") 
    url("fbms/connected_boundary/g2b1-spr.gif") 
    url("fbms/connected_boundary/g3b1-spr.gif") 
-   url("fbms/connected_boundary/g4b1-spr.gif")    
    url("fbms/three_boundaries/g2b3KL-spr.gif") 
    url("fbms/three_boundaries/g2b3CSW-spr.gif") 
-   url("fbms/four_boundaries/C5b4-spr.gif") 
 ;}
 
 /* animation types */ 
+@keyframes C2F90 {
+  from { background-position: 0px 0px, 0px 0px, 0px 0px; }
+  to { background-position: 0px 0px, 0px 101.1235955056%, 0px 0px; }	
+}
 @keyframes C3F60 {
   from { background-position: 0px 0px, 0px 0px, 0px 0px; }
   to { background-position: 0px 0px, 0px 101.694915254237288%, 0px 0px; }	
 }
-
-
-
-
-
-
-
-
-
-
+@keyframes C4F45 {
+  from { background-position: 0px 0px, 0px 0px, 0px 0px; }
+  to { background-position: 0px 0px, 0px 102.272727272727272727%, 0px 0px; }	
+}
+@keyframes C5F36 {
+  from { background-position: 0px 0px, 0px 0px, 0px 0px; }
+  to { background-position: 0px 0px, 0px 102.857142857142857%, 0px 0px; }	
+}
+@keyframes C6F30 {
+  from { background-position: 0px 0px, 0px 0px, 0px 0px; }
+  to { background-position: 0px 0px, 0px 103.4482758620689655%, 0px 0px; }	
+}
+@keyframes C7F25 {
+  from { background-position: 0px 0px, 0px 0px, 0px 0px; }
+  to { background-position: 0px 0px, 0px 104.1666666%, 0px 0px; }	
+} 
+@keyframes C8F22 {
+  from { background-position: 0px 0px, 0px 0px, 0px 0px; }
+  to { background-position: 0px 0px, 0px 104.7619047619047619%, 0px 0px; }	
+} 
+@keyframes C9F20 {
+  from { background-position: 0px 0px, 0px 0px, 0px 0px; }
+  to { background-position: 0px 0px, 0px 105.2631578947368421%, 0px 0px; }	
+} 
+@keyframes C10F18 {
+  from { background-position: 0px 0px, 0px 0px, 0px 0px; }
+  to { background-position: 0px 0px, 0px 105.88235294117647%, 0px 0px; }	
+} 

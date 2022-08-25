@@ -11,18 +11,14 @@
 .g0b3 {
 	width: 100%;
     padding-top: 100%; 
-  	background-image: url("genus_zero/g0b3-spr.gif") ;
-    background-size: 100%;
-    background-repeat: no-repeat;
- 	animation: g0b3ani 2s steps(60) infinite;
+  	background-image: url("../images/frontsphere.svg"), url("genus_zero/g0b3-spr.gif"), url("../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+ 	animation: C3F60 2s steps(60) infinite;
     animation-play-state:paused;
 }
 .g0b3:hover {
     animation-play-state:running;
-}
-@keyframes g0b3ani {
-  from { background-position: 0px 0px; }
-  to { background-position: 0px 101.694915254237288%; }	
 }
 </style>
 </head>
@@ -60,7 +56,7 @@ The images below are a first attempt at visualising all such surfaces with up to
 
 <div class="responsive">
 	<div class="gallery">
-        <div class="g0b3"></div><div class="desc">free boundary Trinoid <span style="color:blue;font-size:22px;">&nbsp; &#8635;</span></div>
+        <div class="g0b3"></div><div class="descAni">free boundary Trinoid</div>
 	</div>
 </div>
  
@@ -249,7 +245,7 @@ The images below are a first attempt at visualising all such surfaces with up to
 <div class="clearfix"></div>
 
 
-<!--
+ <!--
 <h3>References</h3> 
 <ul>
 <p><li>A. Fraser and R. Schoen, <i><a href="https://doi.org/10.1007/s00222-015-0604-x" target="_blank">Sharp eigenvalue bounds and minimal surfaces in the ball</a></i>, Invent. Math. 203 (2016), 823–890.</li></p>

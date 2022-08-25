@@ -187,4 +187,18 @@ body:after{
    url("fbms/four_boundaries/C5b4-spr.gif") 
 ;}
 
+/* animation types */ 
+@keyframes C3F60 {
+  from { background-position: 0px 0px, 0px 0px, 0px 0px; }
+  to { background-position: 0px 0px, 0px 101.694915254237288%, 0px 0px; }	
+}
+
+
+
+
+
+
+
+
+
 

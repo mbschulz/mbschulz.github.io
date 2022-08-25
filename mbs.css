@@ -177,6 +177,7 @@ div.desc {
 body:after{
    position:absolute; width:0; height:0; overflow:hidden; z-index:-1; 
    content:
+   url("fbms/genus_zero/g0b3-spr.gif")
    url("fbms/connected_boundary/g1b1-spr.gif") 
    url("fbms/connected_boundary/g2b1-spr.gif") 
    url("fbms/connected_boundary/g3b1-spr.gif") 

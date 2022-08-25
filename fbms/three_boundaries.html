@@ -11,34 +11,30 @@
 .g2b3KL {
 	width: 100%;
     padding-top: 100%; 
-  	background-image: url("three_boundaries/g2b3KL-spr.gif") ;
-    background-size: 100%;
-    background-repeat: no-repeat;
- 	animation: g2b3KLani 2s steps(60) infinite;
+  	background-image: url("three_boundaries/g2b3KL-spr.gif"), url("three_boundaries/g2b3KL.gif");
+    background-size: 100%, 100%;
+    background-repeat: no-repeat, no-repeat;
+ 	animation: C3F60 2s steps(60) infinite;
     animation-play-state:paused;
 }
 .g2b3KL:hover {
     animation-play-state:running;
 }
-@keyframes g2b3KLani {
-  from { background-position: 0px 0px; }
-  to { background-position: 0px 101.694915254237288%; }	
-}
 .g2b3CSW {
 	width: 100%;
     padding-top: 100%; 
-  	background-image: url("three_boundaries/g2b3CSW-spr.gif") ;
-    background-size: 100%;
-    background-repeat: no-repeat;
- 	animation: g2b3CSWani 2s steps(60) infinite;
+  	background-image: url("three_boundaries/g2b3CSW-spr.gif"), url("three_boundaries/g2b3CSW.gif");
+    background-size: 100%, 100%;
+    background-repeat: no-repeat, no-repeat;
+ 	animation: C3F60 2s steps(60) infinite;
     animation-play-state:paused;
 }
 .g2b3CSW:hover {
     animation-play-state:running;
 }
-@keyframes g2b3CSWani {
-  from { background-position: 0px 0px; }
-  to { background-position: 0px 101.694915254237288%; }	
+@keyframes C3F60 {
+  from { background-position: 0px 0px, 0px 0px; }
+  to { background-position: 0px 101.694915254237288%, 0px 0px; }	
 }
 </style>
 </head>

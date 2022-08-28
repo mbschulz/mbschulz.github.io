@@ -230,3 +230,7 @@ body:after{
   from { background-position: 0px 0px, 0px 0px, 0px 0px; }
   to { background-position: 0px 0px, 0px 110%, 0px 0px; }	
 } 
+@keyframes C1F180 {
+  from { background-position: 0px 0px, 0px 0px, 0px 0px; }
+  to { background-position: 0px 0px, 0px 100.558659217877%, 0px 0px; }	
+} 

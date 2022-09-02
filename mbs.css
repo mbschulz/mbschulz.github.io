@@ -227,6 +227,10 @@ body:after{
   from { background-position: 0px 0px, 0px 0px, 0px 0px; }
   to { background-position: 0px 0px, 0px 105.88235294117647%, 0px 0px; }	
 } 
+@keyframes C11F16 {
+  from { background-position: 0px 0px, 0px 0px, 0px 0px; }
+  to { background-position: 0px 0px, 0px 106.6666666666666666%, 0px 0px; }	
+} 
 @keyframes C12F15 {
   from { background-position: 0px 0px, 0px 0px, 0px 0px; }
   to { background-position: 0px 0px, 0px 107.1429%, 0px 0px; }	

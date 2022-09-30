@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Geometric Analysis Gallery</title>
+<meta name="author" content="Mario B. Schulz"/>
+<meta name="keywords" content="Mario B. Schulz, free boundary, minimal surfaces, LaTeX, TikZ"/>
+<meta name="description" content="free boundary minimal surfaces"/>
+<link href="../mbs.css" rel="stylesheet" type="text/css" />
+<style>
+@keyframes F72 {
+    0.0000% {background-image: url("helicat (1).svg"); mix-blend-mode: multiply; }
+    2% {background-image: url("helicat (2).svg"); mix-blend-mode: multiply; }
+    4% {background-image: url("helicat (3).svg"); mix-blend-mode: multiply; }
+    6% {background-image: url("helicat (4).svg"); mix-blend-mode: multiply; }
+    8% {background-image: url("helicat (5).svg"); mix-blend-mode: multiply; }
+    10% {background-image: url("helicat (6).svg"); mix-blend-mode: multiply; }
+    12% {background-image: url("helicat (7).svg"); mix-blend-mode: multiply; }  
+    14% {background-image: url("helicat (8).svg"); mix-blend-mode: multiply; }
+    16% {background-image: url("helicat (9).svg"); mix-blend-mode: multiply; }
+    18% {background-image: url("helicat (10).svg"); mix-blend-mode: multiply; }
+    20% {background-image: url("helicat (11).svg"); mix-blend-mode: multiply; }
+    22% {background-image: url("helicat (12).svg"); mix-blend-mode: multiply; }
+    24% {background-image: url("helicat (13).svg"); mix-blend-mode: multiply; }  
+    26% {background-image: url("helicat (14).svg"); mix-blend-mode: multiply; }
+    28% {background-image: url("helicat (15).svg"); mix-blend-mode: multiply; }
+    30% {background-image: url("helicat (16).svg"); mix-blend-mode: multiply; }
+    32% {background-image: url("helicat (17).svg"); mix-blend-mode: multiply; }
+    34% {background-image: url("helicat (18).svg"); mix-blend-mode: multiply; } 
+    36% {background-image: url("helicat (18).svg"); mix-blend-mode: multiply; } 
+    50% {background-image: url("helicat (18).svg"); mix-blend-mode: multiply; } 	
+    52% {background-image: url("helicat (17).svg"); mix-blend-mode: multiply; } 		
+    54% {background-image: url("helicat (16).svg"); mix-blend-mode: multiply; }	
+	56% {background-image: url("helicat (15).svg"); mix-blend-mode: multiply; }
+	58% {background-image: url("helicat (14).svg"); mix-blend-mode: multiply; }
+	60% {background-image: url("helicat (13).svg"); mix-blend-mode: multiply; }
+	62% {background-image: url("helicat (12).svg"); mix-blend-mode: multiply; }
+	64% {background-image: url("helicat (11).svg"); mix-blend-mode: multiply; }
+	66% {background-image: url("helicat (9).svg"); mix-blend-mode: multiply; }
+	68% {background-image: url("helicat (8).svg"); mix-blend-mode: multiply; }
+	70% {background-image: url("helicat (7).svg"); mix-blend-mode: multiply; }
+	72% {background-image: url("helicat (6).svg"); mix-blend-mode: multiply; }
+	74% {background-image: url("helicat (5).svg"); mix-blend-mode: multiply; }
+	76% {background-image: url("helicat (4).svg"); mix-blend-mode: multiply; }
+	78% {background-image: url("helicat (3).svg"); mix-blend-mode: multiply; }
+	80% {background-image: url("helicat (2).svg"); mix-blend-mode: multiply; }
+	82% {background-image: url("helicat (1).svg"); mix-blend-mode: multiply; }	
+   100% {background-image: url("helicat (1).svg"); mix-blend-mode: multiply; }		
+}
+.helicat {
+    width: 100%;
+    padding-top: 106%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    animation: F72 5.0s infinite;
+    animation-play-state:running;
+}
+.helicat:hover {
+    animation-play-state:running;
+	mix-blend-mode: multiply;
+}
+</style>
+</head>
+<link rel="icon" href="../images/pmhgm.png">
+
+<body>
+
+<div class="sidebar">
+  <a href="../index.html">Home</a>
+  <a href="../fbms/genus_zero.html">FBMS of genus zero</a>  
+  <a href="../fbms/genus_one.html">FBMS of genus one</a>  
+  <a href="../fbms/genus_two.html">FBMS of genus two</a>  
+  <a href="../fbms/connected_boundary.html">FBMS with connected boundary</a>
+  <a href="../fbms/three_boundaries.html">FBMS with three boundary components</a>
+  <a href="../fbms/four_boundaries.html">FBMS with four boundary components</a>  
+  <a href="../fbms/platonic_symmetry.html">FBMS with Platonic symmetry</a>        
+  <a href="../fbms/immersed.html">Immersed FBMS</a>    
+  <a href="../fbms/catenoid.html">Index of the catenoid</a>  
+  <a href="../shrinkers/index.html">Self-shrinkers for MCF</a>    
+  <a href="../flows/index.html">Geometric flows</a>      
+  <a href="../publications.html">Publications</a>   
+  <a href="../impressum.html">Contact</a>      
+  
+  <span class="copyright">&copy Mario B. Schulz </span>   
+</div>
+
+
+<div class="content">
+<h2>Bonnet Isometry</h2>
+
+ 
+
+
+<h3>Helicoid and Catenoid</h3>
+<p>
+Helicoid and Catenoid are locally isometric by means of a Bonnet-transformation.   
+</p>
+
+<div class="responsivedouble ">
+    <div class="gallery">
+        <div class="helicat"></div><div class="descAni">Bonnet isometry between Helicoid and Catenoid</div>
+	</div>
+</div>
+
+
+<div class="clearfix"></div>
+
+ 
+
+<h3>Schwarz' D-Surface, Gyroid and Schwarz' P-Surface</h3>
+
+<p>
+Hermann Amandus Schwarz' P- and D-surface and Alan Schoen's Gyroid are all 
+part of the same associate family of triply periodic minimal surfaces: 
+They are locally isometric by means of a suitable Bonnet-transformation.  
+The D-surface appears for a Bonnet angle of 0°, 
+the Gyroid appears for a Bonnet angle of about 38.01477° and a Bonnet Winkel of 90° corresponds to the P-surface. 
+</p>
+
+<div class="responsivedouble">
+	<div class="gallery">
+		<img src="DGP.gif" alt="DGP"><div class="desc">DGP-family</div>   
+	</div>
+</div>
+ 
+<div class="clearfix"></div>
+
+
+ 
+ 
+ 
+</div> 
+
+<div class="footer">
+<img src="../images/pmhgm.png" height="45" alt="" align="right">
+</div> 
+</body>
+</html>

@@ -128,26 +128,41 @@ div.descAni {
   float: left;
   width: 24.99999%;
 }
-
 @media only screen and (max-width: 2000px) {
 .responsive {
     width: 33.33333%;
     margin: 16px 0;
   }
 }
-
 @media only screen and (max-width: 1400px) {
 .responsive {
     width: 49.99999%;
     margin: 16px 0;
   }
 }
-
 @media only screen and (max-width: 700px) {
 .responsive {
     width: 100%;
   }
 }
+
+
+.responsivedouble {
+  padding: 0 16px;
+  float: left;
+  width: 66%;
+}
+@media only screen and (max-width: 1400px) {
+.responsivedouble {
+    width: 100%;
+    margin: 16px 0;
+  }
+}
+
+ 
+
+
+
 
 .clearfix:after {
   content: "";
@@ -178,7 +193,7 @@ div.descAni {
 }
 
 
-/* preload some images */ 
+/* preload some images 
 body:after{
    position:absolute; width:0; height:0; overflow:hidden; z-index:-1; 
    content:
@@ -189,6 +204,8 @@ body:after{
    url("fbms/three_boundaries/g2b3KL-spr.gif") 
    url("fbms/three_boundaries/g2b3CSW-spr.gif") 
 ;}
+ */ 
+ 
 
 /* animation types */ 
 @keyframes C2F90 {

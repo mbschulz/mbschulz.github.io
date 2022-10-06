@@ -169,6 +169,18 @@
 .g7b18-C4:hover {
     animation-play-state:running;
 }
+.g23b12-C4 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g23b12-C4-spr.gif"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    animation: C4F45 1.5s steps(45) infinite;
+    animation-play-state:paused;
+}
+.g23b12-C4:hover {
+    animation-play-state:running;
+}
 
 
 

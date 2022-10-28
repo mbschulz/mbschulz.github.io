@@ -118,6 +118,18 @@
 .g0b6-C4:hover {
     animation-play-state:running;
 }
+.g0b7-C2 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g0b7-C2-spr.gif"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    animation: C2F90 3.0s steps(90) infinite;
+    animation-play-state:paused;
+}
+.g0b7-C2:hover {
+    animation-play-state:running;
+}
 .g0b7-C3 {
     width: 100%;
     padding-top: 100%;
@@ -188,6 +200,18 @@
     animation-play-state:paused;
 }
 .g0b8-C2:hover {
+    animation-play-state:running;
+}
+.g0b8-C2-Gyrobifastigium {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g0b8-C2-Gyrobifastigium-spr.gif"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    animation: C2F90 3.0s steps(90) infinite;
+    animation-play-state:paused;
+}
+.g0b8-C2-Gyrobifastigium:hover {
     animation-play-state:running;
 }
 .g0b8-C3 {

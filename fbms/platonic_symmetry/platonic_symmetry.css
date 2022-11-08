@@ -22,6 +22,18 @@
 .g3b6-C3:hover {
     animation-play-state:running;
 }
+.g8b4-C3 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g8b4-C3-spr.gif"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    animation: C3F60 2.0s steps(60) infinite;
+    animation-play-state:paused;
+}
+.g8b4-C3:hover {
+    animation-play-state:running;
+}
 .g12b10-C3 {
     width: 100%;
     padding-top: 100%;

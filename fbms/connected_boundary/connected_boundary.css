@@ -1,0 +1,136 @@
+.g1b1 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g1b1-thumb.gif"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g1b1-toggle {display: none;}
+#g1b1-toggle:checked ~ * .g1b1 {
+    background-image: url("../../images/frontsphere.svg"), url("g1b1-spr.gif"), url("../../images/backsphere.svg");
+    animation: C2F90 3.0s steps(90) infinite;
+}
+#g1b1-toggle:checked ~ * .descAni:before {content: "⏹️";}
+.g1b1:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+
+.g2b1 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g2b1-thumb.gif"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g2b1-toggle {display: none;}
+#g2b1-toggle:checked ~ * .g2b1 {
+    background-image: url("../../images/frontsphere.svg"), url("g2b1-spr.gif"), url("../../images/backsphere.svg");
+    animation: C3F60 2.0s steps(60) infinite;
+}
+#g2b1-toggle:checked ~ * .descAni:before {content: "⏹️";}
+.g2b1:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+
+.g3b1 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g3b1-thumb.gif"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g3b1-toggle {display: none;}
+#g3b1-toggle:checked ~ * .g3b1 {
+    background-image: url("../../images/frontsphere.svg"), url("g3b1-spr.gif"), url("../../images/backsphere.svg");
+    animation: C4F45 1.5s steps(45) infinite;
+}
+#g3b1-toggle:checked ~ * .descAni:before {content: "⏹️";}
+.g3b1:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+
+.g4b1 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g4b1-thumb.gif"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g4b1-toggle {display: none;}
+#g4b1-toggle:checked ~ * .g4b1 {
+    background-image: url("../../images/frontsphere.svg"), url("g4b1-spr.gif"), url("../../images/backsphere.svg");
+    animation: C5F36 1.2s steps(36) infinite;
+}
+#g4b1-toggle:checked ~ * .descAni:before {content: "⏹️";}
+.g4b1:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+
+.g5b1 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g5b1-thumb.gif"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g5b1-toggle {display: none;}
+#g5b1-toggle:checked ~ * .g5b1 {
+    background-image: url("../../images/frontsphere.svg"), url("g5b1-spr.gif"), url("../../images/backsphere.svg");
+    animation: C6F30 1.0s steps(30) infinite;
+}
+#g5b1-toggle:checked ~ * .descAni:before {content: "⏹️";}
+.g5b1:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+
+.g6b1 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g6b1-thumb.gif"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g6b1-toggle {display: none;}
+#g6b1-toggle:checked ~ * .g6b1 {
+    background-image: url("../../images/frontsphere.svg"), url("g6b1-spr.gif"), url("../../images/backsphere.svg");
+    animation: C7F25 0.9s steps(25) infinite;
+}
+#g6b1-toggle:checked ~ * .descAni:before {content: "⏹️";}
+.g6b1:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+
+.g7b1 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g7b1-thumb.gif"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g7b1-toggle {display: none;}
+#g7b1-toggle:checked ~ * .g7b1 {
+    background-image: url("../../images/frontsphere.svg"), url("g7b1-spr.gif"), url("../../images/backsphere.svg");
+    animation: C8F22 0.8s steps(22) infinite;
+}
+#g7b1-toggle:checked ~ * .descAni:before {content: "⏹️";}
+.g7b1:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+
+.g8b1 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g8b1-thumb.gif"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g8b1-toggle {display: none;}
+#g8b1-toggle:checked ~ * .g8b1 {
+    background-image: url("../../images/frontsphere.svg"), url("g8b1-spr.gif"), url("../../images/backsphere.svg");
+    animation: C9F20 0.7s steps(20) infinite;
+}
+#g8b1-toggle:checked ~ * .descAni:before {content: "⏹️";}
+.g8b1:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+
+.g9b1 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g9b1-thumb.gif"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g9b1-toggle {display: none;}
+#g9b1-toggle:checked ~ * .g9b1 {
+    background-image: url("../../images/frontsphere.svg"), url("g9b1-spr.gif"), url("../../images/backsphere.svg");
+    animation: C10F18 0.6s steps(18) infinite;
+}
+#g9b1-toggle:checked ~ * .descAni:before {content: "⏹️";}
+.g9b1:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+
+

@@ -6,117 +6,8 @@
 <meta name="author" content="Mario B. Schulz"/>
 <meta name="keywords" content="Mario B. Schulz, free boundary, minimal surfaces, LaTeX, TikZ"/>
 <meta name="description" content="free boundary minimal surfaces"/>
-<link href="../mbs.css" rel="stylesheet" type="text/css" />
-<style>
-.g1b1 {
-	width: 100%;
-    padding-top: 100%; 
-  	background-image: url("../images/frontsphere.svg"), url("connected_boundary/g1b1-spr.gif"), url("../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
- 	animation: C2F90 3s steps(90) infinite;
-    animation-play-state:paused;
-}
-.g1b1:hover {
-    animation-play-state:running;
-}
-.g2b1 {
-	width: 100%;
-    padding-top: 100%; 
-  	background-image: url("../images/frontsphere.svg"), url("connected_boundary/g2b1-spr.gif"), url("../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
- 	animation: C3F60 2s steps(60) infinite;
-    animation-play-state:paused;
-}
-.g2b1:hover {
-    animation-play-state:running;
-}
-.g3b1 {
-	width: 100%;
-    padding-top: 100%; 
-  	background-image: url("../images/frontsphere.svg"), url("connected_boundary/g3b1-spr.gif"), url("../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
- 	animation: C4F45 1.5s steps(45) infinite;
-    animation-play-state:paused;
-}
-.g3b1:hover {
-    animation-play-state:running;
-}
-.g4b1 {
-	width: 100%;
-    padding-top: 100%; 
-  	background-image: url("../images/frontsphere.svg"), url("connected_boundary/g4b1-spr.gif"), url("../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
- 	animation: C5F36 1.2s steps(36) infinite;
-    animation-play-state:paused;
-}
-.g4b1:hover {
-    animation-play-state:running;
-}
-.g5b1 {
-	width: 100%;
-    padding-top: 100%; 
-  	background-image: url("../images/frontsphere.svg"), url("connected_boundary/g5b1-spr.gif"), url("../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
- 	animation: C6F30 1s steps(30) infinite;
-    animation-play-state:paused;
-}
-.g5b1:hover {
-    animation-play-state:running;
-}
-.g6b1 {
-	width: 100%;
-    padding-top: 100%; 
-  	background-image: url("../images/frontsphere.svg"), url("connected_boundary/g6b1-spr.gif"), url("../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
- 	animation: C7F25 0.84s steps(25) infinite;
-    animation-play-state:paused;
-}
-.g6b1:hover {
-    animation-play-state:running;
-}
-.g7b1 {
-	width: 100%;
-    padding-top: 100%; 
-  	background-image: url("../images/frontsphere.svg"), url("connected_boundary/g7b1-spr.gif"), url("../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
- 	animation: C8F22 0.74s steps(22) infinite;
-    animation-play-state:paused;
-}
-.g7b1:hover {
-    animation-play-state:running;
-}
-.g8b1 {
-	width: 100%;
-    padding-top: 100%; 
-  	background-image: url("../images/frontsphere.svg"), url("connected_boundary/g8b1-spr.gif"), url("../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
- 	animation: C9F20 0.67s steps(20) infinite;
-    animation-play-state:paused;
-}
-.g8b1:hover {
-    animation-play-state:running;
-}
-.g9b1 {
-	width: 100%;
-    padding-top: 100%; 
-  	background-image: url("../images/frontsphere.svg"), url("connected_boundary/g9b1-spr.gif"), url("../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
- 	animation: C10F18 0.6s steps(18) infinite;
-    animation-play-state:paused;
-}
-.g9b1:hover {
-    animation-play-state:running;
-}
-</style>
+<link href="../mbs.css" rel="stylesheet" type="text/css"/>
+<link href="connected_boundary/connected_boundary.css" rel="stylesheet" type="text/css"/> 
 </head>
 <link rel="icon" href="../images/pmhgm.png">
 
@@ -158,87 +49,93 @@ Cambridge Journal of Mathematics 10-4 (2022).</li>
 </ul>
 
 <div class="responsive">
+    <input type="checkbox" id="g1b1-toggle" />
+    <label for="g1b1-toggle">
     <div class="gallery">
-        <a href="g1b1.JPG"><div class="g1b1"></div></a><div class="descAni">genus = 1</div>
+        <div class="g1b1"></div><div class="descAni">genus 1 with connected boundary</div>
     </div>
+    </label>
 </div>
 
 <div class="responsive">
+    <input type="checkbox" id="g2b1-toggle" />
+    <label for="g2b1-toggle">
     <div class="gallery">
-        <div class="g2b1"></div><div class="descAni">genus = 2</div>
+        <div class="g2b1"></div><div class="descAni">genus 2 with connected boundary</div>
     </div>
+    </label>
 </div>
 
 <div class="responsive">
+    <input type="checkbox" id="g3b1-toggle" />
+    <label for="g3b1-toggle">
     <div class="gallery">
-        <div class="g3b1"></div><div class="descAni">genus = 3</div>
+        <div class="g3b1"></div><div class="descAni">genus 3 with connected boundary</div>
     </div>
+    </label>
 </div>
 
 <div class="responsive">
+    <input type="checkbox" id="g4b1-toggle" />
+    <label for="g4b1-toggle">
     <div class="gallery">
-        <div class="g4b1"></div><div class="descAni">genus = 4</div>
+        <div class="g4b1"></div><div class="descAni">genus 4 with connected boundary</div>
     </div>
+    </label>
 </div>
 
 <div class="responsive">
+    <input type="checkbox" id="g5b1-toggle" />
+    <label for="g5b1-toggle">
     <div class="gallery">
-        <div class="g5b1"></div><div class="descAni">genus = 5</div>
+        <div class="g5b1"></div><div class="descAni">genus 5 with connected boundary</div>
     </div>
+    </label>
 </div>
 
 <div class="responsive">
+    <input type="checkbox" id="g6b1-toggle" />
+    <label for="g6b1-toggle">
     <div class="gallery">
-        <div class="g6b1"></div><div class="descAni">genus = 6</div>
+        <div class="g6b1"></div><div class="descAni">genus 6 with connected boundary</div>
     </div>
+    </label>
 </div>
 
 <div class="responsive">
+    <input type="checkbox" id="g7b1-toggle" />
+    <label for="g7b1-toggle">
     <div class="gallery">
-        <div class="g7b1"></div><div class="descAni">genus = 7</div>
+        <div class="g7b1"></div><div class="descAni">genus 7 with connected boundary</div>
     </div>
+    </label>
 </div>
 
 <div class="responsive">
+    <input type="checkbox" id="g8b1-toggle" />
+    <label for="g8b1-toggle">
     <div class="gallery">
-        <div class="g8b1"></div><div class="descAni">genus = 8</div>
+        <div class="g8b1"></div><div class="descAni">genus 8 with connected boundary</div>
     </div>
+    </label>
 </div>
 
 <div class="responsive">
+    <input type="checkbox" id="g9b1-toggle" />
+    <label for="g9b1-toggle">
     <div class="gallery">
-        <div class="g9b1"></div><div class="descAni">genus = 9</div>
+        <div class="g9b1"></div><div class="descAni">genus 9 with connected boundary</div>
     </div>
+    </label>
 </div>
 
-
-<!-- 
-<div class="responsive">
-    <div class="gallery">
-        <img src="connected_boundary/g10b1.gif" alt="g10b1"><div class="desc">genus = 10</div>
-    </div>
-</div>
-
-<div class="responsive">
-    <div class="gallery">
-        <img src="connected_boundary/g11b1.gif" alt="g11b1"><div class="desc">genus = 11</div>
-    </div>
-</div>
-
-<div class="responsive">
-    <div class="gallery">
-        <img src="connected_boundary/g12b1.gif" alt="g12b1"><div class="desc">genus = 12</div>
-    </div>
-</div> 
- -->
+ 
  
   
 <div class="clearfix"></div>
 
 
  
-
-  
  
 </div> 
 

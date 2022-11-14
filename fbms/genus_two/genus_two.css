@@ -1,0 +1,181 @@
+.g2b2P {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g2b2P-thumb.gif"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g2b2P-toggle {display: none;}
+#g2b2P-toggle:checked ~ * .g2b2P {
+    background-image: url("../../images/frontsphere.svg"), url("g2b2P-spr.gif"), url("../../images/backsphere.svg");
+    animation: C3F60 2.0s steps(60) infinite;
+}
+#g2b2P-toggle:checked ~ * .descAni:before {content: "⏹️";}
+.g2b2P:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+
+.g2b2Y {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g2b2Y-thumb.gif"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g2b2Y-toggle {display: none;}
+#g2b2Y-toggle:checked ~ * .g2b2Y {
+    background-image: url("../../images/frontsphere.svg"), url("g2b2Y-spr.gif"), url("../../images/backsphere.svg");
+    animation: C3F60 2.0s steps(60) infinite;
+}
+#g2b2Y-toggle:checked ~ * .descAni:before {content: "⏹️";}
+.g2b2Y:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+
+
+.g2b3 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g2b3-thumb.gif"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g2b3-toggle {display: none;}
+#g2b3-toggle:checked ~ * .g2b3 {
+    background-image: url("../../images/frontsphere.svg"), url("g2b3-spr.gif"), url("../../images/backsphere.svg");
+    animation: C3F60 2.0s steps(60) infinite;
+}
+#g2b3-toggle:checked ~ * .descAni:before {content: "⏹️";}
+.g2b3:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+
+.g2b4 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g2b4-thumb.gif"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g2b4-toggle {display: none;}
+#g2b4-toggle:checked ~ * .g2b4 {
+    background-image: url("../../images/frontsphere.svg"), url("g2b4-spr.gif"), url("../../images/backsphere.svg");
+    animation: C3F60 2.0s steps(60) infinite;
+}
+#g2b4-toggle:checked ~ * .descAni:before {content: "⏹️";}
+.g2b4:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+
+.g2b5P {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g2b5P-thumb.gif"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g2b5P-toggle {display: none;}
+#g2b5P-toggle:checked ~ * .g2b5P {
+    background-image: url("../../images/frontsphere.svg"), url("g2b5P-spr.gif"), url("../../images/backsphere.svg");
+    animation: C3F60 2.0s steps(60) infinite;
+}
+#g2b5P-toggle:checked ~ * .descAni:before {content: "⏹️";}
+.g2b5P:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+
+.g2b5Y {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g2b5Y-thumb.gif"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g2b5Y-toggle {display: none;}
+#g2b5Y-toggle:checked ~ * .g2b5Y {
+    background-image: url("../../images/frontsphere.svg"), url("g2b5Y-spr.gif"), url("../../images/backsphere.svg");
+    animation: C3F60 2.0s steps(60) infinite;
+}
+#g2b5Y-toggle:checked ~ * .descAni:before {content: "⏹️";}
+.g2b5Y:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+
+.g2b6 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g2b6-thumb.gif"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g2b6-toggle {display: none;}
+#g2b6-toggle:checked ~ * .g2b6 {
+    background-image: url("../../images/frontsphere.svg"), url("g2b6-spr.gif"), url("../../images/backsphere.svg");
+    animation: C3F60 2.0s steps(60) infinite;
+}
+#g2b6-toggle:checked ~ * .descAni:before {content: "⏹️";}
+.g2b6:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+
+.g2b7 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g2b7-thumb.gif"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g2b7-toggle {display: none;}
+#g2b7-toggle:checked ~ * .g2b7 {
+    background-image: url("../../images/frontsphere.svg"), url("g2b7-spr.gif"), url("../../images/backsphere.svg");
+    animation: C3F60 2.0s steps(60) infinite;
+}
+#g2b7-toggle:checked ~ * .descAni:before {content: "⏹️";}
+.g2b7:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+
+.g2b8 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g2b8-thumb.gif"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g2b8-toggle {display: none;}
+#g2b8-toggle:checked ~ * .g2b8 {
+    background-image: url("../../images/frontsphere.svg"), url("g2b8-spr.gif"), url("../../images/backsphere.svg");
+    animation: C3F60 2.0s steps(60) infinite;
+}
+#g2b8-toggle:checked ~ * .descAni:before {content: "⏹️";}
+.g2b8:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+
+.g2b9 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g2b9-thumb.gif"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g2b9-toggle {display: none;}
+#g2b9-toggle:checked ~ * .g2b9 {
+    background-image: url("../../images/frontsphere.svg"), url("g2b9-spr.gif"), url("../../images/backsphere.svg");
+    animation: C3F60 2.0s steps(60) infinite;
+}
+#g2b9-toggle:checked ~ * .descAni:before {content: "⏹️";}
+.g2b9:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+
+.g2b12 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g2b12-thumb.gif"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g2b12-toggle {display: none;}
+#g2b12-toggle:checked ~ * .g2b12 {
+    background-image: url("../../images/frontsphere.svg"), url("g2b12-spr.gif"), url("../../images/backsphere.svg");
+    animation: C3F60 2.0s steps(60) infinite;
+}
+#g2b12-toggle:checked ~ * .descAni:before {content: "⏹️";}
+.g2b12:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+
+.g2b14 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g2b14-thumb.gif"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g2b14-toggle {display: none;}
+#g2b14-toggle:checked ~ * .g2b14 {
+    background-image: url("../../images/frontsphere.svg"), url("g2b14-spr.gif"), url("../../images/backsphere.svg");
+    animation: C3F60 2.0s steps(60) infinite;
+}
+#g2b14-toggle:checked ~ * .descAni:before {content: "⏹️";}
+.g2b14:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+

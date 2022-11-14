@@ -114,9 +114,13 @@ div.descAni {
   padding: 15px;
   text-align: center;
 }
-.descAni:after { 
-  content: "\00a0\00a0\00a0\00a0\25B6";
-  color: green;
+.descAni:before { 
+  content: "▶️";
+  color: gray;
+  display: inline-block;
+  width: 60px;
+  height: 20px;  
+  font-size: 20px;
 }
 
 * {

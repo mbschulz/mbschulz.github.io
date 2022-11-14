@@ -22,16 +22,28 @@
 .g3b6-C3:hover {
     animation-play-state:running;
 }
-.g8b4-C3 {
+.g8b4-C3a {
     width: 100%;
     padding-top: 100%;
-    background-image: url("../../images/frontsphere.svg"), url("g8b4-C3-spr.gif"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("g8b4-C3a-spr.gif"), url("../../images/backsphere.svg");
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
     animation: C3F60 2.0s steps(60) infinite;
     animation-play-state:paused;
 }
-.g8b4-C3:hover {
+.g8b4-C3a:hover {
+    animation-play-state:running;
+}
+.g8b4-C3b {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g8b4-C3b-spr.gif"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    animation: C3F60 2.0s steps(60) infinite;
+    animation-play-state:paused;
+}
+.g8b4-C3b:hover {
     animation-play-state:running;
 }
 .g12b10-C3 {
@@ -109,16 +121,28 @@
 .g12b6-C4:hover {
     animation-play-state:running;
 }
-.g18b6-C4 {
+.g18b6-C4a {
     width: 100%;
     padding-top: 100%;
-    background-image: url("../../images/frontsphere.svg"), url("g18b6-C4-spr.gif"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("g18b6-C4a-spr.gif"), url("../../images/backsphere.svg");
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
     animation: C4F45 1.5s steps(45) infinite;
     animation-play-state:paused;
 }
-.g18b6-C4:hover {
+.g18b6-C4a:hover {
+    animation-play-state:running;
+}
+.g18b6-C4b {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g18b6-C4b-spr.gif"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    animation: C4F45 1.5s steps(45) infinite;
+    animation-play-state:paused;
+}
+.g18b6-C4b:hover {
     animation-play-state:running;
 }
 .g19b6-C4a {

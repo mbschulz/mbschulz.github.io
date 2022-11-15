@@ -337,6 +337,36 @@
 #g30b12-C5-toggle:checked ~ * .descAni:before {content: "⏹️";}
 .g30b12-C5:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
 
+.g48b12-C5a {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g48b12-C5a-thumb.gif"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g48b12-C5a-toggle {display: none;}
+#g48b12-C5a-toggle:checked ~ * .g48b12-C5a {
+    background-image: url("../../images/frontsphere.svg"), url("g48b12-C5a-spr.gif"), url("../../images/backsphere.svg");
+    animation: C5F36 1.2s steps(36) infinite;
+}
+#g48b12-C5a-toggle:checked ~ * .descAni:before {content: "⏹️";}
+.g48b12-C5a:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+
+.g48b12-C5b {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g48b12-C5b-thumb.gif"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g48b12-C5b-toggle {display: none;}
+#g48b12-C5b-toggle:checked ~ * .g48b12-C5b {
+    background-image: url("../../images/frontsphere.svg"), url("g48b12-C5b-spr.gif"), url("../../images/backsphere.svg");
+    animation: C5F36 1.2s steps(36) infinite;
+}
+#g48b12-C5b-toggle:checked ~ * .descAni:before {content: "⏹️";}
+.g48b12-C5b:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+
 .g49b12-C5a {
     width: 100%;
     padding-top: 100%;

@@ -1,182 +1,206 @@
-.g2b3KL {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../../images/frontsphere.svg"), url("g2b3KL-thumb.gif"), url("../../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
+ .g2b3KL {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g2b3KL-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g2b3KL-toggle {display: none;}
-#g2b3KL-toggle:checked ~ * .g2b3KL {
-    background-image: url("../../images/frontsphere.svg"), url("g2b3KL-spr.gif"), url("../../images/backsphere.svg");
-    animation: C3F60 2.0s steps(60) infinite;
+#g2b3KL-play:checked ~ .g2b3KL {
+	background-image: url("../../images/frontsphere.svg"), url("g2b3KL-spr.gif"), url("../../images/backsphere.svg");
+	animation: C3F60 2.0s steps(60) infinite;
 }
-#g2b3KL-toggle:checked ~ * .descAni:before {content: "⏹️";}
-.g2b3KL:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;} 
+#g2b3KL-pause:checked ~ .g2b3KL {
+	background-image: url("../../images/frontsphere.svg"), url("g2b3KL-spr.gif"), url("../../images/backsphere.svg");
+	animation: C3F60 2.0s steps(60) infinite;
+	animation-play-state:paused;
+}
 
 .g2b3CSW {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../../images/frontsphere.svg"), url("g2b3CSW-thumb.gif"), url("../../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g2b3CSW-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g2b3CSW-toggle {display: none;}
-#g2b3CSW-toggle:checked ~ * .g2b3CSW {
-    background-image: url("../../images/frontsphere.svg"), url("g2b3CSW-spr.gif"), url("../../images/backsphere.svg");
-    animation: C3F60 2.0s steps(60) infinite;
+#g2b3CSW-play:checked ~ .g2b3CSW {
+	background-image: url("../../images/frontsphere.svg"), url("g2b3CSW-spr.gif"), url("../../images/backsphere.svg");
+	animation: C3F60 2.0s steps(60) infinite;
 }
-#g2b3CSW-toggle:checked ~ * .descAni:before {content: "⏹️";}
-.g2b3CSW:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+#g2b3CSW-pause:checked ~ .g2b3CSW {
+	background-image: url("../../images/frontsphere.svg"), url("g2b3CSW-spr.gif"), url("../../images/backsphere.svg");
+	animation: C3F60 2.0s steps(60) infinite;
+	animation-play-state:paused;
+}
 
 .g4b3KL {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../../images/frontsphere.svg"), url("g4b3KL-thumb.gif"), url("../../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g4b3KL-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g4b3KL-toggle {display: none;}
-#g4b3KL-toggle:checked ~ * .g4b3KL {
-    background-image: url("../../images/frontsphere.svg"), url("g4b3KL-spr.gif"), url("../../images/backsphere.svg");
-    animation: C5F36 1.2s steps(36) infinite;
+#g4b3KL-play:checked ~ .g4b3KL {
+	background-image: url("../../images/frontsphere.svg"), url("g4b3KL-spr.gif"), url("../../images/backsphere.svg");
+	animation: C5F36 1.2s steps(36) infinite;
 }
-#g4b3KL-toggle:checked ~ * .descAni:before {content: "⏹️";}
-.g4b3KL:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+#g4b3KL-pause:checked ~ .g4b3KL {
+	background-image: url("../../images/frontsphere.svg"), url("g4b3KL-spr.gif"), url("../../images/backsphere.svg");
+	animation: C5F36 1.2s steps(36) infinite;
+	animation-play-state:paused;
+}
 
 .g4b3CSW {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../../images/frontsphere.svg"), url("g4b3CSW-thumb.gif"), url("../../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g4b3CSW-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g4b3CSW-toggle {display: none;}
-#g4b3CSW-toggle:checked ~ * .g4b3CSW {
-    background-image: url("../../images/frontsphere.svg"), url("g4b3CSW-spr.gif"), url("../../images/backsphere.svg");
-    animation: C5F36 1.2s steps(36) infinite;
+#g4b3CSW-play:checked ~ .g4b3CSW {
+	background-image: url("../../images/frontsphere.svg"), url("g4b3CSW-spr.gif"), url("../../images/backsphere.svg");
+	animation: C5F36 1.2s steps(36) infinite;
 }
-#g4b3CSW-toggle:checked ~ * .descAni:before {content: "⏹️";}
-.g4b3CSW:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+#g4b3CSW-pause:checked ~ .g4b3CSW {
+	background-image: url("../../images/frontsphere.svg"), url("g4b3CSW-spr.gif"), url("../../images/backsphere.svg");
+	animation: C5F36 1.2s steps(36) infinite;
+	animation-play-state:paused;
+}
 
 .g7b3KL {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../../images/frontsphere.svg"), url("g7b3KL-thumb.gif"), url("../../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g7b3KL-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g7b3KL-toggle {display: none;}
-#g7b3KL-toggle:checked ~ * .g7b3KL {
-    background-image: url("../../images/frontsphere.svg"), url("g7b3KL-spr.gif"), url("../../images/backsphere.svg");
-    animation: C8F22 0.8s steps(22) infinite;
+#g7b3KL-play:checked ~ .g7b3KL {
+	background-image: url("../../images/frontsphere.svg"), url("g7b3KL-spr.gif"), url("../../images/backsphere.svg");
+	animation: C8F22 0.8s steps(22) infinite;
 }
-#g7b3KL-toggle:checked ~ * .descAni:before {content: "⏹️";}
-.g7b3KL:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+#g7b3KL-pause:checked ~ .g7b3KL {
+	background-image: url("../../images/frontsphere.svg"), url("g7b3KL-spr.gif"), url("../../images/backsphere.svg");
+	animation: C8F22 0.8s steps(22) infinite;
+	animation-play-state:paused;
+}
 
 .g7b3CSW {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../../images/frontsphere.svg"), url("g7b3CSW-thumb.gif"), url("../../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g7b3CSW-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g7b3CSW-toggle {display: none;}
-#g7b3CSW-toggle:checked ~ * .g7b3CSW {
-    background-image: url("../../images/frontsphere.svg"), url("g7b3CSW-spr.gif"), url("../../images/backsphere.svg");
-    animation: C8F22 0.8s steps(22) infinite;
+#g7b3CSW-play:checked ~ .g7b3CSW {
+	background-image: url("../../images/frontsphere.svg"), url("g7b3CSW-spr.gif"), url("../../images/backsphere.svg");
+	animation: C8F22 0.8s steps(22) infinite;
 }
-#g7b3CSW-toggle:checked ~ * .descAni:before {content: "⏹️";}
-.g7b3CSW:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+#g7b3CSW-pause:checked ~ .g7b3CSW {
+	background-image: url("../../images/frontsphere.svg"), url("g7b3CSW-spr.gif"), url("../../images/backsphere.svg");
+	animation: C8F22 0.8s steps(22) infinite;
+	animation-play-state:paused;
+}
 
 .g11b3KL {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../../images/frontsphere.svg"), url("g11b3KL-thumb.gif"), url("../../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g11b3KL-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g11b3KL-toggle {display: none;}
-#g11b3KL-toggle:checked ~ * .g11b3KL {
-    background-image: url("../../images/frontsphere.svg"), url("g11b3KL-spr.gif"), url("../../images/backsphere.svg");
-    animation: C12F15 0.5s steps(15) infinite;
+#g11b3KL-play:checked ~ .g11b3KL {
+	background-image: url("../../images/frontsphere.svg"), url("g11b3KL-spr.gif"), url("../../images/backsphere.svg");
+	animation: C12F15 0.5s steps(15) infinite;
 }
-#g11b3KL-toggle:checked ~ * .descAni:before {content: "⏹️";}
-.g11b3KL:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+#g11b3KL-pause:checked ~ .g11b3KL {
+	background-image: url("../../images/frontsphere.svg"), url("g11b3KL-spr.gif"), url("../../images/backsphere.svg");
+	animation: C12F15 0.5s steps(15) infinite;
+	animation-play-state:paused;
+}
 
 .g11b3CSW {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../../images/frontsphere.svg"), url("g11b3CSW-thumb.gif"), url("../../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g11b3CSW-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g11b3CSW-toggle {display: none;}
-#g11b3CSW-toggle:checked ~ * .g11b3CSW {
-    background-image: url("../../images/frontsphere.svg"), url("g11b3CSW-spr.gif"), url("../../images/backsphere.svg");
-    animation: C12F15 0.5s steps(15) infinite;
+#g11b3CSW-play:checked ~ .g11b3CSW {
+	background-image: url("../../images/frontsphere.svg"), url("g11b3CSW-spr.gif"), url("../../images/backsphere.svg");
+	animation: C12F15 0.5s steps(15) infinite;
 }
-#g11b3CSW-toggle:checked ~ * .descAni:before {content: "⏹️";}
-.g11b3CSW:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+#g11b3CSW-pause:checked ~ .g11b3CSW {
+	background-image: url("../../images/frontsphere.svg"), url("g11b3CSW-spr.gif"), url("../../images/backsphere.svg");
+	animation: C12F15 0.5s steps(15) infinite;
+	animation-play-state:paused;
+}
 
 .g15b3KL {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../../images/frontsphere.svg"), url("g15b3KL-thumb.gif"), url("../../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g15b3KL-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g15b3KL-toggle {display: none;}
-#g15b3KL-toggle:checked ~ * .g15b3KL {
-    background-image: url("../../images/frontsphere.svg"), url("g15b3KL-spr.gif"), url("../../images/backsphere.svg");
-    animation: C16F11 0.4s steps(11) infinite;
+#g15b3KL-play:checked ~ .g15b3KL {
+	background-image: url("../../images/frontsphere.svg"), url("g15b3KL-spr.gif"), url("../../images/backsphere.svg");
+	animation: C16F11 0.4s steps(11) infinite;
 }
-#g15b3KL-toggle:checked ~ * .descAni:before {content: "⏹️";}
-.g15b3KL:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+#g15b3KL-pause:checked ~ .g15b3KL {
+	background-image: url("../../images/frontsphere.svg"), url("g15b3KL-spr.gif"), url("../../images/backsphere.svg");
+	animation: C16F11 0.4s steps(11) infinite;
+	animation-play-state:paused;
+}
 
 .g15b3CSW {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../../images/frontsphere.svg"), url("g15b3CSW-thumb.gif"), url("../../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g15b3CSW-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g15b3CSW-toggle {display: none;}
-#g15b3CSW-toggle:checked ~ * .g15b3CSW {
-    background-image: url("../../images/frontsphere.svg"), url("g15b3CSW-spr.gif"), url("../../images/backsphere.svg");
-    animation: C16F11 0.4s steps(11) infinite;
+#g15b3CSW-play:checked ~ .g15b3CSW {
+	background-image: url("../../images/frontsphere.svg"), url("g15b3CSW-spr.gif"), url("../../images/backsphere.svg");
+	animation: C16F11 0.4s steps(11) infinite;
 }
-#g15b3CSW-toggle:checked ~ * .descAni:before {content: "⏹️";}
-.g15b3CSW:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+#g15b3CSW-pause:checked ~ .g15b3CSW {
+	background-image: url("../../images/frontsphere.svg"), url("g15b3CSW-spr.gif"), url("../../images/backsphere.svg");
+	animation: C16F11 0.4s steps(11) infinite;
+	animation-play-state:paused;
+}
 
 .g19b3KL {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../../images/frontsphere.svg"), url("g19b3KL-thumb.gif"), url("../../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g19b3KL-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g19b3KL-toggle {display: none;}
-#g19b3KL-toggle:checked ~ * .g19b3KL {
-    background-image: url("../../images/frontsphere.svg"), url("g19b3KL-spr.gif"), url("../../images/backsphere.svg");
-    animation: C20F9 0.3s steps(9) infinite;
+#g19b3KL-play:checked ~ .g19b3KL {
+	background-image: url("../../images/frontsphere.svg"), url("g19b3KL-spr.gif"), url("../../images/backsphere.svg");
+	animation: C20F9 0.3s steps(9) infinite;
 }
-#g19b3KL-toggle:checked ~ * .descAni:before {content: "⏹️";}
-.g19b3KL:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+#g19b3KL-pause:checked ~ .g19b3KL {
+	background-image: url("../../images/frontsphere.svg"), url("g19b3KL-spr.gif"), url("../../images/backsphere.svg");
+	animation: C20F9 0.3s steps(9) infinite;
+	animation-play-state:paused;
+}
 
 .g19b3CSW {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../../images/frontsphere.svg"), url("g19b3CSW-thumb.gif"), url("../../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g19b3CSW-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g19b3CSW-toggle {display: none;}
-#g19b3CSW-toggle:checked ~ * .g19b3CSW {
-    background-image: url("../../images/frontsphere.svg"), url("g19b3CSW-spr.gif"), url("../../images/backsphere.svg");
-    animation: C20F9 0.3s steps(9) infinite;
+#g19b3CSW-play:checked ~ .g19b3CSW {
+	background-image: url("../../images/frontsphere.svg"), url("g19b3CSW-spr.gif"), url("../../images/backsphere.svg");
+	animation: C20F9 0.3s steps(9) infinite;
 }
-#g19b3CSW-toggle:checked ~ * .descAni:before {content: "⏹️";}
-.g19b3CSW:hover ~ .descAni:before {text-shadow: 0px 0px 15px blue;}
+#g19b3CSW-pause:checked ~ .g19b3CSW {
+	background-image: url("../../images/frontsphere.svg"), url("g19b3CSW-spr.gif"), url("../../images/backsphere.svg");
+	animation: C20F9 0.3s steps(9) infinite;
+	animation-play-state:paused;
+}
 
 .g27b3KL {
     width: 100%;

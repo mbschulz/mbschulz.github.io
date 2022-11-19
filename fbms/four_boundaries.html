@@ -6,88 +6,8 @@
 <meta name="author" content="Mario B. Schulz"/>
 <meta name="keywords" content="Mario B. Schulz, free boundary, minimal surfaces, LaTeX, TikZ"/>
 <meta name="description" content="free boundary minimal surfaces"/>
-<link href="../mbs.css" rel="stylesheet" type="text/css" />
-<style>
-.C5b4 {
-	width: 100%;
-    padding-top: 100%; 
-  	background-image: url("../images/frontsphere.svg"), url("four_boundaries/C5b4-spr.gif"), url("../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
- 	animation: C5F36 1.2s steps(36) infinite;
-    animation-play-state:paused;
-}
-.C5b4:hover {animation-play-state:running;}
-.C5b4:hover ~ .descAni:before {content: "⏸️";}
-
-.C6b4 {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../images/frontsphere.svg"), url("four_boundaries/C6b4-spr.gif"), url("../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    animation: C6F30 1.0s steps(30) infinite;
-    animation-play-state:paused;
-}
-.C6b4:hover {animation-play-state:running;}
-.C6b4:hover ~ .descAni:before {content: "⏸️";}
-
-.C7b4 {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../images/frontsphere.svg"), url("four_boundaries/C7b4-spr.gif"), url("../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    animation: C7F25 0.9s steps(25) infinite;
-    animation-play-state:paused;
-}
-.C7b4:hover {
-    animation-play-state:running;
-}
-.C7b4:hover ~ .descAni:before {content: "⏸️";}
-
-.g6b4-C4 {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../images/frontsphere.svg"), url("four_boundaries/g6b4-C4-spr.gif"), url("../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    animation: C4F45 1.5s steps(45) infinite;
-    animation-play-state:paused;
-}
-.g6b4-C4:hover {
-    animation-play-state:running;
-}
-.g6b4-C4:hover ~ .descAni:before {content: "⏸️";}
-
-.g8b4-C5 {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../images/frontsphere.svg"), url("four_boundaries/g8b4-C5-spr.gif"), url("../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    animation: C5F36 1.2s steps(36) infinite;
-    animation-play-state:paused;
-}
-.g8b4-C5:hover {
-    animation-play-state:running;
-}
-.g8b4-C5:hover ~ .descAni:before {content: "⏸️";}
-
-.g10b4-C6 {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../images/frontsphere.svg"), url("four_boundaries/g10b4-C6-spr.gif"), url("../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    animation: C6F30 1.0s steps(30) infinite;
-    animation-play-state:paused;
-}
-.g10b4-C6:hover {
-    animation-play-state:running;
-}
-.g10b4-C6:hover ~ .descAni:before {content: "⏸️";}  
-</style>
+<link href="../mbs.css" rel="stylesheet" type="text/css"/>
+<link href="four_boundaries/four_boundaries.css" rel="stylesheet" type="text/css"/> 
 </head>
 <link rel="icon" href="../images/pmhgm.png">
 
@@ -126,23 +46,49 @@ A doubling of the the critical catenoid can be glued to an embedded free boundar
 preprint (<a href="https://arxiv.org/abs/2001.04240" target="_blank">arXiv:2001.04240</a>).</li>
 </ul>
 
- 
 <div class="responsive">
-    <div class="gallery">
-        <div class="C5b4"></div><div class="descAni">genus = 9</div>
-    </div>
-</div> 
- 
-<div class="responsive">
-    <div class="gallery">
-        <div class="C6b4"></div><div class="descAni">genus = 11</div>
-    </div>
+<div class="gallery">
+	<input type="radio" id="g9b4-C5-pause" name="g9b4-C5-toggle"/>
+	<label for="g9b4-C5-pause" class="playpause"></label>
+	<input type="radio" id="g9b4-C5-play" name="g9b4-C5-toggle" class="play"/>
+	<label for="g9b4-C5-play" class="playpause"></label>
+	<div class="g9b4-C5"></div>
+	<div class="descPlayStop">
+		<input type="radio" id="g9b4-C5-stop" name="g9b4-C5-toggle"/>
+		<label for="g9b4-C5-stop" class="stop"></label>
+		genus 9 with 4 boundary components
+	</div>
+</div>
 </div>
 
 <div class="responsive">
-    <div class="gallery">
-        <div class="C7b4"></div><div class="descAni">genus = 13</div>
-    </div>
+<div class="gallery">
+	<input type="radio" id="g11b4-C6-pause" name="g11b4-C6-toggle"/>
+	<label for="g11b4-C6-pause" class="playpause"></label>
+	<input type="radio" id="g11b4-C6-play" name="g11b4-C6-toggle" class="play"/>
+	<label for="g11b4-C6-play" class="playpause"></label>
+	<div class="g11b4-C6"></div>
+	<div class="descPlayStop">
+		<input type="radio" id="g11b4-C6-stop" name="g11b4-C6-toggle"/>
+		<label for="g11b4-C6-stop" class="stop"></label>
+		genus 11 with 4 boundary components
+	</div>
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+	<input type="radio" id="g13b4-C7-pause" name="g13b4-C7-toggle"/>
+	<label for="g13b4-C7-pause" class="playpause"></label>
+	<input type="radio" id="g13b4-C7-play" name="g13b4-C7-toggle" class="play"/>
+	<label for="g13b4-C7-play" class="playpause"></label>
+	<div class="g13b4-C7"></div>
+	<div class="descPlayStop">
+		<input type="radio" id="g13b4-C7-stop" name="g13b4-C7-toggle"/>
+		<label for="g13b4-C7-stop" class="stop"></label>
+		genus 13 with 4 boundary components
+	</div>
+</div>
 </div>
 
 <div class="clearfix"></div>
@@ -153,30 +99,54 @@ Conjecturally, the Euclidean unit ball also contains free boundary minimal surfa
 <a href="https://doi.org/10.1007/s002050050021" target="_blank">Costa–Wohlgemuth surfaces</a>, 
 i.e. they have sufficiently large, even genus and four boundary components. 
 </p>
- 
+
 <div class="responsive">
-    <div class="gallery">
-        <div class="g6b4-C4"></div><div class="descAni">genus = 6</div>
-    </div>
-</div> 
- 
-<div class="responsive">
-    <div class="gallery">
-        <div class="g8b4-C5"></div><div class="descAni">genus = 8</div>
-    </div>
+<div class="gallery">
+	<input type="radio" id="g6b4-C4-pause" name="g6b4-C4-toggle"/>
+	<label for="g6b4-C4-pause" class="playpause"></label>
+	<input type="radio" id="g6b4-C4-play" name="g6b4-C4-toggle" class="play"/>
+	<label for="g6b4-C4-play" class="playpause"></label>
+	<div class="g6b4-C4"></div>
+	<div class="descPlayStop">
+		<input type="radio" id="g6b4-C4-stop" name="g6b4-C4-toggle"/>
+		<label for="g6b4-C4-stop" class="stop"></label>
+		genus 6 with 4 boundary components
+	</div>
+</div>
 </div>
 
 <div class="responsive">
-    <div class="gallery">
-        <div class="g10b4-C6"></div><div class="descAni">genus = 10</div>
-    </div>
+<div class="gallery">
+	<input type="radio" id="g8b4-C5-pause" name="g8b4-C5-toggle"/>
+	<label for="g8b4-C5-pause" class="playpause"></label>
+	<input type="radio" id="g8b4-C5-play" name="g8b4-C5-toggle" class="play"/>
+	<label for="g8b4-C5-play" class="playpause"></label>
+	<div class="g8b4-C5"></div>
+	<div class="descPlayStop">
+		<input type="radio" id="g8b4-C5-stop" name="g8b4-C5-toggle"/>
+		<label for="g8b4-C5-stop" class="stop"></label>
+		genus 8 with 4 boundary components
+	</div>
+</div>
 </div>
 
+<div class="responsive">
+<div class="gallery">
+	<input type="radio" id="g10b4-C6-pause" name="g10b4-C6-toggle"/>
+	<label for="g10b4-C6-pause" class="playpause"></label>
+	<input type="radio" id="g10b4-C6-play" name="g10b4-C6-toggle" class="play"/>
+	<label for="g10b4-C6-play" class="playpause"></label>
+	<div class="g10b4-C6"></div>
+	<div class="descPlayStop">
+		<input type="radio" id="g10b4-C6-stop" name="g10b4-C6-toggle"/>
+		<label for="g10b4-C6-stop" class="stop"></label>
+		genus 10 with 4 boundary components
+	</div>
+</div>
+</div>
+ 
 <div class="clearfix"></div>
- 
-
- 
- 
+  
 </div> 
 
 <div class="footer">

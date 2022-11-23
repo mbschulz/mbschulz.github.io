@@ -275,6 +275,23 @@
 	animation-play-state:paused;
 }
 
+.g23b12-C4b {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g23b12-C4b-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g23b12-C4b-play:checked ~ .g23b12-C4b {
+	background-image: url("../../images/frontsphere.svg"), url("g23b12-C4b-spr.gif"), url("../../images/backsphere.svg");
+	animation: C4F45 1.5s steps(45) infinite;
+}
+#g23b12-C4b-pause:checked ~ .g23b12-C4b {
+	background-image: url("../../images/frontsphere.svg"), url("g23b12-C4b-spr.gif"), url("../../images/backsphere.svg");
+	animation: C4F45 1.5s steps(45) infinite;
+	animation-play-state:paused;
+}
+
 .g25b6-C4 {
 	width: 100%;
 	padding-top: 100%;
@@ -568,6 +585,23 @@
 	animation-play-state:paused;
 }
  
+.g96b24-C5 {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g96b24-C5-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g96b24-C5-play:checked ~ .g96b24-C5 {
+	background-image: url("../../images/frontsphere.svg"), url("g96b24-C5-spr.gif"), url("../../images/backsphere.svg");
+	animation: C5F36 1.2s steps(36) infinite;
+}
+#g96b24-C5-pause:checked ~ .g96b24-C5 {
+	background-image: url("../../images/frontsphere.svg"), url("g96b24-C5-spr.gif"), url("../../images/backsphere.svg");
+	animation: C5F36 1.2s steps(36) infinite;
+	animation-play-state:paused;
+}
+
  
  
  
@@ -636,6 +670,23 @@
 }
 #g41b20-C5b-pause:checked ~ .g41b20-C5b {
 	background-image: url("../../images/frontsphere.svg"), url("g41b20-C5b-spr.gif"), url("../../images/backsphere.svg");
+	animation: C5F36 1.2s steps(36) infinite;
+	animation-play-state:paused;
+}
+
+.g70b20-C5a {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g70b20-C5a-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g70b20-C5a-play:checked ~ .g70b20-C5a {
+	background-image: url("../../images/frontsphere.svg"), url("g70b20-C5a-spr.gif"), url("../../images/backsphere.svg");
+	animation: C5F36 1.2s steps(36) infinite;
+}
+#g70b20-C5a-pause:checked ~ .g70b20-C5a {
+	background-image: url("../../images/frontsphere.svg"), url("g70b20-C5a-spr.gif"), url("../../images/backsphere.svg");
 	animation: C5F36 1.2s steps(36) infinite;
 	animation-play-state:paused;
 }

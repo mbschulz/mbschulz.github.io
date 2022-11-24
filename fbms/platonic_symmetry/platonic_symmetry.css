@@ -724,6 +724,24 @@
 	animation: C5F36 1.2s steps(36) infinite;
 	animation-play-state:paused;
 }
+
+.g117b20-C5 {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g117b20-C5-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g117b20-C5-play:checked ~ .g117b20-C5 {
+	background-image: url("../../images/frontsphere.svg"), url("g117b20-C5-spr.gif"), url("../../images/backsphere.svg");
+	animation: C5F36 1.2s steps(36) infinite;
+}
+#g117b20-C5-pause:checked ~ .g117b20-C5 {
+	background-image: url("../../images/frontsphere.svg"), url("g117b20-C5-spr.gif"), url("../../images/backsphere.svg");
+	animation: C5F36 1.2s steps(36) infinite;
+	animation-play-state:paused;
+}
+ 
  
  
  

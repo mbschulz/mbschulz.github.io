@@ -63,8 +63,8 @@ div.content {
   height: 100%;
 }
 
-/* On screens that are less than ???px wide, make the sidebar into a topbar */
-@media screen and (max-width: 1000px) {
+/* On screens that are less than ???px wide, make the sidebar into a topbar (update: does not happen, jump right to next case) */
+@media screen and (max-width: 750px) {
   .sidebar {
     width: 100%;
     height: auto;
@@ -79,7 +79,7 @@ div.content {
 }
 
 /* On screens that are less than ???px, display the bar vertically, instead of horizontally */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
   .sidebar a {
     text-align: center;
     float: none;
@@ -182,13 +182,13 @@ label[class="stop"]:hover {
     margin: 16px 0;
   }
 }
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1500px) {
 .responsive {
     width: 49.99999%;
     margin: 16px 0;
   }
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1050px) {
 .responsive {
     width: 100%;
   }

@@ -16,13 +16,12 @@ body {
 
  /* The side navigation menu */
 .sidebar {
-  margin: 0;
-  padding: 0;
-  width: 200px;
+  margin: 0px;
+  width: 216px;
   background-color: #cccccc;
   position: fixed;
   height: 100%;
-  overflow: auto;
+  overflow-y: scroll;
 }
 
 /* Sidebar links */
@@ -40,7 +39,7 @@ body {
 
 .sidebar .copyright {
   padding: 16px;
-  position: absolute;
+  position: relative;
   bottom: 0px;
 }
 
@@ -64,7 +63,7 @@ div.content {
 }
 
 /* On screens that are less than ???px wide, make the sidebar into a topbar (update: does not happen, jump right to next case) */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 700px) {
   .sidebar {
     width: 100%;
     height: auto;
@@ -79,7 +78,7 @@ div.content {
 }
 
 /* On screens that are less than ???px, display the bar vertically, instead of horizontally */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 700px) {
   .sidebar a {
     text-align: center;
     float: none;
@@ -188,22 +187,9 @@ label[class="stop"]:hover {
     margin: 16px 0;
   }
 }
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 950px) {
 .responsive {
     width: 100%;
-  }
-}
-
-
-.responsivedouble {
-  padding: 0 16px;
-  float: left;
-  width: 66%;
-}
-@media only screen and (max-width: 1400px) {
-.responsivedouble {
-    width: 100%;
-    margin: 16px 0;
   }
 }
 

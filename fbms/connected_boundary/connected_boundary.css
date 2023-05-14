@@ -151,4 +151,285 @@
 	animation-play-state:paused;
 }
 
+.g2b1-P2 {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g2b1-P2-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g2b1-P2-play:checked ~ .g2b1-P2 {
+	background-image: url("../../images/frontsphere.svg"), url("g2b1-P2-spr.gif"), url("../../images/backsphere.svg");
+	animation: C2F90 3.0s steps(90) infinite;
+}
+#g2b1-P2-pause:checked ~ .g2b1-P2 {
+	background-image: url("../../images/frontsphere.svg"), url("g2b1-P2-spr.gif"), url("../../images/backsphere.svg");
+	animation: C2F90 3.0s steps(90) infinite;
+	animation-play-state:paused;
+}
+
+.g4b1-P3 {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g4b1-P3-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g4b1-P3-play:checked ~ .g4b1-P3 {
+	background-image: url("../../images/frontsphere.svg"), url("g4b1-P3-spr.gif"), url("../../images/backsphere.svg");
+	animation: C3F60 2.0s steps(60) infinite;
+}
+#g4b1-P3-pause:checked ~ .g4b1-P3 {
+	background-image: url("../../images/frontsphere.svg"), url("g4b1-P3-spr.gif"), url("../../images/backsphere.svg");
+	animation: C3F60 2.0s steps(60) infinite;
+	animation-play-state:paused;
+}
+
+
+.g6b1-P4 {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g6b1-P4-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g6b1-P4-play:checked ~ .g6b1-P4 {
+	background-image: url("../../images/frontsphere.svg"), url("g6b1-P4-spr.gif"), url("../../images/backsphere.svg");
+	animation: C4F45 1.5s steps(45) infinite;
+}
+#g6b1-P4-pause:checked ~ .g6b1-P4 {
+	background-image: url("../../images/frontsphere.svg"), url("g6b1-P4-spr.gif"), url("../../images/backsphere.svg");
+	animation: C4F45 1.5s steps(45) infinite;
+	animation-play-state:paused;
+}
+
+.g8b1-P5 {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g8b1-P5-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g8b1-P5-play:checked ~ .g8b1-P5 {
+	background-image: url("../../images/frontsphere.svg"), url("g8b1-P5-spr.gif"), url("../../images/backsphere.svg");
+	animation: C5F36 1.2s steps(36) infinite;
+}
+#g8b1-P5-pause:checked ~ .g8b1-P5 {
+	background-image: url("../../images/frontsphere.svg"), url("g8b1-P5-spr.gif"), url("../../images/backsphere.svg");
+	animation: C5F36 1.2s steps(36) infinite;
+	animation-play-state:paused;
+}
+
+.g10b1-P6 {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g10b1-P6-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g10b1-P6-play:checked ~ .g10b1-P6 {
+	background-image: url("../../images/frontsphere.svg"), url("g10b1-P6-spr.gif"), url("../../images/backsphere.svg");
+	animation: C6F30 1.0s steps(30) infinite;
+}
+#g10b1-P6-pause:checked ~ .g10b1-P6 {
+	background-image: url("../../images/frontsphere.svg"), url("g10b1-P6-spr.gif"), url("../../images/backsphere.svg");
+	animation: C6F30 1.0s steps(30) infinite;
+	animation-play-state:paused;
+}
+
+.g12b1-P7 {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g12b1-P7-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g12b1-P7-play:checked ~ .g12b1-P7 {
+	background-image: url("../../images/frontsphere.svg"), url("g12b1-P7-spr.gif"), url("../../images/backsphere.svg");
+	animation: C7F25 0.9s steps(25) infinite;
+}
+#g12b1-P7-pause:checked ~ .g12b1-P7 {
+	background-image: url("../../images/frontsphere.svg"), url("g12b1-P7-spr.gif"), url("../../images/backsphere.svg");
+	animation: C7F25 0.9s steps(25) infinite;
+	animation-play-state:paused;
+}
+
+.g14b1-P8 {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g14b1-P8-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g14b1-P8-play:checked ~ .g14b1-P8 {
+	background-image: url("../../images/frontsphere.svg"), url("g14b1-P8-spr.gif"), url("../../images/backsphere.svg");
+	animation: C8F22 0.8s steps(22) infinite;
+}
+#g14b1-P8-pause:checked ~ .g14b1-P8 {
+	background-image: url("../../images/frontsphere.svg"), url("g14b1-P8-spr.gif"), url("../../images/backsphere.svg");
+	animation: C8F22 0.8s steps(22) infinite;
+	animation-play-state:paused;
+}
+
+.g38b1-P20 {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g38b1-P20-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g38b1-P20-play:checked ~ .g38b1-P20 {
+	background-image: url("../../images/frontsphere.svg"), url("g38b1-P20-spr.gif"), url("../../images/backsphere.svg");
+	animation: C20F9 0.3s steps(9) infinite;
+}
+#g38b1-P20-pause:checked ~ .g38b1-P20 {
+	background-image: url("../../images/frontsphere.svg"), url("g38b1-P20-spr.gif"), url("../../images/backsphere.svg");
+	animation: C20F9 0.3s steps(9) infinite;
+	animation-play-state:paused;
+}
+
+
+.g3b1-P2 {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g3b1-P2-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g3b1-P2-play:checked ~ .g3b1-P2 {
+	background-image: url("../../images/frontsphere.svg"), url("g3b1-P2-spr.gif"), url("../../images/backsphere.svg");
+	animation: C2F90 3.0s steps(90) infinite;
+}
+#g3b1-P2-pause:checked ~ .g3b1-P2 {
+	background-image: url("../../images/frontsphere.svg"), url("g3b1-P2-spr.gif"), url("../../images/backsphere.svg");
+	animation: C2F90 3.0s steps(90) infinite;
+	animation-play-state:paused;
+}
+
+.g6b1-P3 {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g6b1-P3-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g6b1-P3-play:checked ~ .g6b1-P3 {
+	background-image: url("../../images/frontsphere.svg"), url("g6b1-P3-spr.gif"), url("../../images/backsphere.svg");
+	animation: C3F60 2.0s steps(60) infinite;
+}
+#g6b1-P3-pause:checked ~ .g6b1-P3 {
+	background-image: url("../../images/frontsphere.svg"), url("g6b1-P3-spr.gif"), url("../../images/backsphere.svg");
+	animation: C3F60 2.0s steps(60) infinite;
+	animation-play-state:paused;
+}
+
+.g9b1-P4 {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g9b1-P4-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g9b1-P4-play:checked ~ .g9b1-P4 {
+	background-image: url("../../images/frontsphere.svg"), url("g9b1-P4-spr.gif"), url("../../images/backsphere.svg");
+	animation: C4F45 1.5s steps(45) infinite;
+}
+#g9b1-P4-pause:checked ~ .g9b1-P4 {
+	background-image: url("../../images/frontsphere.svg"), url("g9b1-P4-spr.gif"), url("../../images/backsphere.svg");
+	animation: C4F45 1.5s steps(45) infinite;
+	animation-play-state:paused;
+}
+
+.g12b1-P5 {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g12b1-P5-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g12b1-P5-play:checked ~ .g12b1-P5 {
+	background-image: url("../../images/frontsphere.svg"), url("g12b1-P5-spr.gif"), url("../../images/backsphere.svg");
+	animation: C5F36 1.2s steps(36) infinite;
+}
+#g12b1-P5-pause:checked ~ .g12b1-P5 {
+	background-image: url("../../images/frontsphere.svg"), url("g12b1-P5-spr.gif"), url("../../images/backsphere.svg");
+	animation: C5F36 1.2s steps(36) infinite;
+	animation-play-state:paused;
+}
+
+.g15b1-P6 {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g15b1-P6-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g15b1-P6-play:checked ~ .g15b1-P6 {
+	background-image: url("../../images/frontsphere.svg"), url("g15b1-P6-spr.gif"), url("../../images/backsphere.svg");
+	animation: C6F30 1.0s steps(30) infinite;
+}
+#g15b1-P6-pause:checked ~ .g15b1-P6 {
+	background-image: url("../../images/frontsphere.svg"), url("g15b1-P6-spr.gif"), url("../../images/backsphere.svg");
+	animation: C6F30 1.0s steps(30) infinite;
+	animation-play-state:paused;
+}
+
+.g18b1-P7 {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g18b1-P7-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g18b1-P7-play:checked ~ .g18b1-P7 {
+	background-image: url("../../images/frontsphere.svg"), url("g18b1-P7-spr.gif"), url("../../images/backsphere.svg");
+	animation: C7F25 0.9s steps(25) infinite;
+}
+#g18b1-P7-pause:checked ~ .g18b1-P7 {
+	background-image: url("../../images/frontsphere.svg"), url("g18b1-P7-spr.gif"), url("../../images/backsphere.svg");
+	animation: C7F25 0.9s steps(25) infinite;
+	animation-play-state:paused;
+}
+
+.g21b1-P8 {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g21b1-P8-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g21b1-P8-play:checked ~ .g21b1-P8 {
+	background-image: url("../../images/frontsphere.svg"), url("g21b1-P8-spr.gif"), url("../../images/backsphere.svg");
+	animation: C8F22 0.8s steps(22) infinite;
+}
+#g21b1-P8-pause:checked ~ .g21b1-P8 {
+	background-image: url("../../images/frontsphere.svg"), url("g21b1-P8-spr.gif"), url("../../images/backsphere.svg");
+	animation: C8F22 0.8s steps(22) infinite;
+	animation-play-state:paused;
+}
+
+.g57b1-P20 {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g57b1-P20-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g57b1-P20-play:checked ~ .g57b1-P20 {
+	background-image: url("../../images/frontsphere.svg"), url("g57b1-P20-spr.gif"), url("../../images/backsphere.svg");
+	animation: C20F9 0.3s steps(9) infinite;
+}
+#g57b1-P20-pause:checked ~ .g57b1-P20 {
+	background-image: url("../../images/frontsphere.svg"), url("g57b1-P20-spr.gif"), url("../../images/backsphere.svg");
+	animation: C20F9 0.3s steps(9) infinite;
+	animation-play-state:paused;
+}
+
+
+
+
+
+
+
+
 

@@ -426,6 +426,57 @@
 }
 
 
+.g5b1-P2 {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g5b1-P2-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g5b1-P2-play:checked ~ .g5b1-P2 {
+	background-image: url("../../images/frontsphere.svg"), url("g5b1-P2-spr.gif"), url("../../images/backsphere.svg");
+	animation: C2F90 3.0s steps(90) infinite;
+}
+#g5b1-P2-pause:checked ~ .g5b1-P2 {
+	background-image: url("../../images/frontsphere.svg"), url("g5b1-P2-spr.gif"), url("../../images/backsphere.svg");
+	animation: C2F90 3.0s steps(90) infinite;
+	animation-play-state:paused;
+}
+
+.g35b1-P8 {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g35b1-P8-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g35b1-P8-play:checked ~ .g35b1-P8 {
+	background-image: url("../../images/frontsphere.svg"), url("g35b1-P8-spr.gif"), url("../../images/backsphere.svg");
+	animation: C8F22 0.8s steps(22) infinite;
+}
+#g35b1-P8-pause:checked ~ .g35b1-P8 {
+	background-image: url("../../images/frontsphere.svg"), url("g35b1-P8-spr.gif"), url("../../images/backsphere.svg");
+	animation: C8F22 0.8s steps(22) infinite;
+	animation-play-state:paused;
+}
+
+.g95b1-P20 {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g95b1-P20-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g95b1-P20-play:checked ~ .g95b1-P20 {
+	background-image: url("../../images/frontsphere.svg"), url("g95b1-P20-spr.gif"), url("../../images/backsphere.svg");
+	animation: C20F9 0.3s steps(9) infinite;
+}
+#g95b1-P20-pause:checked ~ .g95b1-P20 {
+	background-image: url("../../images/frontsphere.svg"), url("g95b1-P20-spr.gif"), url("../../images/backsphere.svg");
+	animation: C20F9 0.3s steps(9) infinite;
+	animation-play-state:paused;
+}
+
 
 
 

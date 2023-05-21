@@ -6,20 +6,8 @@
 <meta name="author" content="Mario B. Schulz"/>
 <meta name="keywords" content="Mario B. Schulz, free boundary, minimal surfaces, LaTeX, TikZ"/>
 <meta name="description" content="free boundary minimal surfaces"/>
-<link href="../mbs.css" rel="stylesheet" type="text/css" />
-<style>
-.g1b3 {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../images/frontsphere.svg"), url("genus_one/g1b3-spr.gif"), url("../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    animation: C3F60 2.0s steps(60) infinite;
-    animation-play-state:paused;
-}
-.g1b3:hover {animation-play-state:running;}
-.g1b3:hover ~ .descAni:before {content: "⏸️";}
-</style>
+<link href="../mbs.css" rel="stylesheet" type="text/css"/>
+<link href="genus_one/genus_one.css" rel="stylesheet" type="text/css"/> 
 </head>
 <link rel="icon" href="../images/pmhgm.png">
 
@@ -51,7 +39,7 @@
 <p>
 Two parallel discs which are very close to the equatorial disc can be connected by a sufficiently large number of half-necks along the equator and by one catenoidal neck in the center 
 and then deformed to a free boundary minimal surface in the unit ball which has genus one and a large number of boundary components. 
-It is an open question whether such surfaces also exist with a small number of boundary components as visualised conjecturally below. 
+However, it remains an open question whether similar surfaces with a small number of boundary components exist, as conjecturally visualized below
 </p>
 
 <h3>References</h3> 
@@ -61,27 +49,69 @@ It is an open question whether such surfaces also exist with a small number of b
 Manuscripta Math. 154 (2017), 359–409.</li>
 </ul>
 
+
 <div class="responsive">
-    <div class="gallery">
-        <div class="g1b3"></div><div class="descAni">3 boundary components</div>
-    </div>
+<div class="gallery">
+	<input type="radio" id="g1b2-P2-pause" name="g1b2-P2-toggle"/>
+	<label for="g1b2-P2-pause" class="playpause"></label>
+	<input type="radio" id="g1b2-P2-play" name="g1b2-P2-toggle" class="play"/>
+	<label for="g1b2-P2-play" class="playpause"></label>
+	<div class="g1b2-P2"></div>
+	<div class="descPlayStop">
+		<input type="radio" id="g1b2-P2-stop" name="g1b2-P2-toggle"/>
+		<label for="g1b2-P2-stop" class="stop"></label>
+		genus 1 with 2 boundary components
+	</div>
+</div>
 </div>
 
 <div class="responsive">
-    <div class="gallery">
-        <img src="genus_one/g1b4.png" alt="g1b4"><div class="desc">4 boundary components</div>
-    </div>
+<div class="gallery">
+	<input type="radio" id="g1b3-P3-pause" name="g1b3-P3-toggle"/>
+	<label for="g1b3-P3-pause" class="playpause"></label>
+	<input type="radio" id="g1b3-P3-play" name="g1b3-P3-toggle" class="play"/>
+	<label for="g1b3-P3-play" class="playpause"></label>
+	<div class="g1b3-P3"></div>
+	<div class="descPlayStop">
+		<input type="radio" id="g1b3-P3-stop" name="g1b3-P3-toggle"/>
+		<label for="g1b3-P3-stop" class="stop"></label>
+		genus 1 with 3 boundary components
+	</div>
+</div>
 </div>
 
 <div class="responsive">
-    <div class="gallery">
-        <img src="genus_one/g1b5.png" alt="g1b5"><div class="desc">5 boundary components</div>
-    </div>
+<div class="gallery">
+	<input type="radio" id="g1b4-P4-pause" name="g1b4-P4-toggle"/>
+	<label for="g1b4-P4-pause" class="playpause"></label>
+	<input type="radio" id="g1b4-P4-play" name="g1b4-P4-toggle" class="play"/>
+	<label for="g1b4-P4-play" class="playpause"></label>
+	<div class="g1b4-P4"></div>
+	<div class="descPlayStop">
+		<input type="radio" id="g1b4-P4-stop" name="g1b4-P4-toggle"/>
+		<label for="g1b4-P4-stop" class="stop"></label>
+		genus 1 with 4 boundary components
+	</div>
 </div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+	<input type="radio" id="g1b5-P5-pause" name="g1b5-P5-toggle"/>
+	<label for="g1b5-P5-pause" class="playpause"></label>
+	<input type="radio" id="g1b5-P5-play" name="g1b5-P5-toggle" class="play"/>
+	<label for="g1b5-P5-play" class="playpause"></label>
+	<div class="g1b5-P5"></div>
+	<div class="descPlayStop">
+		<input type="radio" id="g1b5-P5-stop" name="g1b5-P5-toggle"/>
+		<label for="g1b5-P5-stop" class="stop"></label>
+		genus 1 with 5 boundary components
+	</div>
+</div>
+</div>
+
  
 <div class="clearfix"></div>
-
-
  
  
  

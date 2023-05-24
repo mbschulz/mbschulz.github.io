@@ -649,6 +649,42 @@
 	animation-play-state:paused;
 }
 
+.g11b1-A4 {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g11b1-A4-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g11b1-A4-play:checked ~ .g11b1-A4 {
+	background-image: url("../../images/frontsphere.svg"), url("g11b1-A4-spr.gif"), url("../../images/backsphere.svg");
+	animation: C4F45 1.5s steps(45) infinite;
+}
+#g11b1-A4-pause:checked ~ .g11b1-A4 {
+	background-image: url("../../images/frontsphere.svg"), url("g11b1-A4-spr.gif"), url("../../images/backsphere.svg");
+	animation: C4F45 1.5s steps(45) infinite;
+	animation-play-state:paused;
+}
+
+.g14b1-A5 {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g14b1-A5-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g14b1-A5-play:checked ~ .g14b1-A5 {
+	background-image: url("../../images/frontsphere.svg"), url("g14b1-A5-spr.gif"), url("../../images/backsphere.svg");
+	animation: C5F36 1.2s steps(36) infinite;
+}
+#g14b1-A5-pause:checked ~ .g14b1-A5 {
+	background-image: url("../../images/frontsphere.svg"), url("g14b1-A5-spr.gif"), url("../../images/backsphere.svg");
+	animation: C5F36 1.2s steps(36) infinite;
+	animation-play-state:paused;
+}
+
+
+
 
 
 

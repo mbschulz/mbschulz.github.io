@@ -683,6 +683,42 @@
 	animation-play-state:paused;
 }
 
+.g24b1-A5b {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g24b1-A5b-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g24b1-A5b-play:checked ~ .g24b1-A5b {
+	background-image: url("../../images/frontsphere.svg"), url("g24b1-A5b-spr.gif"), url("../../images/backsphere.svg");
+	animation: C5F36 1.2s steps(36) infinite;
+}
+#g24b1-A5b-pause:checked ~ .g24b1-A5b {
+	background-image: url("../../images/frontsphere.svg"), url("g24b1-A5b-spr.gif"), url("../../images/backsphere.svg");
+	animation: C5F36 1.2s steps(36) infinite;
+	animation-play-state:paused;
+}
+
+.g29b1-A6b {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g29b1-A6b-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g29b1-A6b-play:checked ~ .g29b1-A6b {
+	background-image: url("../../images/frontsphere.svg"), url("g29b1-A6b-spr.gif"), url("../../images/backsphere.svg");
+	animation: C6F30 1.0s steps(30) infinite;
+}
+#g29b1-A6b-pause:checked ~ .g29b1-A6b {
+	background-image: url("../../images/frontsphere.svg"), url("g29b1-A6b-spr.gif"), url("../../images/backsphere.svg");
+	animation: C6F30 1.0s steps(30) infinite;
+	animation-play-state:paused;
+}
+
+
+
 
 
 

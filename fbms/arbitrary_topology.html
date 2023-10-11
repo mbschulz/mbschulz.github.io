@@ -38,17 +38,20 @@
 <h2>Free boundary minimal surfaces with arbitrary topology</h2>
 
 <p style="border-width:1px; border-style:solid; padding: 1ex;">  
-<b>Conjecture</b> (Realisation problem).<br>
+<b>Conjecture</b> (Realisation problem with area bound)<b>.</b><br>
 Any compact, orientable surface with boundary can be realised as an embedded free boundary minimal surface with area strictly below <math>2&pi;</math> in the three-dimensional Euclidean unit ball. 
 </p>
  
 <p>
-Given any pair <math><mi>g</mi></math> and <math><mi>b</mi></math> of nonnegative integers, we can arrange <math><mi>g</mi></math> necks and <math><mi>b</mi></math> half-necks arbitrarily at the corners of a <math><mi>(g+b)</mi></math>-gon in order to glue two parallel discs. 
+Given any pair <math><mi>g</mi></math> and <math><mi>b</mi></math> of nonnegative integers such that 
+<math><mi>g</mi>+<mi>b</mi>&ge;3</math>, we can arrange <math><mi>g</mi></math> necks and <math><mi>b</mi></math> half-necks arbitrarily at the corners of a <math>(<mi>g</mi>+<mi>b</mi>)</math>-gon in order to glue two parallel discs. 
 The resulting surface has genus <math><mi>g</mi></math> and <math><mi>b</mi></math> boundary components whenever <math><mi>b</mi>>0</math>; 
 in the case <math><mi>b</mi>=0</math> the surface has instead genus <math><mi>g</mi>&minus;1</math> and <math><mi>2</mi></math> boundary components. 
 The following simulations indicate that any such configuration can be deformed into a free boundary minimal surface in the unit ball. 
+Together with the disc, the critical catenoid and the surface with genus one and <a href="../fbms/connected_boundary.html">connected boundary</a>, we obtain examples for every orientable topological type. 
 The respective symmetry group may vary, but each surface in this family has at least one plane of reflection. 
 Being essentially a gluing of two discs, each surface in this family has area strictly below <math>2&pi;</math>. 
+Unless the genus is equal to <math>1</math>, a multitude of free boundary minimal surfaces with larger area are known to exist in the unit ball, as illustrated in the other sections. 
 </p>
  
  
@@ -75,10 +78,19 @@ Being essentially a gluing of two discs, each surface in this family has area st
 </div>
 
 <div class="responsive">
-    <div class="gallery">
-        <div class="g2b1-Y2"></div><div class="desc">genus 2 with 1 boundary component</div>
-    </div>
-</div> 
+<div class="gallery">
+	<input type="radio" id="g2b1-Y2-pause" name="g2b1-Y2-toggle"/>
+	<label for="g2b1-Y2-pause" class="playpause"></label>
+	<input type="radio" id="g2b1-Y2-play" name="g2b1-Y2-toggle" class="play"/>
+	<label for="g2b1-Y2-play" class="playpause"></label>
+	<div class="g2b1-Y2"></div>
+	<div class="descPlayStop">
+		<input type="radio" id="g2b1-Y2-stop" name="g2b1-Y2-toggle"/>
+		<label for="g2b1-Y2-stop" class="stop"></label>
+		genus 2 with 1 boundary components
+	</div>
+</div>
+</div>
 
 <div class="responsive">
     <div class="gallery">

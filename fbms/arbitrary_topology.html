@@ -39,17 +39,19 @@
 
 <p style="border-width:1px; border-style:solid; padding: 1ex;">  
 <b>Conjecture</b> (Realisation problem).<br>
-Surfaces of arbitrary topological type can be realised as embedded free boundary minimal surfaces with area strictly below 2&pi; in the three-dimensional Euclidean unit ball. 
+Any compact, orientable surface with boundary can be realised as an embedded free boundary minimal surface with area strictly below <math>2&pi;</math> in the three-dimensional Euclidean unit ball. 
 </p>
-
- 
  
 <p>
-Given any pair of natural numbers g and b, we can arrange g necks and b half-necks arbitrarily at the corners of a (g+n)-gon in order to glue two parallel discs. 
-The resulting surface has genus g and b boundary components (unless b=0, in which case, the surface has genus g-1 and 2 boundary components). 
+Given any pair <math><mi>g</mi></math> and <math><mi>b</mi></math> of nonnegative integers, we can arrange <math><mi>g</mi></math> necks and <math><mi>b</mi></math> half-necks arbitrarily at the corners of a <math><mi>(g+b)</mi></math>-gon in order to glue two parallel discs. 
+The resulting surface has genus <math><mi>g</mi></math> and <math><mi>b</mi></math> boundary components whenever <math><mi>b</mi>>0</math>; 
+in the case <math><mi>b</mi>=0</math> the surface has instead genus <math><mi>g</mi>&minus;1</math> and <math><mi>2</mi></math> boundary components. 
 The following simulations indicate that any such configuration can be deformed into a free boundary minimal surface in the unit ball. 
 The respective symmetry group may vary, but each surface in this family has at least one plane of reflection. 
+Being essentially a gluing of two discs, each surface in this family has area strictly below <math>2&pi;</math>. 
 </p>
+ 
+ 
  
 <div class="responsive">
     <div class="gallery">
@@ -58,10 +60,19 @@ The respective symmetry group may vary, but each surface in this family has at l
 </div> 
   
 <div class="responsive">
-    <div class="gallery">
-        <div class="g1b2-Y2"></div><div class="desc">genus 1 with 2 boundary components</div>
-    </div>
-</div> 
+<div class="gallery">
+	<input type="radio" id="g1b2-Y2-pause" name="g1b2-Y2-toggle"/>
+	<label for="g1b2-Y2-pause" class="playpause"></label>
+	<input type="radio" id="g1b2-Y2-play" name="g1b2-Y2-toggle" class="play"/>
+	<label for="g1b2-Y2-play" class="playpause"></label>
+	<div class="g1b2-Y2"></div>
+	<div class="descPlayStop">
+		<input type="radio" id="g1b2-Y2-stop" name="g1b2-Y2-toggle"/>
+		<label for="g1b2-Y2-stop" class="stop"></label>
+		genus 1 with 2 boundary components
+	</div>
+</div>
+</div>
 
 <div class="responsive">
     <div class="gallery">
@@ -86,15 +97,33 @@ The respective symmetry group may vary, but each surface in this family has at l
 </div>
 
 <div class="responsive">
-    <div class="gallery">
-        <div class="g1b3-Y2"></div><div class="desc">genus 1 with 3 boundary components</div>
-    </div>
+<div class="gallery">
+	<input type="radio" id="g1b3-Y2-pause" name="g1b3-Y2-toggle"/>
+	<label for="g1b3-Y2-pause" class="playpause"></label>
+	<input type="radio" id="g1b3-Y2-play" name="g1b3-Y2-toggle" class="play"/>
+	<label for="g1b3-Y2-play" class="playpause"></label>
+	<div class="g1b3-Y2"></div>
+	<div class="descPlayStop">
+		<input type="radio" id="g1b3-Y2-stop" name="g1b3-Y2-toggle"/>
+		<label for="g1b3-Y2-stop" class="stop"></label>
+		genus 1 with 3 boundary components
+	</div>
+</div>
 </div>
 
 <div class="responsive">
-    <div class="gallery">
-        <div class="g2b2-P2"></div><div class="desc">genus 2 with 2 boundary components</div>
-    </div>
+<div class="gallery">
+	<input type="radio" id="g2b2-P2-pause" name="g2b2-P2-toggle"/>
+	<label for="g2b2-P2-pause" class="playpause"></label>
+	<input type="radio" id="g2b2-P2-play" name="g2b2-P2-toggle" class="play"/>
+	<label for="g2b2-P2-play" class="playpause"></label>
+	<div class="g2b2-P2"></div>
+	<div class="descPlayStop">
+		<input type="radio" id="g2b2-P2-stop" name="g2b2-P2-toggle"/>
+		<label for="g2b2-P2-stop" class="stop"></label>
+		genus 2 with 2 boundary components
+	</div>
+</div>
 </div>
 
 <div class="responsive">

@@ -1,9 +1,18 @@
 .g0b3-P3 {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../../images/frontsphere.svg"), url("g0b3-P3-thumb.gif"), url("../../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("g0b3-P3-thumb.gif"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g0b3-P3-play:checked ~ .g0b3-P3 {
+	background-image: url("../../images/frontsphere.svg"), url("g0b3-P3-spr.gif"), url("../../images/backsphere.svg");
+	animation: C2F90 3.0s steps(90) infinite;
+}
+#g0b3-P3-pause:checked ~ .g0b3-P3 {
+	background-image: url("../../images/frontsphere.svg"), url("g0b3-P3-spr.gif"), url("../../images/backsphere.svg");
+	animation: C2F90 3.0s steps(90) infinite;
+	animation-play-state:paused;
 }
 
 .g1b2-Y2 {
@@ -46,6 +55,15 @@
     background-image: url("../../images/frontsphere.svg"), url("g2b2-P3-thumb.gif"), url("../../images/backsphere.svg");
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g2b2-P3-play:checked ~ .g2b2-P3 {
+	background-image: url("../../images/frontsphere.svg"), url("g2b2-P3-spr.gif"), url("../../images/backsphere.svg");
+	animation: C2F90 3.0s steps(90) infinite;
+}
+#g2b2-P3-pause:checked ~ .g2b2-P3 {
+	background-image: url("../../images/frontsphere.svg"), url("g2b2-P3-spr.gif"), url("../../images/backsphere.svg");
+	animation: C2F90 3.0s steps(90) infinite;
+	animation-play-state:paused;
 }
 
 .g0b4-P4 {

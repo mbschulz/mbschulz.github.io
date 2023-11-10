@@ -1,0 +1,84 @@
+.g1e1 {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("g1e1-thumb.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+#g1e1-play:checked ~ .g1e1 {
+	background-image: url("g1e1-spr.png");
+	animation: S2F90 3.0s steps(90) infinite;
+}
+#g1e1-pause:checked ~ .g1e1 {
+	background-image: url("g1e1-spr.png");
+	animation: S2F90 3.0s steps(90) infinite;
+	animation-play-state:paused;
+}
+
+.g2e1 {
+	width: 100%;
+	padding-top: 75%;
+	background-image: url("g2e1-thumb.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+#g2e1-play:checked ~ .g2e1 {
+	background-image: url("g2e1-spr.png");
+	animation: S3F60 2.0s steps(60) infinite;
+}
+#g2e1-pause:checked ~ .g2e1 {
+	background-image: url("g2e1-spr.png");
+	animation: S3F60 2.0s steps(60) infinite;
+	animation-play-state:paused;
+}
+
+.g3e1 {
+	width: 100%;
+	padding-top: 56.25%;
+	background-image: url("g3e1-thumb.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+#g3e1-play:checked ~ .g3e1 {
+	background-image: url("g3e1-spr.png");
+	animation: S4F45 1.5s steps(45) infinite; 
+}
+#g3e1-pause:checked ~ .g3e1 {
+	background-image: url("g3e1-spr.png");
+	animation: S4F45 1.5s steps(45) infinite; 
+	animation-play-state:paused;
+}
+
+.g4e1 {
+    width: 100%;
+    padding-top: 56.25%;
+    background-image: url("g4e1-thumb.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#g4e1-play:checked ~ .g4e1 {
+    background-image: url("g4e1-spr.png");
+    animation: S5F36 1.2s steps(36) infinite;
+}
+#g4e1-pause:checked ~ .g4e1 {
+    background-image: url("g4e1-spr.png");
+    animation: S5F36 1.2s steps(36) infinite;
+    animation-play-state: paused;
+}
+
+.g5e1 {
+    width: 100%;
+    padding-top: 56.25%;
+    background-image: url("g5e1-thumb.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#g5e1-play:checked ~ .g5e1 {
+    background-image: url("g5e1-spr.png");
+    animation: S6F30 1.0s steps(30) infinite;
+}
+#g5e1-pause:checked ~ .g5e1 {
+    background-image: url("g5e1-spr.png");
+    animation: S6F30 1.0s steps(30) infinite;
+    animation-play-state: paused;
+}

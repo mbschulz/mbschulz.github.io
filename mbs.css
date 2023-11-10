@@ -239,7 +239,7 @@ body:after{
 */ 
 
 
-/* animation types */ 
+/* animation types with sphere grid*/ 
 @keyframes C2F90 {
   from { background-position: 0px 0px, 0px 0px, 0px 0px; }
   to { background-position: 0px 0px, 0px 101.1235955056%, 0px 0px; }	
@@ -303,4 +303,70 @@ body:after{
 @keyframes C1F180y {
   from { background-position-y: 0px, 0px, 0px; }
   to { background-position-y: 0px, 101.1235955056%, 0px; }	
+} 
+
+/* animation types without sphere grid*/ 
+@keyframes S2F90 {
+  from { background-position: 0px 0px; }
+  to { background-position: 0px 101.1235955056%; }	
+}
+@keyframes S3F60 {
+  from { background-position: 0px 0px; }
+  to { background-position: 0px 101.694915254237288%; }	
+}
+@keyframes S4F45 {
+  from { background-position: 0px 0px; }
+  to { background-position: 0px 102.272727272727272727%; }	
+}
+@keyframes S5F36 {
+  from { background-position: 0px 0px; }
+  to { background-position: 0px 102.857142857142857%; }	
+}
+@keyframes S6F30 {
+  from { background-position: 0px 0px; }
+  to { background-position: 0px 103.4482758620689655%; }	
+}
+@keyframes S7F25 {
+  from { background-position: 0px 0px; }
+  to { background-position: 0px 104.1666666%; }	
+} 
+@keyframes S8F22 {
+  from { background-position: 0px 0px; }
+  to { background-position: 0px 104.7619047619047619%; }	
+} 
+@keyframes S9F20 {
+  from { background-position: 0px 0px; }
+  to { background-position: 0px 105.2631578947368421%; }	
+} 
+@keyframes S10F18 {
+  from { background-position: 0px 0px; }
+  to { background-position: 0px 105.88235294117647%; }	
+} 
+@keyframes S11F16 {
+  from { background-position: 0px 0px; }
+  to { background-position: 0px 106.6666666666666666%; }	
+} 
+@keyframes S12F15 {
+  from { background-position: 0px 0px; }
+  to { background-position: 0px 107.1429%; }	
+} 
+@keyframes S16F11 {
+  from { background-position: 0px 0px; }
+  to { background-position: 0px 110%; }	
+} 
+@keyframes S17F10 {
+  from { background-position: 0px 0px; }
+  to { background-position: 0px 111.111111111111111%; }	
+} 
+@keyframes S20F9 {
+  from { background-position: 0px 0px; }
+  to { background-position: 0px 112.5%; }	
+} 
+@keyframes S1F180x {
+  from { background-position-x: 0px; }
+  to { background-position-x: 200%; }	
+} 
+@keyframes S1F180y {
+  from { background-position-y: 0px; }
+  to { background-position-y: 101.1235955056%; }	
 } 

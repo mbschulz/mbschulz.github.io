@@ -1,16 +1,16 @@
 .g1b1 {
 	width: 100%;
 	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g1b1-thumb.gif"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("g1b1-A2-thumb.png"), url("../../images/backsphere.svg");
 	background-size: 100%, 100%, 100%;
 	background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g1b1-play:checked ~ .g1b1 {
-	background-image: url("../../images/frontsphere.svg"), url("g1b1-spr.gif"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("g1b1-A2-spr.png"), url("../../images/backsphere.svg");
 	animation: C2F90 3.0s steps(90) infinite;
 }
 #g1b1-pause:checked ~ .g1b1 {
-	background-image: url("../../images/frontsphere.svg"), url("g1b1-spr.gif"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("g1b1-A2-spr.png"), url("../../images/backsphere.svg");
 	animation: C2F90 3.0s steps(90) infinite;
 	animation-play-state:paused;
 }
@@ -18,16 +18,16 @@
 .g2b1 {
 	width: 100%;
 	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g2b1-thumb.gif"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("g2b1-A3-thumb.png"), url("../../images/backsphere.svg");
 	background-size: 100%, 100%, 100%;
 	background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g2b1-play:checked ~ .g2b1 {
-	background-image: url("../../images/frontsphere.svg"), url("g2b1-spr.gif"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("g2b1-A3-spr.png"), url("../../images/backsphere.svg");
 	animation: C3F60 2.0s steps(60) infinite;
 }
 #g2b1-pause:checked ~ .g2b1 {
-	background-image: url("../../images/frontsphere.svg"), url("g2b1-spr.gif"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("g2b1-A3-spr.png"), url("../../images/backsphere.svg");
 	animation: C3F60 2.0s steps(60) infinite;
 	animation-play-state:paused;
 }
@@ -35,16 +35,16 @@
 .g3b1 {
 	width: 100%;
 	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g3b1-thumb.gif"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("g3b1-A4-thumb.png"), url("../../images/backsphere.svg");
 	background-size: 100%, 100%, 100%;
 	background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g3b1-play:checked ~ .g3b1 {
-	background-image: url("../../images/frontsphere.svg"), url("g3b1-spr.gif"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("g3b1-A4-spr.png"), url("../../images/backsphere.svg");
 	animation: C4F45 1.5s steps(45) infinite;
 }
 #g3b1-pause:checked ~ .g3b1 {
-	background-image: url("../../images/frontsphere.svg"), url("g3b1-spr.gif"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("g3b1-A4-spr.png"), url("../../images/backsphere.svg");
 	animation: C4F45 1.5s steps(45) infinite;
 	animation-play-state:paused;
 }
@@ -52,16 +52,16 @@
 .g4b1 {
 	width: 100%;
 	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g4b1-thumb.gif"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("g4b1-A5-thumb.png"), url("../../images/backsphere.svg");
 	background-size: 100%, 100%, 100%;
 	background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g4b1-play:checked ~ .g4b1 {
-	background-image: url("../../images/frontsphere.svg"), url("g4b1-spr.gif"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("g4b1-A5-spr.png"), url("../../images/backsphere.svg");
 	animation: C5F36 1.2s steps(36) infinite;
 }
 #g4b1-pause:checked ~ .g4b1 {
-	background-image: url("../../images/frontsphere.svg"), url("g4b1-spr.gif"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("g4b1-A5-spr.png"), url("../../images/backsphere.svg");
 	animation: C5F36 1.2s steps(36) infinite;
 	animation-play-state:paused;
 }
@@ -69,16 +69,16 @@
 .g5b1 {
 	width: 100%;
 	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g5b1-thumb.gif"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("g5b1-A6-thumb.png"), url("../../images/backsphere.svg");
 	background-size: 100%, 100%, 100%;
 	background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g5b1-play:checked ~ .g5b1 {
-	background-image: url("../../images/frontsphere.svg"), url("g5b1-spr.gif"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("g5b1-A6-spr.png"), url("../../images/backsphere.svg");
 	animation: C6F30 1.0s steps(30) infinite;
 }
 #g5b1-pause:checked ~ .g5b1 {
-	background-image: url("../../images/frontsphere.svg"), url("g5b1-spr.gif"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("g5b1-A6-spr.png"), url("../../images/backsphere.svg");
 	animation: C6F30 1.0s steps(30) infinite;
 	animation-play-state:paused;
 }
@@ -86,16 +86,16 @@
 .g6b1 {
 	width: 100%;
 	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g6b1-thumb.gif"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("g6b1-A7-thumb.png"), url("../../images/backsphere.svg");
 	background-size: 100%, 100%, 100%;
 	background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g6b1-play:checked ~ .g6b1 {
-	background-image: url("../../images/frontsphere.svg"), url("g6b1-spr.gif"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("g6b1-A7-spr.png"), url("../../images/backsphere.svg");
 	animation: C7F25 0.9s steps(25) infinite;
 }
 #g6b1-pause:checked ~ .g6b1 {
-	background-image: url("../../images/frontsphere.svg"), url("g6b1-spr.gif"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("g6b1-A7-spr.png"), url("../../images/backsphere.svg");
 	animation: C7F25 0.9s steps(25) infinite;
 	animation-play-state:paused;
 }
@@ -103,16 +103,16 @@
 .g7b1 {
 	width: 100%;
 	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g7b1-thumb.gif"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("g7b1-A8-thumb.png"), url("../../images/backsphere.svg");
 	background-size: 100%, 100%, 100%;
 	background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g7b1-play:checked ~ .g7b1 {
-	background-image: url("../../images/frontsphere.svg"), url("g7b1-spr.gif"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("g7b1-A8-spr.png"), url("../../images/backsphere.svg");
 	animation: C8F22 0.8s steps(22) infinite;
 }
 #g7b1-pause:checked ~ .g7b1 {
-	background-image: url("../../images/frontsphere.svg"), url("g7b1-spr.gif"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("g7b1-A8-spr.png"), url("../../images/backsphere.svg");
 	animation: C8F22 0.8s steps(22) infinite;
 	animation-play-state:paused;
 }
@@ -120,16 +120,16 @@
 .g8b1 {
 	width: 100%;
 	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g8b1-thumb.gif"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("g8b1-A9-thumb.png"), url("../../images/backsphere.svg");
 	background-size: 100%, 100%, 100%;
 	background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g8b1-play:checked ~ .g8b1 {
-	background-image: url("../../images/frontsphere.svg"), url("g8b1-spr.gif"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("g8b1-A9-spr.png"), url("../../images/backsphere.svg");
 	animation: C9F20 0.7s steps(20) infinite;
 }
 #g8b1-pause:checked ~ .g8b1 {
-	background-image: url("../../images/frontsphere.svg"), url("g8b1-spr.gif"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("g8b1-A9-spr.png"), url("../../images/backsphere.svg");
 	animation: C9F20 0.7s steps(20) infinite;
 	animation-play-state:paused;
 }
@@ -137,571 +137,569 @@
 .g9b1 {
 	width: 100%;
 	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g9b1-thumb.gif"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("g9b1-A10-thumb.png"), url("../../images/backsphere.svg");
 	background-size: 100%, 100%, 100%;
 	background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g9b1-play:checked ~ .g9b1 {
-	background-image: url("../../images/frontsphere.svg"), url("g9b1-spr.gif"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("g9b1-A10-spr.png"), url("../../images/backsphere.svg");
 	animation: C10F18 0.6s steps(18) infinite;
 }
 #g9b1-pause:checked ~ .g9b1 {
-	background-image: url("../../images/frontsphere.svg"), url("g9b1-spr.gif"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("g9b1-A10-spr.png"), url("../../images/backsphere.svg");
 	animation: C10F18 0.6s steps(18) infinite;
 	animation-play-state:paused;
 }
 
-.g2b1-P2 {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g2b1-P2-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
+
+.g2b1-A2 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g2b1-A2-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g2b1-P2-play:checked ~ .g2b1-P2 {
-	background-image: url("../../images/frontsphere.svg"), url("g2b1-P2-spr.gif"), url("../../images/backsphere.svg");
-	animation: C2F90 3.0s steps(90) infinite;
+#g2b1-A2-play:checked ~ .g2b1-A2 {
+    background-image: url("../../images/frontsphere.svg"), url("g2b1-A2-spr.png"), url("../../images/backsphere.svg");
+    animation: C2F90 3.0s steps(90) infinite;
 }
-#g2b1-P2-pause:checked ~ .g2b1-P2 {
-	background-image: url("../../images/frontsphere.svg"), url("g2b1-P2-spr.gif"), url("../../images/backsphere.svg");
-	animation: C2F90 3.0s steps(90) infinite;
-	animation-play-state:paused;
+#g2b1-A2-pause:checked ~ .g2b1-A2 {
+    background-image: url("../../images/frontsphere.svg"), url("g2b1-A2-spr.png"), url("../../images/backsphere.svg");
+    animation: C2F90 3.0s steps(90) infinite;
+    animation-play-state: paused;
 }
 
-.g4b1-P3 {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g4b1-P3-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
+.g4b1-A3 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g4b1-A3-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g4b1-P3-play:checked ~ .g4b1-P3 {
-	background-image: url("../../images/frontsphere.svg"), url("g4b1-P3-spr.gif"), url("../../images/backsphere.svg");
-	animation: C3F60 2.0s steps(60) infinite;
+#g4b1-A3-play:checked ~ .g4b1-A3 {
+    background-image: url("../../images/frontsphere.svg"), url("g4b1-A3-spr.png"), url("../../images/backsphere.svg");
+    animation: C3F60 2.0s steps(60) infinite;
 }
-#g4b1-P3-pause:checked ~ .g4b1-P3 {
-	background-image: url("../../images/frontsphere.svg"), url("g4b1-P3-spr.gif"), url("../../images/backsphere.svg");
-	animation: C3F60 2.0s steps(60) infinite;
-	animation-play-state:paused;
-}
-
-
-.g6b1-P4 {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g6b1-P4-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
-}
-#g6b1-P4-play:checked ~ .g6b1-P4 {
-	background-image: url("../../images/frontsphere.svg"), url("g6b1-P4-spr.gif"), url("../../images/backsphere.svg");
-	animation: C4F45 1.5s steps(45) infinite;
-}
-#g6b1-P4-pause:checked ~ .g6b1-P4 {
-	background-image: url("../../images/frontsphere.svg"), url("g6b1-P4-spr.gif"), url("../../images/backsphere.svg");
-	animation: C4F45 1.5s steps(45) infinite;
-	animation-play-state:paused;
+#g4b1-A3-pause:checked ~ .g4b1-A3 {
+    background-image: url("../../images/frontsphere.svg"), url("g4b1-A3-spr.png"), url("../../images/backsphere.svg");
+    animation: C3F60 2.0s steps(60) infinite;
+    animation-play-state: paused;
 }
 
-.g8b1-P5 {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g8b1-P5-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
+.g6b1-A4 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g6b1-A4-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g8b1-P5-play:checked ~ .g8b1-P5 {
-	background-image: url("../../images/frontsphere.svg"), url("g8b1-P5-spr.gif"), url("../../images/backsphere.svg");
-	animation: C5F36 1.2s steps(36) infinite;
+#g6b1-A4-play:checked ~ .g6b1-A4 {
+    background-image: url("../../images/frontsphere.svg"), url("g6b1-A4-spr.png"), url("../../images/backsphere.svg");
+    animation: C4F45 1.5s steps(45) infinite;
 }
-#g8b1-P5-pause:checked ~ .g8b1-P5 {
-	background-image: url("../../images/frontsphere.svg"), url("g8b1-P5-spr.gif"), url("../../images/backsphere.svg");
-	animation: C5F36 1.2s steps(36) infinite;
-	animation-play-state:paused;
-}
-
-.g10b1-P6 {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g10b1-P6-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
-}
-#g10b1-P6-play:checked ~ .g10b1-P6 {
-	background-image: url("../../images/frontsphere.svg"), url("g10b1-P6-spr.gif"), url("../../images/backsphere.svg");
-	animation: C6F30 1.0s steps(30) infinite;
-}
-#g10b1-P6-pause:checked ~ .g10b1-P6 {
-	background-image: url("../../images/frontsphere.svg"), url("g10b1-P6-spr.gif"), url("../../images/backsphere.svg");
-	animation: C6F30 1.0s steps(30) infinite;
-	animation-play-state:paused;
+#g6b1-A4-pause:checked ~ .g6b1-A4 {
+    background-image: url("../../images/frontsphere.svg"), url("g6b1-A4-spr.png"), url("../../images/backsphere.svg");
+    animation: C4F45 1.5s steps(45) infinite;
+    animation-play-state: paused;
 }
 
-.g12b1-P7 {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g12b1-P7-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
+.g8b1-A5 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g8b1-A5-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g12b1-P7-play:checked ~ .g12b1-P7 {
-	background-image: url("../../images/frontsphere.svg"), url("g12b1-P7-spr.gif"), url("../../images/backsphere.svg");
-	animation: C7F25 0.9s steps(25) infinite;
+#g8b1-A5-play:checked ~ .g8b1-A5 {
+    background-image: url("../../images/frontsphere.svg"), url("g8b1-A5-spr.png"), url("../../images/backsphere.svg");
+    animation: C5F36 1.2s steps(36) infinite;
 }
-#g12b1-P7-pause:checked ~ .g12b1-P7 {
-	background-image: url("../../images/frontsphere.svg"), url("g12b1-P7-spr.gif"), url("../../images/backsphere.svg");
-	animation: C7F25 0.9s steps(25) infinite;
-	animation-play-state:paused;
-}
-
-.g14b1-P8 {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g14b1-P8-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
-}
-#g14b1-P8-play:checked ~ .g14b1-P8 {
-	background-image: url("../../images/frontsphere.svg"), url("g14b1-P8-spr.gif"), url("../../images/backsphere.svg");
-	animation: C8F22 0.8s steps(22) infinite;
-}
-#g14b1-P8-pause:checked ~ .g14b1-P8 {
-	background-image: url("../../images/frontsphere.svg"), url("g14b1-P8-spr.gif"), url("../../images/backsphere.svg");
-	animation: C8F22 0.8s steps(22) infinite;
-	animation-play-state:paused;
+#g8b1-A5-pause:checked ~ .g8b1-A5 {
+    background-image: url("../../images/frontsphere.svg"), url("g8b1-A5-spr.png"), url("../../images/backsphere.svg");
+    animation: C5F36 1.2s steps(36) infinite;
+    animation-play-state: paused;
 }
 
-.g38b1-P20 {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g38b1-P20-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
+.g10b1-A6 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g10b1-A6-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g38b1-P20-play:checked ~ .g38b1-P20 {
-	background-image: url("../../images/frontsphere.svg"), url("g38b1-P20-spr.gif"), url("../../images/backsphere.svg");
-	animation: C20F9 0.3s steps(9) infinite;
+#g10b1-A6-play:checked ~ .g10b1-A6 {
+    background-image: url("../../images/frontsphere.svg"), url("g10b1-A6-spr.png"), url("../../images/backsphere.svg");
+    animation: C6F30 1.0s steps(30) infinite;
 }
-#g38b1-P20-pause:checked ~ .g38b1-P20 {
-	background-image: url("../../images/frontsphere.svg"), url("g38b1-P20-spr.gif"), url("../../images/backsphere.svg");
-	animation: C20F9 0.3s steps(9) infinite;
-	animation-play-state:paused;
-}
-
-
-.g3b1-P2 {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g3b1-P2-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
-}
-#g3b1-P2-play:checked ~ .g3b1-P2 {
-	background-image: url("../../images/frontsphere.svg"), url("g3b1-P2-spr.gif"), url("../../images/backsphere.svg");
-	animation: C2F90 3.0s steps(90) infinite;
-}
-#g3b1-P2-pause:checked ~ .g3b1-P2 {
-	background-image: url("../../images/frontsphere.svg"), url("g3b1-P2-spr.gif"), url("../../images/backsphere.svg");
-	animation: C2F90 3.0s steps(90) infinite;
-	animation-play-state:paused;
+#g10b1-A6-pause:checked ~ .g10b1-A6 {
+    background-image: url("../../images/frontsphere.svg"), url("g10b1-A6-spr.png"), url("../../images/backsphere.svg");
+    animation: C6F30 1.0s steps(30) infinite;
+    animation-play-state: paused;
 }
 
-.g6b1-P3 {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g6b1-P3-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
+.g12b1-A7 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g12b1-A7-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g6b1-P3-play:checked ~ .g6b1-P3 {
-	background-image: url("../../images/frontsphere.svg"), url("g6b1-P3-spr.gif"), url("../../images/backsphere.svg");
-	animation: C3F60 2.0s steps(60) infinite;
+#g12b1-A7-play:checked ~ .g12b1-A7 {
+    background-image: url("../../images/frontsphere.svg"), url("g12b1-A7-spr.png"), url("../../images/backsphere.svg");
+    animation: C7F25 0.8s steps(25) infinite;
 }
-#g6b1-P3-pause:checked ~ .g6b1-P3 {
-	background-image: url("../../images/frontsphere.svg"), url("g6b1-P3-spr.gif"), url("../../images/backsphere.svg");
-	animation: C3F60 2.0s steps(60) infinite;
-	animation-play-state:paused;
-}
-
-.g9b1-P4 {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g9b1-P4-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
-}
-#g9b1-P4-play:checked ~ .g9b1-P4 {
-	background-image: url("../../images/frontsphere.svg"), url("g9b1-P4-spr.gif"), url("../../images/backsphere.svg");
-	animation: C4F45 1.5s steps(45) infinite;
-}
-#g9b1-P4-pause:checked ~ .g9b1-P4 {
-	background-image: url("../../images/frontsphere.svg"), url("g9b1-P4-spr.gif"), url("../../images/backsphere.svg");
-	animation: C4F45 1.5s steps(45) infinite;
-	animation-play-state:paused;
+#g12b1-A7-pause:checked ~ .g12b1-A7 {
+    background-image: url("../../images/frontsphere.svg"), url("g12b1-A7-spr.png"), url("../../images/backsphere.svg");
+    animation: C7F25 0.8s steps(25) infinite;
+    animation-play-state: paused;
 }
 
-.g12b1-P5 {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g12b1-P5-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
+.g14b1-A8 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g14b1-A8-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g12b1-P5-play:checked ~ .g12b1-P5 {
-	background-image: url("../../images/frontsphere.svg"), url("g12b1-P5-spr.gif"), url("../../images/backsphere.svg");
-	animation: C5F36 1.2s steps(36) infinite;
+#g14b1-A8-play:checked ~ .g14b1-A8 {
+    background-image: url("../../images/frontsphere.svg"), url("g14b1-A8-spr.png"), url("../../images/backsphere.svg");
+    animation: C8F22 0.7s steps(22) infinite;
 }
-#g12b1-P5-pause:checked ~ .g12b1-P5 {
-	background-image: url("../../images/frontsphere.svg"), url("g12b1-P5-spr.gif"), url("../../images/backsphere.svg");
-	animation: C5F36 1.2s steps(36) infinite;
-	animation-play-state:paused;
-}
-
-.g15b1-P6 {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g15b1-P6-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
-}
-#g15b1-P6-play:checked ~ .g15b1-P6 {
-	background-image: url("../../images/frontsphere.svg"), url("g15b1-P6-spr.gif"), url("../../images/backsphere.svg");
-	animation: C6F30 1.0s steps(30) infinite;
-}
-#g15b1-P6-pause:checked ~ .g15b1-P6 {
-	background-image: url("../../images/frontsphere.svg"), url("g15b1-P6-spr.gif"), url("../../images/backsphere.svg");
-	animation: C6F30 1.0s steps(30) infinite;
-	animation-play-state:paused;
+#g14b1-A8-pause:checked ~ .g14b1-A8 {
+    background-image: url("../../images/frontsphere.svg"), url("g14b1-A8-spr.png"), url("../../images/backsphere.svg");
+    animation: C8F22 0.7s steps(22) infinite;
+    animation-play-state: paused;
 }
 
-.g18b1-P7 {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g18b1-P7-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
+.g38b1-A20 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g38b1-A20-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g18b1-P7-play:checked ~ .g18b1-P7 {
-	background-image: url("../../images/frontsphere.svg"), url("g18b1-P7-spr.gif"), url("../../images/backsphere.svg");
-	animation: C7F25 0.9s steps(25) infinite;
+#g38b1-A20-play:checked ~ .g38b1-A20 {
+    background-image: url("../../images/frontsphere.svg"), url("g38b1-A20-spr.png"), url("../../images/backsphere.svg");
+    animation: C20F9 0.3s steps(9) infinite;
 }
-#g18b1-P7-pause:checked ~ .g18b1-P7 {
-	background-image: url("../../images/frontsphere.svg"), url("g18b1-P7-spr.gif"), url("../../images/backsphere.svg");
-	animation: C7F25 0.9s steps(25) infinite;
-	animation-play-state:paused;
-}
-
-.g21b1-P8 {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g21b1-P8-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
-}
-#g21b1-P8-play:checked ~ .g21b1-P8 {
-	background-image: url("../../images/frontsphere.svg"), url("g21b1-P8-spr.gif"), url("../../images/backsphere.svg");
-	animation: C8F22 0.8s steps(22) infinite;
-}
-#g21b1-P8-pause:checked ~ .g21b1-P8 {
-	background-image: url("../../images/frontsphere.svg"), url("g21b1-P8-spr.gif"), url("../../images/backsphere.svg");
-	animation: C8F22 0.8s steps(22) infinite;
-	animation-play-state:paused;
-}
-
-.g57b1-P20 {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g57b1-P20-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
-}
-#g57b1-P20-play:checked ~ .g57b1-P20 {
-	background-image: url("../../images/frontsphere.svg"), url("g57b1-P20-spr.gif"), url("../../images/backsphere.svg");
-	animation: C20F9 0.3s steps(9) infinite;
-}
-#g57b1-P20-pause:checked ~ .g57b1-P20 {
-	background-image: url("../../images/frontsphere.svg"), url("g57b1-P20-spr.gif"), url("../../images/backsphere.svg");
-	animation: C20F9 0.3s steps(9) infinite;
-	animation-play-state:paused;
+#g38b1-A20-pause:checked ~ .g38b1-A20 {
+    background-image: url("../../images/frontsphere.svg"), url("g38b1-A20-spr.png"), url("../../images/backsphere.svg");
+    animation: C20F9 0.3s steps(9) infinite;
+    animation-play-state: paused;
 }
 
 
-.g5b1-P2 {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g5b1-P2-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
+
+.g3b1-A2 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g3b1-A2-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g5b1-P2-play:checked ~ .g5b1-P2 {
-	background-image: url("../../images/frontsphere.svg"), url("g5b1-P2-spr.gif"), url("../../images/backsphere.svg");
-	animation: C2F90 3.0s steps(90) infinite;
+#g3b1-A2-play:checked ~ .g3b1-A2 {
+    background-image: url("../../images/frontsphere.svg"), url("g3b1-A2-spr.png"), url("../../images/backsphere.svg");
+    animation: C2F90 3.0s steps(90) infinite;
 }
-#g5b1-P2-pause:checked ~ .g5b1-P2 {
-	background-image: url("../../images/frontsphere.svg"), url("g5b1-P2-spr.gif"), url("../../images/backsphere.svg");
-	animation: C2F90 3.0s steps(90) infinite;
-	animation-play-state:paused;
+#g3b1-A2-pause:checked ~ .g3b1-A2 {
+    background-image: url("../../images/frontsphere.svg"), url("g3b1-A2-spr.png"), url("../../images/backsphere.svg");
+    animation: C2F90 3.0s steps(90) infinite;
+    animation-play-state: paused;
 }
 
-.g35b1-P8 {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g35b1-P8-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
+.g6b1-A3 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g6b1-A3-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g35b1-P8-play:checked ~ .g35b1-P8 {
-	background-image: url("../../images/frontsphere.svg"), url("g35b1-P8-spr.gif"), url("../../images/backsphere.svg");
-	animation: C8F22 0.8s steps(22) infinite;
+#g6b1-A3-play:checked ~ .g6b1-A3 {
+    background-image: url("../../images/frontsphere.svg"), url("g6b1-A3-spr.png"), url("../../images/backsphere.svg");
+    animation: C3F60 2.0s steps(60) infinite;
 }
-#g35b1-P8-pause:checked ~ .g35b1-P8 {
-	background-image: url("../../images/frontsphere.svg"), url("g35b1-P8-spr.gif"), url("../../images/backsphere.svg");
-	animation: C8F22 0.8s steps(22) infinite;
-	animation-play-state:paused;
-}
-
-.g95b1-P20 {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g95b1-P20-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
-}
-#g95b1-P20-play:checked ~ .g95b1-P20 {
-	background-image: url("../../images/frontsphere.svg"), url("g95b1-P20-spr.gif"), url("../../images/backsphere.svg");
-	animation: C20F9 0.3s steps(9) infinite;
-}
-#g95b1-P20-pause:checked ~ .g95b1-P20 {
-	background-image: url("../../images/frontsphere.svg"), url("g95b1-P20-spr.gif"), url("../../images/backsphere.svg");
-	animation: C20F9 0.3s steps(9) infinite;
-	animation-play-state:paused;
+#g6b1-A3-pause:checked ~ .g6b1-A3 {
+    background-image: url("../../images/frontsphere.svg"), url("g6b1-A3-spr.png"), url("../../images/backsphere.svg");
+    animation: C3F60 2.0s steps(60) infinite;
+    animation-play-state: paused;
 }
 
+.g9b1-A4 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g9b1-A4-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g9b1-A4-play:checked ~ .g9b1-A4 {
+    background-image: url("../../images/frontsphere.svg"), url("g9b1-A4-spr.png"), url("../../images/backsphere.svg");
+    animation: C4F45 1.5s steps(45) infinite;
+}
+#g9b1-A4-pause:checked ~ .g9b1-A4 {
+    background-image: url("../../images/frontsphere.svg"), url("g9b1-A4-spr.png"), url("../../images/backsphere.svg");
+    animation: C4F45 1.5s steps(45) infinite;
+    animation-play-state: paused;
+}
+
+.g12b1-A5 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g12b1-A5-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g12b1-A5-play:checked ~ .g12b1-A5 {
+    background-image: url("../../images/frontsphere.svg"), url("g12b1-A5-spr.png"), url("../../images/backsphere.svg");
+    animation: C5F36 1.2s steps(36) infinite;
+}
+#g12b1-A5-pause:checked ~ .g12b1-A5 {
+    background-image: url("../../images/frontsphere.svg"), url("g12b1-A5-spr.png"), url("../../images/backsphere.svg");
+    animation: C5F36 1.2s steps(36) infinite;
+    animation-play-state: paused;
+}
+
+.g15b1-A6 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g15b1-A6-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g15b1-A6-play:checked ~ .g15b1-A6 {
+    background-image: url("../../images/frontsphere.svg"), url("g15b1-A6-spr.png"), url("../../images/backsphere.svg");
+    animation: C6F30 1.0s steps(30) infinite;
+}
+#g15b1-A6-pause:checked ~ .g15b1-A6 {
+    background-image: url("../../images/frontsphere.svg"), url("g15b1-A6-spr.png"), url("../../images/backsphere.svg");
+    animation: C6F30 1.0s steps(30) infinite;
+    animation-play-state: paused;
+}
+
+.g18b1-A7 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g18b1-A7-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g18b1-A7-play:checked ~ .g18b1-A7 {
+    background-image: url("../../images/frontsphere.svg"), url("g18b1-A7-spr.png"), url("../../images/backsphere.svg");
+    animation: C7F25 0.8s steps(25) infinite;
+}
+#g18b1-A7-pause:checked ~ .g18b1-A7 {
+    background-image: url("../../images/frontsphere.svg"), url("g18b1-A7-spr.png"), url("../../images/backsphere.svg");
+    animation: C7F25 0.8s steps(25) infinite;
+    animation-play-state: paused;
+}
+
+.g21b1-A8 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g21b1-A8-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g21b1-A8-play:checked ~ .g21b1-A8 {
+    background-image: url("../../images/frontsphere.svg"), url("g21b1-A8-spr.png"), url("../../images/backsphere.svg");
+    animation: C8F22 0.7s steps(22) infinite;
+}
+#g21b1-A8-pause:checked ~ .g21b1-A8 {
+    background-image: url("../../images/frontsphere.svg"), url("g21b1-A8-spr.png"), url("../../images/backsphere.svg");
+    animation: C8F22 0.7s steps(22) infinite;
+    animation-play-state: paused;
+}
+
+.g57b1-A20 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g57b1-A20-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g57b1-A20-play:checked ~ .g57b1-A20 {
+    background-image: url("../../images/frontsphere.svg"), url("g57b1-A20-spr.png"), url("../../images/backsphere.svg");
+    animation: C20F9 0.3s steps(9) infinite;
+}
+#g57b1-A20-pause:checked ~ .g57b1-A20 {
+    background-image: url("../../images/frontsphere.svg"), url("g57b1-A20-spr.png"), url("../../images/backsphere.svg");
+    animation: C20F9 0.3s steps(9) infinite;
+    animation-play-state: paused;
+}
+
+.g5b1-A2 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g5b1-A2-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g5b1-A2-play:checked ~ .g5b1-A2 {
+    background-image: url("../../images/frontsphere.svg"), url("g5b1-A2-spr.png"), url("../../images/backsphere.svg");
+    animation: C2F90 3.0s steps(90) infinite;
+}
+#g5b1-A2-pause:checked ~ .g5b1-A2 {
+    background-image: url("../../images/frontsphere.svg"), url("g5b1-A2-spr.png"), url("../../images/backsphere.svg");
+    animation: C2F90 3.0s steps(90) infinite;
+    animation-play-state: paused;
+}
+
+.g35b1-A8 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g35b1-A8-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g35b1-A8-play:checked ~ .g35b1-A8 {
+    background-image: url("../../images/frontsphere.svg"), url("g35b1-A8-spr.png"), url("../../images/backsphere.svg");
+    animation: C8F22 0.7s steps(22) infinite;
+}
+#g35b1-A8-pause:checked ~ .g35b1-A8 {
+    background-image: url("../../images/frontsphere.svg"), url("g35b1-A8-spr.png"), url("../../images/backsphere.svg");
+    animation: C8F22 0.7s steps(22) infinite;
+    animation-play-state: paused;
+}
+
+.g95b1-A20 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g95b1-A20-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g95b1-A20-play:checked ~ .g95b1-A20 {
+    background-image: url("../../images/frontsphere.svg"), url("g95b1-A20-spr.png"), url("../../images/backsphere.svg");
+    animation: C20F9 0.3s steps(9) infinite;
+}
+#g95b1-A20-pause:checked ~ .g95b1-A20 {
+    background-image: url("../../images/frontsphere.svg"), url("g95b1-A20-spr.png"), url("../../images/backsphere.svg");
+    animation: C20F9 0.3s steps(9) infinite;
+    animation-play-state: paused;
+}
 
 
 
 
 .g3b1-Y3 {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g3b1-Y3-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g3b1-Y3-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g3b1-Y3-play:checked ~ .g3b1-Y3 {
-	background-image: url("../../images/frontsphere.svg"), url("g3b1-Y3-spr.gif"), url("../../images/backsphere.svg");
-	animation: C3F60 2.0s steps(60) infinite;
+    background-image: url("../../images/frontsphere.svg"), url("g3b1-Y3-spr.png"), url("../../images/backsphere.svg");
+    animation: C3F60 2.0s steps(60) infinite;
 }
 #g3b1-Y3-pause:checked ~ .g3b1-Y3 {
-	background-image: url("../../images/frontsphere.svg"), url("g3b1-Y3-spr.gif"), url("../../images/backsphere.svg");
-	animation: C3F60 2.0s steps(60) infinite;
-	animation-play-state:paused;
-}
-
-.g6b1-Y3 {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g6b1-Y3-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
-}
-#g6b1-Y3-play:checked ~ .g6b1-Y3 {
-	background-image: url("../../images/frontsphere.svg"), url("g6b1-Y3-spr.gif"), url("../../images/backsphere.svg");
-	animation: C3F60 2.0s steps(60) infinite;
-}
-#g6b1-Y3-pause:checked ~ .g6b1-Y3 {
-	background-image: url("../../images/frontsphere.svg"), url("g6b1-Y3-spr.gif"), url("../../images/backsphere.svg");
-	animation: C3F60 2.0s steps(60) infinite;
-	animation-play-state:paused;
+    background-image: url("../../images/frontsphere.svg"), url("g3b1-Y3-spr.png"), url("../../images/backsphere.svg");
+    animation: C3F60 2.0s steps(60) infinite;
+    animation-play-state: paused;
 }
 
 .g6b1-C3a {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g6b1-C3a-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g6b1-C3a-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g6b1-C3a-play:checked ~ .g6b1-C3a {
-	background-image: url("../../images/frontsphere.svg"), url("g6b1-C3a-spr.gif"), url("../../images/backsphere.svg");
-	animation: C3F60 2.0s steps(60) infinite;
+    background-image: url("../../images/frontsphere.svg"), url("g6b1-C3a-spr.png"), url("../../images/backsphere.svg");
+    animation: C3F60 2.0s steps(60) infinite;
 }
 #g6b1-C3a-pause:checked ~ .g6b1-C3a {
-	background-image: url("../../images/frontsphere.svg"), url("g6b1-C3a-spr.gif"), url("../../images/backsphere.svg");
-	animation: C3F60 2.0s steps(60) infinite;
-	animation-play-state:paused;
+    background-image: url("../../images/frontsphere.svg"), url("g6b1-C3a-spr.png"), url("../../images/backsphere.svg");
+    animation: C3F60 2.0s steps(60) infinite;
+    animation-play-state: paused;
 }
 
 .g6b1-C3b {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g6b1-C3b-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g6b1-C3b-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g6b1-C3b-play:checked ~ .g6b1-C3b {
-	background-image: url("../../images/frontsphere.svg"), url("g6b1-C3b-spr.gif"), url("../../images/backsphere.svg");
-	animation: C3F60 2.0s steps(60) infinite;
+    background-image: url("../../images/frontsphere.svg"), url("g6b1-C3b-spr.png"), url("../../images/backsphere.svg");
+    animation: C3F60 2.0s steps(60) infinite;
 }
 #g6b1-C3b-pause:checked ~ .g6b1-C3b {
-	background-image: url("../../images/frontsphere.svg"), url("g6b1-C3b-spr.gif"), url("../../images/backsphere.svg");
-	animation: C3F60 2.0s steps(60) infinite;
-	animation-play-state:paused;
+    background-image: url("../../images/frontsphere.svg"), url("g6b1-C3b-spr.png"), url("../../images/backsphere.svg");
+    animation: C3F60 2.0s steps(60) infinite;
+    animation-play-state: paused;
+}
+
+.g6b1-Y3 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g6b1-Y3-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g6b1-Y3-play:checked ~ .g6b1-Y3 {
+    background-image: url("../../images/frontsphere.svg"), url("g6b1-Y3-spr.png"), url("../../images/backsphere.svg");
+    animation: C3F60 2.0s steps(60) infinite;
+}
+#g6b1-Y3-pause:checked ~ .g6b1-Y3 {
+    background-image: url("../../images/frontsphere.svg"), url("g6b1-Y3-spr.png"), url("../../images/backsphere.svg");
+    animation: C3F60 2.0s steps(60) infinite;
+    animation-play-state: paused;
 }
 
 .g8b1-C4a {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g8b1-C4a-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g8b1-C4a-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g8b1-C4a-play:checked ~ .g8b1-C4a {
-	background-image: url("../../images/frontsphere.svg"), url("g8b1-C4a-spr.gif"), url("../../images/backsphere.svg");
-	animation: C4F45 1.5s steps(45) infinite;
+    background-image: url("../../images/frontsphere.svg"), url("g8b1-C4a-spr.png"), url("../../images/backsphere.svg");
+    animation: C4F45 1.5s steps(45) infinite;
 }
 #g8b1-C4a-pause:checked ~ .g8b1-C4a {
-	background-image: url("../../images/frontsphere.svg"), url("g8b1-C4a-spr.gif"), url("../../images/backsphere.svg");
-	animation: C4F45 1.5s steps(45) infinite;
-	animation-play-state:paused;
+    background-image: url("../../images/frontsphere.svg"), url("g8b1-C4a-spr.png"), url("../../images/backsphere.svg");
+    animation: C4F45 1.5s steps(45) infinite;
+    animation-play-state: paused;
 }
 
 .g8b1-C4b {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g8b1-C4b-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g8b1-C4b-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g8b1-C4b-play:checked ~ .g8b1-C4b {
-	background-image: url("../../images/frontsphere.svg"), url("g8b1-C4b-spr.gif"), url("../../images/backsphere.svg");
-	animation: C4F45 1.5s steps(45) infinite;
+    background-image: url("../../images/frontsphere.svg"), url("g8b1-C4b-spr.png"), url("../../images/backsphere.svg");
+    animation: C4F45 1.5s steps(45) infinite;
 }
 #g8b1-C4b-pause:checked ~ .g8b1-C4b {
-	background-image: url("../../images/frontsphere.svg"), url("g8b1-C4b-spr.gif"), url("../../images/backsphere.svg");
-	animation: C4F45 1.5s steps(45) infinite;
-	animation-play-state:paused;
+    background-image: url("../../images/frontsphere.svg"), url("g8b1-C4b-spr.png"), url("../../images/backsphere.svg");
+    animation: C4F45 1.5s steps(45) infinite;
+    animation-play-state: paused;
 }
 
 .g8b1-Y4a {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g8b1-Y4a-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g8b1-Y4a-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g8b1-Y4a-play:checked ~ .g8b1-Y4a {
-	background-image: url("../../images/frontsphere.svg"), url("g8b1-Y4a-spr.gif"), url("../../images/backsphere.svg");
-	animation: C4F45 1.5s steps(45) infinite;
+    background-image: url("../../images/frontsphere.svg"), url("g8b1-Y4a-spr.png"), url("../../images/backsphere.svg");
+    animation: C4F45 1.5s steps(45) infinite;
 }
 #g8b1-Y4a-pause:checked ~ .g8b1-Y4a {
-	background-image: url("../../images/frontsphere.svg"), url("g8b1-Y4a-spr.gif"), url("../../images/backsphere.svg");
-	animation: C4F45 1.5s steps(45) infinite;
-	animation-play-state:paused;
-}
-
-.g10b1-C5a {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g10b1-C5a-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
-}
-#g10b1-C5a-play:checked ~ .g10b1-C5a {
-	background-image: url("../../images/frontsphere.svg"), url("g10b1-C5a-spr.gif"), url("../../images/backsphere.svg");
-	animation: C5F36 1.2s steps(36) infinite;
-}
-#g10b1-C5a-pause:checked ~ .g10b1-C5a {
-	background-image: url("../../images/frontsphere.svg"), url("g10b1-C5a-spr.gif"), url("../../images/backsphere.svg");
-	animation: C5F36 1.2s steps(36) infinite;
-	animation-play-state:paused;
-}
-
-.g10b1-Y5a {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g10b1-Y5a-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
-}
-#g10b1-Y5a-play:checked ~ .g10b1-Y5a {
-	background-image: url("../../images/frontsphere.svg"), url("g10b1-Y5a-spr.gif"), url("../../images/backsphere.svg");
-	animation: C5F36 1.2s steps(36) infinite;
-}
-#g10b1-Y5a-pause:checked ~ .g10b1-Y5a {
-	background-image: url("../../images/frontsphere.svg"), url("g10b1-Y5a-spr.gif"), url("../../images/backsphere.svg");
-	animation: C5F36 1.2s steps(36) infinite;
-	animation-play-state:paused;
+    background-image: url("../../images/frontsphere.svg"), url("g8b1-Y4a-spr.png"), url("../../images/backsphere.svg");
+    animation: C4F45 1.5s steps(45) infinite;
+    animation-play-state: paused;
 }
 
 .g11b1-A4 {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g11b1-A4-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g11b1-A4-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g11b1-A4-play:checked ~ .g11b1-A4 {
-	background-image: url("../../images/frontsphere.svg"), url("g11b1-A4-spr.gif"), url("../../images/backsphere.svg");
-	animation: C4F45 1.5s steps(45) infinite;
+    background-image: url("../../images/frontsphere.svg"), url("g11b1-A4-spr.png"), url("../../images/backsphere.svg");
+    animation: C4F45 1.5s steps(45) infinite;
 }
 #g11b1-A4-pause:checked ~ .g11b1-A4 {
-	background-image: url("../../images/frontsphere.svg"), url("g11b1-A4-spr.gif"), url("../../images/backsphere.svg");
-	animation: C4F45 1.5s steps(45) infinite;
-	animation-play-state:paused;
+    background-image: url("../../images/frontsphere.svg"), url("g11b1-A4-spr.png"), url("../../images/backsphere.svg");
+    animation: C4F45 1.5s steps(45) infinite;
+    animation-play-state: paused;
+}
+
+.g10b1-C5a {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g10b1-C5a-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g10b1-C5a-play:checked ~ .g10b1-C5a {
+    background-image: url("../../images/frontsphere.svg"), url("g10b1-C5a-spr.png"), url("../../images/backsphere.svg");
+    animation: C5F36 1.2s steps(36) infinite;
+}
+#g10b1-C5a-pause:checked ~ .g10b1-C5a {
+    background-image: url("../../images/frontsphere.svg"), url("g10b1-C5a-spr.png"), url("../../images/backsphere.svg");
+    animation: C5F36 1.2s steps(36) infinite;
+    animation-play-state: paused;
+}
+
+.g10b1-Y5a {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g10b1-Y5a-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g10b1-Y5a-play:checked ~ .g10b1-Y5a {
+    background-image: url("../../images/frontsphere.svg"), url("g10b1-Y5a-spr.png"), url("../../images/backsphere.svg");
+    animation: C5F36 1.2s steps(36) infinite;
+}
+#g10b1-Y5a-pause:checked ~ .g10b1-Y5a {
+    background-image: url("../../images/frontsphere.svg"), url("g10b1-Y5a-spr.png"), url("../../images/backsphere.svg");
+    animation: C5F36 1.2s steps(36) infinite;
+    animation-play-state: paused;
 }
 
 .g14b1-A5 {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g14b1-A5-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g14b1-A5-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g14b1-A5-play:checked ~ .g14b1-A5 {
-	background-image: url("../../images/frontsphere.svg"), url("g14b1-A5-spr.gif"), url("../../images/backsphere.svg");
-	animation: C5F36 1.2s steps(36) infinite;
+    background-image: url("../../images/frontsphere.svg"), url("g14b1-A5-spr.png"), url("../../images/backsphere.svg");
+    animation: C5F36 1.2s steps(36) infinite;
 }
 #g14b1-A5-pause:checked ~ .g14b1-A5 {
-	background-image: url("../../images/frontsphere.svg"), url("g14b1-A5-spr.gif"), url("../../images/backsphere.svg");
-	animation: C5F36 1.2s steps(36) infinite;
-	animation-play-state:paused;
+    background-image: url("../../images/frontsphere.svg"), url("g14b1-A5-spr.png"), url("../../images/backsphere.svg");
+    animation: C5F36 1.2s steps(36) infinite;
+    animation-play-state: paused;
 }
 
 .g24b1-A5b {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g24b1-A5b-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g24b1-A5b-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g24b1-A5b-play:checked ~ .g24b1-A5b {
-	background-image: url("../../images/frontsphere.svg"), url("g24b1-A5b-spr.gif"), url("../../images/backsphere.svg");
-	animation: C5F36 1.2s steps(36) infinite;
+    background-image: url("../../images/frontsphere.svg"), url("g24b1-A5b-spr.png"), url("../../images/backsphere.svg");
+    animation: C5F36 1.2s steps(36) infinite;
 }
 #g24b1-A5b-pause:checked ~ .g24b1-A5b {
-	background-image: url("../../images/frontsphere.svg"), url("g24b1-A5b-spr.gif"), url("../../images/backsphere.svg");
-	animation: C5F36 1.2s steps(36) infinite;
-	animation-play-state:paused;
+    background-image: url("../../images/frontsphere.svg"), url("g24b1-A5b-spr.png"), url("../../images/backsphere.svg");
+    animation: C5F36 1.2s steps(36) infinite;
+    animation-play-state: paused;
 }
 
 .g29b1-A6b {
-	width: 100%;
-	padding-top: 100%;
-	background-image: url("../../images/frontsphere.svg"), url("g29b1-A6b-thumb.gif"), url("../../images/backsphere.svg");
-	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g29b1-A6b-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g29b1-A6b-play:checked ~ .g29b1-A6b {
-	background-image: url("../../images/frontsphere.svg"), url("g29b1-A6b-spr.gif"), url("../../images/backsphere.svg");
-	animation: C6F30 1.0s steps(30) infinite;
+    background-image: url("../../images/frontsphere.svg"), url("g29b1-A6b-spr.png"), url("../../images/backsphere.svg");
+    animation: C6F30 1.0s steps(30) infinite;
 }
 #g29b1-A6b-pause:checked ~ .g29b1-A6b {
-	background-image: url("../../images/frontsphere.svg"), url("g29b1-A6b-spr.gif"), url("../../images/backsphere.svg");
-	animation: C6F30 1.0s steps(30) infinite;
-	animation-play-state:paused;
+    background-image: url("../../images/frontsphere.svg"), url("g29b1-A6b-spr.png"), url("../../images/backsphere.svg");
+    animation: C6F30 1.0s steps(30) infinite;
+    animation-play-state: paused;
 }
-
 
 
 

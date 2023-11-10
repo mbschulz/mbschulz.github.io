@@ -6,121 +6,8 @@
 <meta name="author" content="Mario B. Schulz"/>
 <meta name="keywords" content="Mario B. Schulz, free boundary, minimal surfaces, LaTeX, TikZ"/>
 <meta name="description" content="free boundary minimal surfaces"/>
-<link href="../mbs.css" rel="stylesheet" type="text/css" />
-<style>
-.g0b2-C5 {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../images/frontsphere50.svg"), url("immersed/g0b2-C5-spr.gif"), url("../images/backsphere50.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    animation: C5F36 1.2s steps(36) infinite;
-    animation-play-state:paused;
-}
-.g0b2-C5:hover {
-    animation-play-state:running;
-}
-.g0b2-C5:hover ~ .descAni:before {content: "⏸️";}
-
-.g0b2-C7 {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../images/frontsphere50.svg"), url("immersed/g0b2-C7-spr.gif"), url("../images/backsphere50.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    animation: C7F25 0.9s steps(25) infinite;
-    animation-play-state:paused;
-}
-.g0b2-C7:hover {
-    animation-play-state:running;
-}
-.g0b2-C7:hover ~ .descAni:before {content: "⏸️";}
-
-.g0b2-C8 {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../images/frontsphere50.svg"), url("immersed/g0b2-C8-spr.gif"), url("../images/backsphere50.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    animation: C8F22 0.8s steps(22) infinite;
-    animation-play-state:paused;
-}
-.g0b2-C8:hover {
-    animation-play-state:running;
-}
-.g0b2-C8:hover ~ .descAni:before {content: "⏸️";}
-
-.g0b2-C9 {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../images/frontsphere50.svg"), url("immersed/g0b2-C9-spr.gif"), url("../images/backsphere50.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    animation: C9F20 0.7s steps(20) infinite;
-    animation-play-state:paused;
-}
-.g0b2-C9:hover {
-    animation-play-state:running;
-}
-.g0b2-C9:hover ~ .descAni:before {content: "⏸️";}
-
-.g0b2-C11 {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../images/frontsphere50.svg"), url("immersed/g0b2-C11-spr.gif"), url("../images/backsphere50.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    animation: C11F16 0.6s steps(16) infinite;
-    animation-play-state:paused;
-}
-.g0b2-C11:hover {
-    animation-play-state:running;
-}
-.g0b2-C11:hover ~ .descAni:before {content: "⏸️";} 
-
-.g0b2-C12 {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../images/frontsphere50.svg"), url("immersed/g0b2-C12-spr.gif"), url("../images/backsphere50.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    animation: C12F15 0.5s steps(15) infinite;
-    animation-play-state:paused;
-}
-.g0b2-C12:hover {
-    animation-play-state:running;
-}
-.g0b2-C12:hover ~ .descAni:before {content: "⏸️";} 
-
-.g0b2-C17-10 {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../images/frontsphere50.svg"), url("immersed/g0b2-C17-10-spr.gif"), url("../images/backsphere50.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    animation: C17F10 0.4s steps(10) infinite;
-    animation-play-state:paused;
-}
-.g0b2-C17-10:hover {
-    animation-play-state:running;
-}
-.g0b2-C17-10:hover ~ .descAni:before {content: "⏸️";} 
-
-.g0b2-C17-11 {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../images/frontsphere50.svg"), url("immersed/g0b2-C17-11-spr.gif"), url("../images/backsphere50.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    animation: C17F10 0.4s steps(10) infinite;
-    animation-play-state:paused;
-}
-.g0b2-C17-11:hover {
-    animation-play-state:running;
-}
-.g0b2-C17-11:hover ~ .descAni:before {content: "⏸️";}
-
-</style>
+<link href="../mbs.css" rel="stylesheet" type="text/css"/>
+<link href="immersed/immersed.css" rel="stylesheet" type="text/css"/> 
 </head>
 <link rel="icon" href="../images/pmhgm.png">
 
@@ -167,54 +54,129 @@ preprint (<a href="https://arxiv.org/abs/2208.14998" target="_blank">arXiv:2208.
 preprint (<a href="https://arxiv.org/abs/2212.09680" target="_blank">arXiv:2212.09680</a>).</li>
 </ul>
 
+
+
+<div class="responsive">
+<div class="gallery">
+    <input type="radio" id="g0b2-P5-pause" name="g0b2-P5-toggle"/>
+    <label for="g0b2-P5-pause" class="playpause"></label>
+    <input type="radio" id="g0b2-P5-play" name="g0b2-P5-toggle" class="play"/>
+    <label for="g0b2-P5-play" class="playpause"></label>
+    <div class="g0b2-P5"></div>
+    <div class="descPlayStop">
+        <input type="radio" id="g0b2-P5-stop" name="g0b2-P5-toggle"/>
+        <label for="g0b2-P5-stop" class="stop"></label>
+        prismatic symmetry of order 20
+    </div>
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+    <input type="radio" id="g0b2-P7-pause" name="g0b2-P7-toggle"/>
+    <label for="g0b2-P7-pause" class="playpause"></label>
+    <input type="radio" id="g0b2-P7-play" name="g0b2-P7-toggle" class="play"/>
+    <label for="g0b2-P7-play" class="playpause"></label>
+    <div class="g0b2-P7"></div>
+    <div class="descPlayStop">
+        <input type="radio" id="g0b2-P7-stop" name="g0b2-P7-toggle"/>
+        <label for="g0b2-P7-stop" class="stop"></label>
+        prismatic symmetry of order 28
+    </div>
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+    <input type="radio" id="g0b2-P8-pause" name="g0b2-P8-toggle"/>
+    <label for="g0b2-P8-pause" class="playpause"></label>
+    <input type="radio" id="g0b2-P8-play" name="g0b2-P8-toggle" class="play"/>
+    <label for="g0b2-P8-play" class="playpause"></label>
+    <div class="g0b2-P8"></div>
+    <div class="descPlayStop">
+        <input type="radio" id="g0b2-P8-stop" name="g0b2-P8-toggle"/>
+        <label for="g0b2-P8-stop" class="stop"></label>
+        prismatic symmetry of order 32
+    </div>
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+    <input type="radio" id="g0b2-P9-pause" name="g0b2-P9-toggle"/>
+    <label for="g0b2-P9-pause" class="playpause"></label>
+    <input type="radio" id="g0b2-P9-play" name="g0b2-P9-toggle" class="play"/>
+    <label for="g0b2-P9-play" class="playpause"></label>
+    <div class="g0b2-P9"></div>
+    <div class="descPlayStop">
+        <input type="radio" id="g0b2-P9-stop" name="g0b2-P9-toggle"/>
+        <label for="g0b2-P9-stop" class="stop"></label>
+        prismatic symmetry of order 36
+    </div>
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+    <input type="radio" id="g0b2-P11-pause" name="g0b2-P11-toggle"/>
+    <label for="g0b2-P11-pause" class="playpause"></label>
+    <input type="radio" id="g0b2-P11-play" name="g0b2-P11-toggle" class="play"/>
+    <label for="g0b2-P11-play" class="playpause"></label>
+    <div class="g0b2-P11"></div>
+    <div class="descPlayStop">
+        <input type="radio" id="g0b2-P11-stop" name="g0b2-P11-toggle"/>
+        <label for="g0b2-P11-stop" class="stop"></label>
+        prismatic symmetry of order 44
+    </div>
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+    <input type="radio" id="g0b2-P12-pause" name="g0b2-P12-toggle"/>
+    <label for="g0b2-P12-pause" class="playpause"></label>
+    <input type="radio" id="g0b2-P12-play" name="g0b2-P12-toggle" class="play"/>
+    <label for="g0b2-P12-play" class="playpause"></label>
+    <div class="g0b2-P12"></div>
+    <div class="descPlayStop">
+        <input type="radio" id="g0b2-P12-stop" name="g0b2-P12-toggle"/>
+        <label for="g0b2-P12-stop" class="stop"></label>
+        prismatic symmetry of order 48
+    </div>
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+    <input type="radio" id="g0b2-P17-10-pause" name="g0b2-P17-10-toggle"/>
+    <label for="g0b2-P17-10-pause" class="playpause"></label>
+    <input type="radio" id="g0b2-P17-10-play" name="g0b2-P17-10-toggle" class="play"/>
+    <label for="g0b2-P17-10-play" class="playpause"></label>
+    <div class="g0b2-P17-10"></div>
+    <div class="descPlayStop">
+        <input type="radio" id="g0b2-P17-10-stop" name="g0b2-P17-10-toggle"/>
+        <label for="g0b2-P17-10-stop" class="stop"></label>
+        prismatic symmetry of order 68
+    </div>
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+    <input type="radio" id="g0b2-P17-11-pause" name="g0b2-P17-11-toggle"/>
+    <label for="g0b2-P17-11-pause" class="playpause"></label>
+    <input type="radio" id="g0b2-P17-11-play" name="g0b2-P17-11-toggle" class="play"/>
+    <label for="g0b2-P17-11-play" class="playpause"></label>
+    <div class="g0b2-P17-11"></div>
+    <div class="descPlayStop">
+        <input type="radio" id="g0b2-P17-11-stop" name="g0b2-P17-11-toggle"/>
+        <label for="g0b2-P17-11-stop" class="stop"></label>
+        prismatic symmetry of order 68
+    </div>
+</div>
+</div>
+
  
-<div class="responsive">
-    <div class="gallery">
-        <div class="g0b2-C5"></div><div class="descAni">prismatic symmetry of order 20</div>
-    </div>
-</div> 
- 
-<div class="responsive">
-    <div class="gallery">
-        <div class="g0b2-C7"></div><div class="descAni">prismatic symmetry of order 28</div>
-    </div>
-</div>
-
-<div class="responsive">
-    <div class="gallery">
-        <div class="g0b2-C8"></div><div class="descAni">prismatic symmetry of order 32</div>
-    </div>
-</div>
-
-<div class="responsive">
-    <div class="gallery">
-        <div class="g0b2-C9"></div><div class="descAni">prismatic symmetry of order 36</div>
-    </div>
-</div>
-
-<div class="responsive">
-    <div class="gallery">
-        <div class="g0b2-C11"></div><div class="descAni">prismatic symmetry of order 44</div>
-    </div>
-</div>
-
-<div class="responsive">
-    <div class="gallery">
-        <div class="g0b2-C12"></div><div class="descAni">prismatic symmetry of order 48</div>
-    </div>
-</div>
-
-<div class="responsive">
-    <div class="gallery">
-        <div class="g0b2-C17-10"></div><div class="descAni">prismatic symmetry of order 68</div>
-    </div>
-</div>
-
-<div class="responsive">
-    <div class="gallery">
-        <div class="g0b2-C17-11"></div><div class="descAni">prismatic symmetry of order 68</div>
-    </div>
-</div>
  
 <div class="clearfix"></div>
 

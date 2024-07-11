@@ -1,0 +1,117 @@
+/* start from frame f=7. backgroundpos= 100*f/(n-1). delay=-0.7-1.4 */  
+.solC-ellipsoid {
+	width: 100%;
+	padding-top: 200%;
+	background-image: url("solC-ellipsoid-2.svg"), url("solC-spr.png"), url("solC-ellipsoid-1.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: 0%  53.846153846%, 0  53.846153846%, 0  53.846153846%;  	
+}
+#solC-ellipsoid-play:checked ~ .solC-ellipsoid {
+	background-image: url("solC-ellipsoid-2.svg"), url("solC-spr.png"), url("solC-ellipsoid-1.svg");
+	animation: F14 1.4s steps(14) infinite alternate;
+	animation-delay: -2.1s;	
+}
+#solC-ellipsoid-pause:checked ~ .solC-ellipsoid {
+	background-image: url("solC-ellipsoid-2.svg"), url("solC-spr.png"), url("solC-ellipsoid-1.svg");
+	animation: F14 1.4s steps(14) infinite alternate;
+	animation-play-state:paused;
+	animation-delay: -2.1s;	
+}  
+ 
+.solS-ellipsoid {
+	width: 100%;
+	padding-top: 200%;
+	background-image: url("solS-ellipsoid-2.svg"), url("solS-spr.png"), url("solS-ellipsoid-1.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: 0%  23.076923%, 0  23.076923%, 0  23.076923%;  
+}
+#solS-ellipsoid-play:checked ~ .solS-ellipsoid {
+	background-image: url("solS-ellipsoid-2.svg"), url("solS-spr.png"), url("solS-ellipsoid-1.svg");
+	animation: F14 1.4s steps(14) infinite alternate;
+	animation-delay: -2.5s;	
+}
+#solS-ellipsoid-pause:checked ~ .solS-ellipsoid {
+	background-image: url("solS-ellipsoid-2.svg"), url("solS-spr.png"), url("solS-ellipsoid-1.svg");
+	animation: F14 1.4s steps(14) infinite alternate;
+	animation-play-state:paused;
+	animation-delay: -2.5s;	
+}    
+
+.solU-ellipsoid {
+	width: 100%;
+	padding-top: 200%;
+	background-image: url("solU-ellipsoid-2.svg"), url("solU-spr.png"), url("solU-ellipsoid-1.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#solU-ellipsoid-play:checked ~ .solU-ellipsoid {
+	background-image: url("solU-ellipsoid-2.svg"), url("solU-spr.png"), url("solU-ellipsoid-1.svg");
+	animation: F20 1.4s steps(20) infinite alternate;
+}
+#solU-ellipsoid-pause:checked ~ .solU-ellipsoid {
+	background-image: url("solU-ellipsoid-2.svg"), url("solU-spr.png"), url("solU-ellipsoid-1.svg");
+	animation: F20 1.4s steps(20) infinite alternate;
+	animation-play-state:paused;
+}
+
+.solA1-ellipsoid {
+	width: 100%;
+	padding-top: 150%;
+	background-image: url("solA-ellipsoid-2.svg"), url("solA1-spr.png"), url("solA-ellipsoid-1.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: 0%  53.846153846%, 0  53.846153846%, 0  53.846153846%;  	
+}
+#solA1-ellipsoid-play:checked ~ .solA1-ellipsoid {
+	background-image: url("solA-ellipsoid-2.svg"), url("solA1-spr.png"), url("solA-ellipsoid-1.svg");
+	animation: F14 1.4s steps(14) infinite alternate;
+	animation-delay: -2.1s;	
+}
+#solA1-ellipsoid-pause:checked ~ .solA1-ellipsoid {
+	background-image: url("solA-ellipsoid-2.svg"), url("solA1-spr.png"), url("solA-ellipsoid-1.svg");
+	animation: F14 1.4s steps(14) infinite alternate;
+	animation-play-state:paused;
+	animation-delay: -2.1s;	
+} 
+
+.solA2-ellipsoid {
+	width: 100%;
+	padding-top: 150%;
+	background-image: url("solA-ellipsoid-2.svg"), url("solA2-spr.png"), url("solA-ellipsoid-1.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: 0%  53.846153846%, 0  53.846153846%, 0  53.846153846%;  	
+}
+#solA2-ellipsoid-play:checked ~ .solA2-ellipsoid {
+	background-image: url("solA-ellipsoid-2.svg"), url("solA2-spr.png"), url("solA-ellipsoid-1.svg");
+	animation: F14 1.4s steps(14) infinite alternate;
+	animation-delay: -2.1s;	
+}
+#solA2-ellipsoid-pause:checked ~ .solA2-ellipsoid {
+	background-image: url("solA-ellipsoid-2.svg"), url("solA2-spr.png"), url("solA-ellipsoid-1.svg");
+	animation: F14 1.4s steps(14) infinite alternate;
+	animation-play-state:paused;
+	animation-delay: -2.1s;	
+} 
+
+.solA3-ellipsoid {
+	width: 100%;
+	padding-top: 150%;
+	background-image: url("solA-ellipsoid-2.svg"), url("solA3-spr.png"), url("solA-ellipsoid-1.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: 0%  53.846153846%, 0  53.846153846%, 0  53.846153846%;  	
+}
+#solA3-ellipsoid-play:checked ~ .solA3-ellipsoid {
+	background-image: url("solA-ellipsoid-2.svg"), url("solA3-spr.png"), url("solA-ellipsoid-1.svg");
+	animation: F14 1.4s steps(14) infinite alternate;
+	animation-delay: -2.1s;	
+}
+#solA3-ellipsoid-pause:checked ~ .solA3-ellipsoid {
+	background-image: url("solA-ellipsoid-2.svg"), url("solA3-spr.png"), url("solA-ellipsoid-1.svg");
+	animation: F14 1.4s steps(14) infinite alternate;
+	animation-play-state:paused;
+	animation-delay: -2.1s;	
+} 

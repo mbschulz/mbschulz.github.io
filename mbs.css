@@ -222,7 +222,28 @@ label[class="stop"]:hover {
   margin-right: -0.15em;
 }
 
+.reference-list {
+    list-style-type: none;
+    counter-reset: reference-counter;
+    padding-left: 1em;		
+    }
+.reference-list li {
+    margin: 5px 0;
+}	
+.reference-list li::before {
+    content: '[' counter(reference-counter) '] ';
+    counter-increment: reference-counter;
+	padding-right: .5em; 
+}    
  
+ 
+.publication-list {
+    }
+.publication-list li {
+    margin: 14px 0;
+}	 
+  
+
 
 
 /* preload some images   
@@ -239,7 +260,7 @@ body:after{
 */ 
 
 
-/* animation types with sphere grid*/ 
+/* animation types with static sphere grid*/ 
 @keyframes C2F90 {
   from { background-position: 0px 0px, 0px 0px, 0px 0px; }
   to { background-position: 0px 0px, 0px 101.1235955056%, 0px 0px; }	
@@ -370,3 +391,13 @@ body:after{
   from { background-position-y: 0px; }
   to { background-position-y: 101.1235955056%; }	
 } 
+
+/* animation types with dynamic sphere grid*/ 
+@keyframes F14 {
+  from { background-position: 0px 0px, 0px 0px, 0px 0px; }
+  to { background-position: 0px 107.6923%, 0px 107.6923%, 0px 107.6923%; }	
+}  
+@keyframes F20 {
+  from { background-position: 0px 0px, 0px 0px, 0px 0px; }
+  to { background-position: 0px 105.2631578947%, 0px 105.2631578947%, 0px 105.2631578947%; }	
+}  

@@ -1,4 +1,3 @@
-/* start from frame f=7. backgroundpos= 100*f/(n-1). delay=-0.7-1.4 */  
 .solC-ellipsoid {
 	width: 100%;
 	padding-top: 200%;
@@ -115,3 +114,166 @@
 	animation-play-state:paused;
 	animation-delay: -2.1s;	
 } 
+
+/* start from frame f=5 counting from zero. backgroundpos= 100*f/(n-1). delay=(f-2n+1)/(n-1)*gesamtzeit */  
+.N1N-ellipsoid {
+	width: 100%;
+	padding-top: 66%;
+	background-image: url("N1N-ellipsoid-2.svg"), url("N1N-spr.png"), url("N1N-ellipsoid-1.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;	
+}
+#N1N-ellipsoid-play:checked ~ .N1N-ellipsoid {
+	background-image: url("N1N-ellipsoid-2.svg"), url("N1N-spr.png"), url("N1N-ellipsoid-1.svg");
+	animation: F35 3s steps(35) infinite alternate;
+}
+#N1N-ellipsoid-pause:checked ~ .N1N-ellipsoid {
+	background-image: url("N1N-ellipsoid-2.svg"), url("N1N-spr.png"), url("N1N-ellipsoid-1.svg");
+	animation: F35 3s steps(35) infinite alternate;
+	animation-play-state:paused;
+}  
+
+.D1D-ellipsoid {
+	width: 100%;
+	padding-top: 66%;
+	background-image: url("D1D-ellipsoid-2.svg"), url("D1D-spr.png"), url("D1D-ellipsoid-1.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;	
+	background-position: 0%  13.158%, 0%  13.158%, 0%  13.158%;
+}
+#D1D-ellipsoid-play:checked ~ .D1D-ellipsoid {
+	background-image: url("D1D-ellipsoid-2.svg"), url("D1D-spr.png"), url("D1D-ellipsoid-1.svg");
+	animation: F39 3s steps(39) infinite alternate;
+	animation-delay: -5.68421s;
+}
+#D1D-ellipsoid-pause:checked ~ .D1D-ellipsoid {
+	background-image: url("D1D-ellipsoid-2.svg"), url("D1D-spr.png"), url("D1D-ellipsoid-1.svg");
+	animation: F39 3s steps(39) infinite alternate;
+	animation-play-state:paused;
+	animation-delay: -5.68421s;
+} 
+
+
+.D2N-ellipsoid {
+	width: 100%;
+	padding-top: 66%;
+	background-image: url("D2N-ellipsoid-2.svg"), url("D2N-spr.png"), url("D2N-ellipsoid-1.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;	
+	background-position: 0%  17.857%, 0%  17.857%, 0%  17.857%;
+}
+#D2N-ellipsoid-play:checked ~ .D2N-ellipsoid {
+	background-image: url("D2N-ellipsoid-2.svg"), url("D2N-spr.png"), url("D2N-ellipsoid-1.svg");
+	animation: F29 3s steps(29) infinite alternate;
+	animation-delay: -5.57s;
+}
+#D2N-ellipsoid-pause:checked ~ .D2N-ellipsoid {
+	background-image: url("D2N-ellipsoid-2.svg"), url("D2N-spr.png"), url("D2N-ellipsoid-1.svg");
+	animation: F29 3s steps(29) infinite alternate;
+	animation-play-state:paused;
+	animation-delay: -5.57s;
+}  
+
+.N2D-ellipsoid {
+	width: 100%;
+	padding-top: 66%;
+	background-image: url("D2N-ellipsoid-2.svg"), url("N2D-spr.png"), url("D2N-ellipsoid-1.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;	
+	background-position: 0%  17.857%, 0%  17.857%, 0%  17.857%;
+}
+#N2D-ellipsoid-play:checked ~ .N2D-ellipsoid {
+	background-image: url("D2N-ellipsoid-2.svg"), url("N2D-spr.png"), url("D2N-ellipsoid-1.svg");
+	animation: F29 3s steps(29) infinite alternate;
+	animation-delay: -5.57s;
+}
+#N2D-ellipsoid-pause:checked ~ .N2D-ellipsoid {
+	background-image: url("D2N-ellipsoid-2.svg"), url("N2D-spr.png"), url("D2N-ellipsoid-1.svg");
+	animation: F29 3s steps(29) infinite alternate;
+	animation-play-state:paused;
+	animation-delay: -5.57s;
+} 
+ 
+.D2D-ellipsoid {
+	width: 100%;
+	padding-top: 66%;
+	background-image: url("D2D-ellipsoid-2.svg"), url("D2D-spr.png"), url("D2D-ellipsoid-1.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;	
+	background-position: 0%  25%, 0%  25%, 0%  25%;
+}
+#D2D-ellipsoid-play:checked ~ .D2D-ellipsoid {
+	background-image: url("D2D-ellipsoid-2.svg"), url("D2D-spr.png"), url("D2D-ellipsoid-1.svg");
+	animation: F21 2s steps(21) infinite alternate;
+	animation-delay: -3.6s;
+}
+#D2D-ellipsoid-pause:checked ~ .D2D-ellipsoid {
+	background-image: url("D2D-ellipsoid-2.svg"), url("D2D-spr.png"), url("D2D-ellipsoid-1.svg");
+	animation: F21 2s steps(21) infinite alternate;
+	animation-play-state:paused;
+	animation-delay: -3.6s;
+}  
+ 
+ 
+.N2N-ellipsoid {
+	width: 100%;
+	padding-top: 66%;
+	background-image: url("D2D-ellipsoid-2.svg"), url("N2N-spr.png"), url("D2D-ellipsoid-1.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: 0%  25%, 0%  25%, 0%  25%;  	
+}
+#N2N-ellipsoid-play:checked ~ .N2N-ellipsoid {
+	background-image: url("D2D-ellipsoid-2.svg"), url("N2N-spr.png"), url("D2D-ellipsoid-1.svg");
+	animation: F21 2s steps(21) infinite alternate;
+	animation-delay: -3.6s;	
+}
+#N2N-ellipsoid-pause:checked ~ .N2N-ellipsoid {
+	background-image: url("D2D-ellipsoid-2.svg"), url("N2N-spr.png"), url("D2D-ellipsoid-1.svg");
+	animation: F21 2s steps(21) infinite alternate;
+	animation-play-state:paused;
+	animation-delay: -3.6s;	
+}  
+
+.D3N-ellipsoid {
+	width: 100%;
+	padding-top: 66%;
+	background-image: url("D3N-ellipsoid-2.svg"), url("D3N-spr.png"), url("D3N-ellipsoid-1.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;	
+	background-position: 0%  35.714%, 0%  35.714%, 0%  35.714%;
+}
+#D3N-ellipsoid-play:checked ~ .D3N-ellipsoid {
+	background-image: url("D3N-ellipsoid-2.svg"), url("D3N-spr.png"), url("D3N-ellipsoid-1.svg");
+	animation: F15 1.5s steps(15) infinite alternate;
+	animation-delay: -2.57s;
+}
+#D3N-ellipsoid-pause:checked ~ .D3N-ellipsoid {
+	background-image: url("D3N-ellipsoid-2.svg"), url("D3N-spr.png"), url("D3N-ellipsoid-1.svg");
+	animation: F15 1.5s steps(15) infinite alternate;
+	animation-play-state:paused;
+	animation-delay: -2.57s;
+}
+
+.N3D-ellipsoid {
+	width: 100%;
+	padding-top: 66%;
+	background-image: url("D3N-ellipsoid-2.svg"), url("N3D-spr.png"), url("D3N-ellipsoid-1.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;	
+	background-position: 0%  35.714%, 0%  35.714%, 0%  35.714%;
+}
+#N3D-ellipsoid-play:checked ~ .N3D-ellipsoid {
+	background-image: url("D3N-ellipsoid-2.svg"), url("N3D-spr.png"), url("D3N-ellipsoid-1.svg");
+	animation: F15 1.5s steps(15) infinite alternate;
+	animation-delay: -2.57s;
+}
+#N3D-ellipsoid-pause:checked ~ .N3D-ellipsoid {
+	background-image: url("D3N-ellipsoid-2.svg"), url("N3D-spr.png"), url("D3N-ellipsoid-1.svg");
+	animation: F15 1.5s steps(15) infinite alternate;
+	animation-play-state:paused;
+	animation-delay: -2.57s;
+}
+
+
+

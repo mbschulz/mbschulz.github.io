@@ -393,11 +393,42 @@ body:after{
 } 
 
 /* animation types with dynamic sphere grid*/ 
+@keyframes F11 {
+  from { background-position: 0px 0px, 0px 0px, 0px 0px; }
+  to { background-position: 0px 110%, 0px 110%, 0px 110%; }	
+}  
 @keyframes F14 {
   from { background-position: 0px 0px, 0px 0px, 0px 0px; }
   to { background-position: 0px 107.6923%, 0px 107.6923%, 0px 107.6923%; }	
+}  
+@keyframes F15 {
+  from { background-position: 0px 0px, 0px 0px, 0px 0px; }
+  to { background-position: 0px 107.142857%, 0px 107.142857%, 0px 107.142857%; }	
 }  
 @keyframes F20 {
   from { background-position: 0px 0px, 0px 0px, 0px 0px; }
   to { background-position: 0px 105.2631578947%, 0px 105.2631578947%, 0px 105.2631578947%; }	
 }  
+@keyframes F21 {
+  from { background-position: 0px 0px, 0px 0px, 0px 0px; }
+  to { background-position: 0px 105%, 0px 105%, 0px 105%; }	
+}  
+@keyframes F29 {
+  from { background-position: 0px 0px, 0px 0px, 0px 0px; }
+  to { background-position: 0px 103.5714%, 0px 103.5714%, 0px 103.5714%; }	
+} 
+@keyframes F30 {
+  from { background-position: 0px 0px, 0px 0px, 0px 0px; }
+  to { background-position: 0px 103.448%, 0px 103.448%, 0px 103.448%; }	
+}  
+@keyframes F35 {
+  from { background-position: 0px 0px, 0px 0px, 0px 0px; }
+  to { background-position: 0px 102.941%, 0px 102.941%, 0px 102.941%; }	
+} 
+@keyframes F39 {
+  from { background-position: 0px 0px, 0px 0px, 0px 0px; }
+  to { background-position: 0px 102.63%, 0px 102.63%, 0px 102.63%; }	
+} 
+
+
+

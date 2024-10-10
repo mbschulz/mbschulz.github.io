@@ -1,0 +1,286 @@
+.twist1 {
+	width: 100%;
+	padding-top: 85%;
+	background-image: url("../../images/fronttorus.svg"), url("twist1-thumb.png"), url("../../images/backtorus.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#twist1-play:checked ~ .twist1 {
+	background-image: url("../../images/fronttorus.svg"), url("twist1-spr.png"), url("../../images/backtorus.svg");
+    background-size: 100%, 200%, 100%;	
+    animation: C1F180y 3.0s steps(90) infinite, 
+	           C1F180x 6.0s steps(2) infinite;
+}
+#twist1-pause:checked ~ .twist1 {
+	background-image: url("../../images/fronttorus.svg"), url("twist1-spr.png"), url("../../images/backtorus.svg");
+    background-size: 100%, 200%, 100%;	
+    animation: C1F180y 3.0s steps(90) infinite, 
+	           C1F180x 6.0s steps(2) infinite;
+	animation-play-state:paused;
+}
+
+.twist2 {
+	width: 100%;
+	padding-top: 85%;
+	background-image: url("../../images/fronttorus.svg"), url("twist2-thumb.png"), url("../../images/backtorus.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#twist2-play:checked ~ .twist2 {
+	background-image: url("../../images/fronttorus.svg"), url("twist2-spr.png"), url("../../images/backtorus.svg");
+    background-size: 100%, 200%, 100%;	
+    animation: C1F180y 3.0s steps(90) infinite, 
+	           C1F180x 6.0s steps(2) infinite;
+}
+#twist2-pause:checked ~ .twist2 {
+	background-image: url("../../images/fronttorus.svg"), url("twist2-spr.png"), url("../../images/backtorus.svg");
+    background-size: 100%, 200%, 100%;	
+    animation: C1F180y 3.0s steps(90) infinite, 
+	           C1F180x 6.0s steps(2) infinite;
+	animation-play-state:paused;
+}
+
+.twist3 {
+	width: 100%;
+	padding-top: 85%;
+	background-image: url("../../images/fronttorus.svg"), url("twist3-thumb.png"), url("../../images/backtorus.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#twist3-play:checked ~ .twist3 {
+	background-image: url("../../images/fronttorus.svg"), url("twist3-spr.png"), url("../../images/backtorus.svg");
+	animation: C3F60 2.0s steps(60) infinite;
+}
+#twist3-pause:checked ~ .twist3 {
+	background-image: url("../../images/fronttorus.svg"), url("twist3-spr.png"), url("../../images/backtorus.svg");
+	animation: C3F60 2.0s steps(60) infinite;
+	animation-play-state:paused;
+} 
+
+.twist4 {
+	width: 100%;
+	padding-top: 85%;
+	background-image: url("../../images/fronttorus.svg"), url("twist4-thumb.png"), url("../../images/backtorus.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#twist4-play:checked ~ .twist4 {
+	background-image: url("../../images/fronttorus.svg"), url("twist4-spr.png"), url("../../images/backtorus.svg");
+	animation: C2F90 3s steps(90) infinite;
+}
+#twist4-pause:checked ~ .twist4 {
+	background-image: url("../../images/fronttorus.svg"), url("twist4-spr.png"), url("../../images/backtorus.svg");
+	animation: C2F90 3s steps(90) infinite;
+	animation-play-state:paused;
+}
+
+.twist5 {
+	width: 100%;
+	padding-top: 85%;
+	background-image: url("../../images/fronttorus.svg"), url("twist5-thumb.png"), url("../../images/backtorus.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#twist5-play:checked ~ .twist5 {
+	background-image: url("../../images/fronttorus.svg"), url("twist5-spr.png"), url("../../images/backtorus.svg");
+	animation: C5F36 1.2s steps(36) infinite;
+}
+#twist5-pause:checked ~ .twist5 {
+	background-image: url("../../images/fronttorus.svg"), url("twist5-spr.png"), url("../../images/backtorus.svg");
+	animation: C5F36 1.2s steps(36) infinite;
+	animation-play-state:paused;
+}
+
+.twist8 {
+	width: 100%;
+	padding-top: 85%;
+	background-image: url("../../images/fronttorus.svg"), url("twist8-thumb.png"), url("../../images/backtorus.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#twist8-play:checked ~ .twist8 {
+	background-image: url("../../images/fronttorus.svg"), url("twist8-spr.png"), url("../../images/backtorus.svg");
+	animation: C4F45 1.5s steps(45) infinite;
+}
+#twist8-pause:checked ~ .twist8 {
+	background-image: url("../../images/fronttorus.svg"), url("twist8-spr.png"), url("../../images/backtorus.svg");
+	animation: C4F45 1.5s steps(45) infinite;
+	animation-play-state:paused;
+}
+
+.twist15 {
+	width: 100%;
+	padding-top: 85%;
+	background-image: url("../../images/fronttorus.svg"), url("twist15-thumb.png"), url("../../images/backtorus.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#twist15-play:checked ~ .twist15 {
+	background-image: url("../../images/fronttorus.svg"), url("twist15-spr.png"), url("../../images/backtorus.svg");
+	animation: C15F12 0.53s steps(12) infinite;
+}
+#twist15-pause:checked ~ .twist15 {
+	background-image: url("../../images/fronttorus.svg"), url("twist15-spr.png"), url("../../images/backtorus.svg");
+	animation: C15F12 0.53s steps(12) infinite;
+	animation-play-state:paused;
+}
+
+.twist22 {
+	width: 100%;
+	padding-top: 85%;
+	background-image: url("../../images/fronttorus.svg"), url("twist22-thumb.png"), url("../../images/backtorus.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#twist22-play:checked ~ .twist22 {
+	background-image: url("../../images/fronttorus.svg"), url("twist22-spr.png"), url("../../images/backtorus.svg");
+	animation: C11F16 0.6s steps(16) infinite;
+}
+#twist22-pause:checked ~ .twist22 {
+	background-image: url("../../images/fronttorus.svg"), url("twist22-spr.png"), url("../../images/backtorus.svg");
+	animation: C11F16 0.6s steps(16) infinite;
+	animation-play-state:paused;
+}
+
+
+
+
+ 
+
+.twist1b {
+	width: 100%;
+	padding-top: 85%;
+	background-image: url("../../images/fronttorus.svg"), url("twist1b-thumb.png"), url("../../images/backtorus.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#twist1b-play:checked ~ .twist1b {
+	background-image: url("../../images/fronttorus.svg"), url("twist1b-spr.png"), url("../../images/backtorus.svg");
+    background-size: 100%, 200%, 100%;	
+    animation: C1F180y 3.0s steps(90) infinite, 
+	           C1F180x 6.0s steps(2) infinite;
+}
+#twist1b-pause:checked ~ .twist1b {
+	background-image: url("../../images/fronttorus.svg"), url("twist1b-spr.png"), url("../../images/backtorus.svg");
+    background-size: 100%, 200%, 100%;	
+    animation: C1F180y 3.0s steps(90) infinite, 
+	           C1F180x 6.0s steps(2) infinite;
+	animation-play-state:paused;
+}
+
+.twist1c {
+	width: 100%;
+	padding-top: 85%;
+	background-image: url("../../images/fronttorus.svg"), url("twist1c-thumb.png"), url("../../images/backtorus.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#twist1c-play:checked ~ .twist1c {
+	background-image: url("../../images/fronttorus.svg"), url("twist1c-spr.png"), url("../../images/backtorus.svg");
+    background-size: 100%, 200%, 100%;	
+    animation: C1F180y 3.0s steps(90) infinite, 
+	           C1F180x 6.0s steps(2) infinite;
+}
+#twist1c-pause:checked ~ .twist1c {
+	background-image: url("../../images/fronttorus.svg"), url("twist1c-spr.png"), url("../../images/backtorus.svg");
+    background-size: 100%, 200%, 100%;	
+    animation: C1F180y 3.0s steps(90) infinite, 
+	           C1F180x 6.0s steps(2) infinite;
+	animation-play-state:paused;
+}
+
+.twist1d {
+	width: 100%;
+	padding-top: 85%;
+	background-image: url("../../images/fronttorus.svg"), url("twist1d-thumb.png"), url("../../images/backtorus.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#twist1d-play:checked ~ .twist1d {
+	background-image: url("../../images/fronttorus.svg"), url("twist1d-spr.png"), url("../../images/backtorus.svg");
+    background-size: 100%, 200%, 100%;	
+    animation: C1F180y 3.0s steps(90) infinite, 
+	           C1F180x 6.0s steps(2) infinite;
+}
+#twist1d-pause:checked ~ .twist1d {
+	background-image: url("../../images/fronttorus.svg"), url("twist1d-spr.png"), url("../../images/backtorus.svg");
+    background-size: 100%, 200%, 100%;	
+    animation: C1F180y 3.0s steps(90) infinite, 
+	           C1F180x 6.0s steps(2) infinite;
+	animation-play-state:paused;
+}
+
+.twist3b {
+	width: 100%;
+	padding-top: 85%;
+	background-image: url("../../images/fronttorus.svg"), url("twist3b-thumb.png"), url("../../images/backtorus.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#twist3b-play:checked ~ .twist3b {
+	background-image: url("../../images/fronttorus.svg"), url("twist3b-spr.png"), url("../../images/backtorus.svg");
+	animation: C3F60 2.0s steps(60) infinite;
+}
+#twist3b-pause:checked ~ .twist3b {
+	background-image: url("../../images/fronttorus.svg"), url("twist3b-spr.png"), url("../../images/backtorus.svg");
+	animation: C3F60 2.0s steps(60) infinite;
+	animation-play-state:paused;
+}
+
+.twist2b {
+	width: 100%;
+	padding-top: 85%;
+	background-image: url("../../images/fronttorus.svg"), url("twist2b-thumb.png"), url("../../images/backtorus.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#twist2b-play:checked ~ .twist2b {
+	background-image: url("../../images/fronttorus.svg"), url("twist2b-spr.png"), url("../../images/backtorus.svg");
+    background-size: 100%, 200%, 100%;	
+    animation: C1F180y 3.0s steps(90) infinite, 
+	           C1F180x 6.0s steps(2) infinite;
+}
+#twist2b-pause:checked ~ .twist2b {
+	background-image: url("../../images/fronttorus.svg"), url("twist2b-spr.png"), url("../../images/backtorus.svg");
+    background-size: 100%, 200%, 100%;	
+    animation: C1F180y 3.0s steps(90) infinite, 
+	           C1F180x 6.0s steps(2) infinite;
+	animation-play-state:paused;
+}
+
+.twist0b {
+	width: 100%;
+	padding-top: 85%;
+	background-image: url("../../images/fronttorus.svg"), url("twist0b-thumb.png"), url("../../images/backtorus.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#twist0b-play:checked ~ .twist0b {
+	background-image: url("../../images/fronttorus.svg"), url("twist0b-spr.png"), url("../../images/backtorus.svg");
+	animation: C8F22 0.8s steps(22) infinite;
+}
+#twist0b-pause:checked ~ .twist0b {
+	background-image: url("../../images/fronttorus.svg"), url("twist0b-spr.png"), url("../../images/backtorus.svg");
+	animation: C8F22 0.8s steps(22) infinite;
+	animation-play-state:paused;
+}
+
+.twist0c {
+	width: 100%;
+	padding-top: 85%;
+	background-image: url("../../images/fronttorus.svg"), url("twist0c-thumb.png"), url("../../images/backtorus.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#twist0c-play:checked ~ .twist0c {
+	background-image: url("../../images/fronttorus.svg"), url("twist0c-spr.png"), url("../../images/backtorus.svg");
+	animation: C5F36 1.2s steps(36) infinite;
+}
+#twist0c-pause:checked ~ .twist0c {
+	background-image: url("../../images/fronttorus.svg"), url("twist0c-spr.png"), url("../../images/backtorus.svg");
+	animation: C5F36 1.2s steps(36) infinite;
+	animation-play-state:paused;
+}
+
+
+

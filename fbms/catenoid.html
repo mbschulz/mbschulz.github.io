@@ -6,7 +6,8 @@
 <meta name="author" content="Mario B. Schulz"/>
 <meta name="keywords" content="Mario B. Schulz, free boundary, minimal surfaces, differential geometry"/>
 <meta name="description" content="free boundary minimal surfaces"/>
-<link href="../mbs.css" rel="stylesheet" type="text/css" />
+<link href="../mbs.css" rel="stylesheet" type="text/css"/>
+<link href="Morse_index/Morse_index.css" rel="stylesheet" type="text/css"/> 
 </head>
 <link rel="icon" href="../images/pmhgm.png">
 
@@ -36,6 +37,13 @@
 
 <div class="content">
 <h2>The critical catenoid has Morse index equal to 4.</h2>
+
+<p>
+Minimal surfaces are critical points of the area functional, meaning that deformations do not decrease their area to first order. 
+A minimal surface is considered unstable if certain deformations can decrease its area to second order. 
+The Morse index quantifies the number of such deformations, making it a measure for the instability of a minimal surface. 
+</p>
+
 <h3>References</h3> 
 <ul>
 <li style="margin: 8px 0;">H. Tran, 
@@ -50,33 +58,69 @@ Geom. Dedicata 199 (2019), 355–371.</li>
 </ul> 
 
 <div class="responsive">
-    <div class="gallery">
-        <img src="catenoid-ev1.gif" alt="ev1"><div class="desc">first eigenvector</div>
-    </div>
+<div class="gallery">
+	<input type="radio" id="catenoid1-pause" name="catenoid1-toggle"/>
+	<label for="catenoid1-pause" class="playpause"></label>
+	<input type="radio" id="catenoid1-play" name="catenoid1-toggle" class="play" checked/>  <!-- checked to run animation  by default-->
+	<label for="catenoid1-play" class="playpause"></label>
+	<div class="catenoid1"></div>
+	<div class="descPlayStop">
+		<input type="radio" id="catenoid1-stop" name="catenoid1-toggle"/>
+		<label for="catenoid1-stop" class="stop"></label>
+		first deformation
+	</div>
+</div>
+</div>
+
+
+<div class="responsive">
+<div class="gallery">
+	<input type="radio" id="catenoid2-pause" name="catenoid2-toggle"/>
+	<label for="catenoid2-pause" class="playpause"></label>
+	<input type="radio" id="catenoid2-play" name="catenoid2-toggle" class="play" checked/>  <!-- checked to run animation  by default-->
+	<label for="catenoid2-play" class="playpause"></label>
+	<div class="catenoid2"></div>
+	<div class="descPlayStop">
+		<input type="radio" id="catenoid2-stop" name="catenoid2-toggle"/>
+		<label for="catenoid2-stop" class="stop"></label>
+		second deformation
+	</div>
+</div>
 </div>
 
 <div class="responsive">
-    <div class="gallery">
-        <img src="catenoid-ev2.gif" alt="ev2"><div class="desc">second eigenvector</div>
-    </div>
+<div class="gallery">
+	<input type="radio" id="catenoid3-pause" name="catenoid3-toggle"/>
+	<label for="catenoid3-pause" class="playpause"></label>
+	<input type="radio" id="catenoid3-play" name="catenoid3-toggle" class="play" checked/>  <!-- checked to run animation  by default-->
+	<label for="catenoid3-play" class="playpause"></label>
+	<div class="catenoid3"></div>
+	<div class="descPlayStop">
+		<input type="radio" id="catenoid3-stop" name="catenoid3-toggle"/>
+		<label for="catenoid3-stop" class="stop"></label>
+		third deformation
+	</div>
+</div>
 </div>
 
 <div class="responsive">
-    <div class="gallery">
-        <img src="catenoid-ev3.gif" alt="ev3"><div class="desc">third eigenvector</div>
-    </div>
+<div class="gallery">
+	<input type="radio" id="catenoid4-pause" name="catenoid4-toggle"/>
+	<label for="catenoid4-pause" class="playpause"></label>
+	<input type="radio" id="catenoid4-play" name="catenoid4-toggle" class="play" checked/>  <!-- checked to run animation  by default-->
+	<label for="catenoid4-play" class="playpause"></label>
+	<div class="catenoid4"></div>
+	<div class="descPlayStop">
+		<input type="radio" id="catenoid4-stop" name="catenoid4-toggle"/>
+		<label for="catenoid4-stop" class="stop"></label>
+		fourth deformation
+	</div>
 </div>
+</div>
+ 
 
-<div class="responsive">
-    <div class="gallery">
-        <img src="catenoid-ev4.gif" alt="ev4"><div class="desc">fourth eigenvector</div>
-    </div>
-</div>
 
 <div class="clearfix"></div>
-
-
- 
 
  
  

@@ -1,0 +1,68 @@
+.catenoid1 {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("catenoid1-spr.png"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#catenoid1-play:checked ~ .catenoid1 {
+	background-image: url("../../images/frontsphere.svg"), url("catenoid1-spr.png"), url("../../images/backsphere.svg");
+	animation: C12F15 1.25s steps(15) infinite alternate;
+}
+#catenoid1-pause:checked ~ .catenoid1 {
+	background-image: url("../../images/frontsphere.svg"), url("catenoid1-spr.png"), url("../../images/backsphere.svg");
+	animation: C12F15 1.25s steps(15) infinite alternate;
+	animation-play-state:paused;
+}
+
+.catenoid2 {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("catenoid2-spr.png"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#catenoid2-play:checked ~ .catenoid2 {
+	background-image: url("../../images/frontsphere.svg"), url("catenoid2-spr.png"), url("../../images/backsphere.svg");
+	animation: C12F15 1.25s steps(15) infinite alternate;
+}
+#catenoid2-pause:checked ~ .catenoid2 {
+	background-image: url("../../images/frontsphere.svg"), url("catenoid2-spr.png"), url("../../images/backsphere.svg");
+	animation: C12F15 1.25s steps(15) infinite alternate;
+	animation-play-state:paused;
+}
+
+.catenoid3 {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("catenoid3-spr.png"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#catenoid3-play:checked ~ .catenoid3 {
+	background-image: url("../../images/frontsphere.svg"), url("catenoid3-spr.png"), url("../../images/backsphere.svg");
+	animation: C12F15 1.25s steps(15) infinite alternate;
+}
+#catenoid3-pause:checked ~ .catenoid3 {
+	background-image: url("../../images/frontsphere.svg"), url("catenoid3-spr.png"), url("../../images/backsphere.svg");
+	animation: C12F15 1.25s steps(15) infinite alternate;
+	animation-play-state:paused;
+}
+
+.catenoid4 {
+	width: 100%;
+	padding-top: 100%;
+	background-image: url("../../images/frontsphere.svg"), url("catenoid4-spr.png"), url("../../images/backsphere.svg");
+	background-size: 100%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#catenoid4-play:checked ~ .catenoid4 {
+	background-image: url("../../images/frontsphere.svg"), url("catenoid4-spr.png"), url("../../images/backsphere.svg");
+	animation: C12F15 1.25s steps(15) infinite alternate;
+}
+#catenoid4-pause:checked ~ .catenoid4 {
+	background-image: url("../../images/frontsphere.svg"), url("catenoid4-spr.png"), url("../../images/backsphere.svg");
+	animation: C12F15 1.25s steps(15) infinite alternate;
+	animation-play-state:paused;
+}
+

@@ -99,28 +99,20 @@ div.gallery img {
   height: auto;
 }
 
-/* image description and media symbols */ 
+/*============================================*/ 
+/* plain image description: */ 
 div.desc {
   padding: 15px;
   text-align: center;
 }
-div.descAni {
-  padding: 15px;
-  text-align: center;
-}
-.descAni::before { 
-  content: "▶️";
-  color: gray;
-  display: inline-block;
-  width: 60px;
-  height: 20px;  
-  font-size: 20px;
-}
 
+/*============================================*/ 
+/* animation description with play-pause and stop button: */ 
 div.descPlayStop {
   padding: 15px;
   text-align: center;
 }
+
 .descPlayStop::before { 
   content: "▶️";
   color: gray;
@@ -129,27 +121,30 @@ div.descPlayStop {
   height: 20px;  
   font-size: 20px;
 }
+/* Mouse cursor changes to pointer for all labels: */
 label {
   cursor: pointer;
 }
+/* Hide input elements: */
 input {
 	display: none;
 } 
+
 label[class="playpause"] {
 	position: absolute;
     width: 100%;
     height: 100%;	
 }
-label[class="playpause"]:hover ~ .descPlayStop:before {
-	text-shadow: 0px 0px 15px DeepSkyBlue;
-} 
+/* Disable pointer events for checked radio buttons: */
 input[type="radio"]:checked + label{
 	pointer-events: none;
 }
-input[class="play"]:checked  ~ .descPlayStop:before {
+/* Changes the play icon to pause when the play button is checked: */
+input.play:checked ~ .descPlayStop::before {
 	content: "⏸️";
 }
-label[class="stop"] {
+/* Stop button styles: */
+label.stop {
 	position: relative;
 	display: inline-block;
     height: 20px;  
@@ -157,15 +152,18 @@ label[class="stop"] {
 	text-align: left;
     font-size: 20px;
 }
-label[class="stop"]::before {
+label.stop::before {
 	content: "⏹️"; 
 } 
-label[class="stop"]:hover {
-	text-shadow: 0px 0px 15px DeepSkyBlue; 
+/* Add hover effect on play/pause and stop buttons: */
+label.playpause:hover ~ .descPlayStop:before,
+label.stop:hover {
+  text-shadow: 0 0 15px DeepSkyBlue; 
 }
- 
 
 
+/*============================================*/ 
+/* Gallery responsive scaling: */
 * {
   box-sizing: border-box;
 }
@@ -244,7 +242,7 @@ label[class="stop"]:hover {
 }	 
   
 
-
+/*============================================*/ 
 
 /* preload some images   
 body:after{

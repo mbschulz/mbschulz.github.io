@@ -1,6 +1,6 @@
 .g1b1 {
-	width: 100%;
-	padding-top: 100%;
+	width: 100%;   /* Takes up full width of the parent */
+	padding-top: 100%;   /* Maintains a square aspect ratio */
 	background-image: url("../../images/frontsphere.svg"), url("g1b1-A2-thumb.png"), url("../../images/backsphere.svg");
 	background-size: 100%, 100%, 100%;
 	background-repeat: no-repeat, no-repeat, no-repeat;

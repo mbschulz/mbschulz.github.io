@@ -158,7 +158,7 @@ label.stop::before {
 /* Add hover effect on play/pause and stop buttons: */
 label.playpause:hover ~ .descPlayStop:before,
 label.stop:hover {
-  text-shadow: 0 0 15px DeepSkyBlue; 
+  text-shadow: 0 0 15px gray; 
 }
 
 

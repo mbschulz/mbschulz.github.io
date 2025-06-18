@@ -548,23 +548,22 @@
 
 .g0b61 {
 	width: 100%;
-	padding-top: 100%;
+	aspect-ratio: 1 / 1;
 	background-image: url("../../images/frontsphere.svg"), url("g0b61-C1-thumb.png"), url("../../images/backsphere.svg");
 	background-size: 100%, 100%, 100%;
-	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-repeat: no-repeat;
+	background-position: center;
 }
-#g0b61-play:checked ~ .g0b61 {
-	background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b61-C1-spr.png"), url("../../images/backsphere.svg");
-    background-size: 100%, 200%, 100%;	
-    animation: C1F180y 3.0s steps(90) infinite, 
-	           C1F180x 6.0s steps(2) infinite;
+#g0b61-play:checked ~ .g0b61,
+#g0b61-pause:checked ~ .g0b61 {
+	background-image: url("../../images/frontsphere.svg"), 
+    url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b61-C1-spr.png"), 
+    url("../../images/backsphere.svg");
+	background-size: 100%, 200%, 100%;
+	animation: C1F180y 3.0s steps(90) infinite, C1F180x 6.0s steps(2) infinite;
 }
 #g0b61-pause:checked ~ .g0b61 {
-	background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b61-C1-spr.png"), url("../../images/backsphere.svg");
-    background-size: 100%, 200%, 100%;	
-    animation: C1F180y 3.0s steps(90) infinite, 
-	           C1F180x 6.0s steps(2) infinite;
-	animation-play-state:paused;
+	animation-play-state: paused;
 }
 
 

@@ -23,11 +23,11 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b3-P3-play:checked ~ .g0b3-P3 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b3-P3-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b3-P3-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
 }
 #g0b3-P3-pause:checked ~ .g0b3-P3 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b3-P3-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b3-P3-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
     animation-play-state: paused;
 }
@@ -40,11 +40,11 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b4-P4-play:checked ~ .g0b4-P4 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b4-P4-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b4-P4-spr.png"), url("../../images/backsphere.svg");
     animation: C4F45 1.5s steps(45) infinite;
 }
 #g0b4-P4-pause:checked ~ .g0b4-P4 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b4-P4-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b4-P4-spr.png"), url("../../images/backsphere.svg");
     animation: C4F45 1.5s steps(45) infinite;
     animation-play-state: paused;
 }
@@ -57,11 +57,11 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b5-P5-play:checked ~ .g0b5-P5 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b5-P5-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b5-P5-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
 }
 #g0b5-P5-pause:checked ~ .g0b5-P5 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b5-P5-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b5-P5-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
     animation-play-state: paused;
 }
@@ -74,11 +74,11 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b6-P6-play:checked ~ .g0b6-P6 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b6-P6-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b6-P6-spr.png"), url("../../images/backsphere.svg");
     animation: C6F30 1.0s steps(30) infinite;
 }
 #g0b6-P6-pause:checked ~ .g0b6-P6 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b6-P6-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b6-P6-spr.png"), url("../../images/backsphere.svg");
     animation: C6F30 1.0s steps(30) infinite;
     animation-play-state: paused;
 }
@@ -91,11 +91,11 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b4-Y3-play:checked ~ .g0b4-Y3 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b4-Y3-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b4-Y3-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
 }
 #g0b4-Y3-pause:checked ~ .g0b4-Y3 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b4-Y3-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b4-Y3-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
     animation-play-state: paused;
 }
@@ -108,11 +108,11 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b5-Y4-play:checked ~ .g0b5-Y4 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b5-Y4-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b5-Y4-spr.png"), url("../../images/backsphere.svg");
     animation: C4F45 1.5s steps(45) infinite;
 }
 #g0b5-Y4-pause:checked ~ .g0b5-Y4 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b5-Y4-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b5-Y4-spr.png"), url("../../images/backsphere.svg");
     animation: C4F45 1.5s steps(45) infinite;
     animation-play-state: paused;
 }
@@ -125,11 +125,11 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b5-P3-play:checked ~ .g0b5-P3 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b5-P3-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b5-P3-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
 }
 #g0b5-P3-pause:checked ~ .g0b5-P3 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b5-P3-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b5-P3-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
     animation-play-state: paused;
 }
@@ -142,11 +142,11 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b6-Y5-play:checked ~ .g0b6-Y5 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b6-Y5-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b6-Y5-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
 }
 #g0b6-Y5-pause:checked ~ .g0b6-Y5 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b6-Y5-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b6-Y5-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
     animation-play-state: paused;
 }
@@ -159,11 +159,11 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b6-P3-play:checked ~ .g0b6-P3 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b6-P3-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b6-P3-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
 }
 #g0b6-P3-pause:checked ~ .g0b6-P3 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b6-P3-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b6-P3-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
     animation-play-state: paused;
 }
@@ -176,11 +176,11 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b6-P4-play:checked ~ .g0b6-P4 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b6-P4-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b6-P4-spr.png"), url("../../images/backsphere.svg");
     animation: C4F45 1.5s steps(45) infinite;
 }
 #g0b6-P4-pause:checked ~ .g0b6-P4 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b6-P4-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b6-P4-spr.png"), url("../../images/backsphere.svg");
     animation: C4F45 1.5s steps(45) infinite;
     animation-play-state: paused;
 }
@@ -195,11 +195,11 @@
 	background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b7-C7-play:checked ~ .g0b7-C7 {
-	background-image: url("../../images/frontsphere.svg"), url("g0b7-C7-spr.png"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b7-C7-spr.png"), url("../../images/backsphere.svg");
 	animation: C7F25 0.9s steps(25) infinite;
 }
 #g0b7-C7-pause:checked ~ .g0b7-C7 {
-	background-image: url("../../images/frontsphere.svg"), url("g0b7-C7-spr.png"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b7-C7-spr.png"), url("../../images/backsphere.svg");
 	animation: C7F25 0.9s steps(25) infinite;
 	animation-play-state:paused;
 }
@@ -212,11 +212,11 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b7-C2-play:checked ~ .g0b7-C2 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b7-C2-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b7-C2-spr.png"), url("../../images/backsphere.svg");
     animation: C2F90 3.0s steps(90) infinite;
 }
 #g0b7-C2-pause:checked ~ .g0b7-C2 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b7-C2-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b7-C2-spr.png"), url("../../images/backsphere.svg");
     animation: C2F90 3.0s steps(90) infinite;
     animation-play-state: paused;
 }
@@ -229,11 +229,11 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b7-Y2-play:checked ~ .g0b7-Y2 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b7-Y2-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b7-Y2-spr.png"), url("../../images/backsphere.svg");
     animation: C2F90 3.0s steps(90) infinite;
 }
 #g0b7-Y2-pause:checked ~ .g0b7-Y2 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b7-Y2-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b7-Y2-spr.png"), url("../../images/backsphere.svg");
     animation: C2F90 3.0s steps(90) infinite;
     animation-play-state: paused;
 }
@@ -246,11 +246,11 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b7-C3-play:checked ~ .g0b7-C3 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b7-C3-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b7-C3-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
 }
 #g0b7-C3-pause:checked ~ .g0b7-C3 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b7-C3-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b7-C3-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
     animation-play-state: paused;
 }
@@ -263,11 +263,11 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b7-C3a-play:checked ~ .g0b7-C3a {
-    background-image: url("../../images/frontsphere.svg"), url("g0b7-C3a-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b7-C3a-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
 }
 #g0b7-C3a-pause:checked ~ .g0b7-C3a {
-    background-image: url("../../images/frontsphere.svg"), url("g0b7-C3a-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b7-C3a-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
     animation-play-state: paused;
 }
@@ -280,11 +280,11 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b7-C5-play:checked ~ .g0b7-C5 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b7-C5-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b7-C5-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
 }
 #g0b7-C5-pause:checked ~ .g0b7-C5 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b7-C5-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b7-C5-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
     animation-play-state: paused;
 }
@@ -297,11 +297,11 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b7-C6-play:checked ~ .g0b7-C6 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b7-C6-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b7-C6-spr.png"), url("../../images/backsphere.svg");
     animation: C6F30 1.0s steps(30) infinite;
 }
 #g0b7-C6-pause:checked ~ .g0b7-C6 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b7-C6-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b7-C6-spr.png"), url("../../images/backsphere.svg");
     animation: C6F30 1.0s steps(30) infinite;
     animation-play-state: paused;
 }
@@ -316,11 +316,11 @@
 	background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b8-C8-play:checked ~ .g0b8-C8 {
-	background-image: url("../../images/frontsphere.svg"), url("g0b8-C8-spr.png"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b8-C8-spr.png"), url("../../images/backsphere.svg");
 	animation: C8F22 0.8s steps(22) infinite;
 }
 #g0b8-C8-pause:checked ~ .g0b8-C8 {
-	background-image: url("../../images/frontsphere.svg"), url("g0b8-C8-spr.png"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b8-C8-spr.png"), url("../../images/backsphere.svg");
 	animation: C8F22 0.8s steps(22) infinite;
 	animation-play-state:paused;
 }
@@ -333,11 +333,11 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b8-C2-play:checked ~ .g0b8-C2 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b8-C2-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b8-C2-spr.png"), url("../../images/backsphere.svg");
     animation: C2F90 3.0s steps(90) infinite;
 }
 #g0b8-C2-pause:checked ~ .g0b8-C2 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b8-C2-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b8-C2-spr.png"), url("../../images/backsphere.svg");
     animation: C2F90 3.0s steps(90) infinite;
     animation-play-state: paused;
 }
@@ -350,11 +350,11 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b8-C2-Gyrobifastigium-play:checked ~ .g0b8-C2-Gyrobifastigium {
-    background-image: url("../../images/frontsphere.svg"), url("g0b8-C2-Gyrobifastigium-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b8-C2-Gyrobifastigium-spr.png"), url("../../images/backsphere.svg");
     animation: C2F90 3.0s steps(90) infinite;
 }
 #g0b8-C2-Gyrobifastigium-pause:checked ~ .g0b8-C2-Gyrobifastigium {
-    background-image: url("../../images/frontsphere.svg"), url("g0b8-C2-Gyrobifastigium-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b8-C2-Gyrobifastigium-spr.png"), url("../../images/backsphere.svg");
     animation: C2F90 3.0s steps(90) infinite;
     animation-play-state: paused;
 }
@@ -367,11 +367,11 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b8-Y2-play:checked ~ .g0b8-Y2 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b8-Y2-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b8-Y2-spr.png"), url("../../images/backsphere.svg");
     animation: C2F90 3.0s steps(90) infinite;
 }
 #g0b8-Y2-pause:checked ~ .g0b8-Y2 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b8-Y2-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b8-Y2-spr.png"), url("../../images/backsphere.svg");
     animation: C2F90 3.0s steps(90) infinite;
     animation-play-state: paused;
 }
@@ -384,11 +384,11 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b8-C3-play:checked ~ .g0b8-C3 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b8-C3-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b8-C3-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
 }
 #g0b8-C3-pause:checked ~ .g0b8-C3 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b8-C3-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b8-C3-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
     animation-play-state: paused;
 }
@@ -401,11 +401,11 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b8-C4-play:checked ~ .g0b8-C4 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b8-C4-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b8-C4-spr.png"), url("../../images/backsphere.svg");
     animation: C4F45 1.5s steps(45) infinite;
 }
 #g0b8-C4-pause:checked ~ .g0b8-C4 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b8-C4-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b8-C4-spr.png"), url("../../images/backsphere.svg");
     animation: C4F45 1.5s steps(45) infinite;
     animation-play-state: paused;
 }
@@ -418,11 +418,11 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b8-C4a-play:checked ~ .g0b8-C4a {
-    background-image: url("../../images/frontsphere.svg"), url("g0b8-C4a-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b8-C4a-spr.png"), url("../../images/backsphere.svg");
     animation: C4F45 1.5s steps(45) infinite;
 }
 #g0b8-C4a-pause:checked ~ .g0b8-C4a {
-    background-image: url("../../images/frontsphere.svg"), url("g0b8-C4a-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b8-C4a-spr.png"), url("../../images/backsphere.svg");
     animation: C4F45 1.5s steps(45) infinite;
     animation-play-state: paused;
 }
@@ -435,11 +435,11 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b8-C6-play:checked ~ .g0b8-C6 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b8-C6-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b8-C6-spr.png"), url("../../images/backsphere.svg");
     animation: C6F30 1.0s steps(30) infinite;
 }
 #g0b8-C6-pause:checked ~ .g0b8-C6 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b8-C6-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b8-C6-spr.png"), url("../../images/backsphere.svg");
     animation: C6F30 1.0s steps(30) infinite;
     animation-play-state: paused;
 }
@@ -452,11 +452,11 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b8-C7-play:checked ~ .g0b8-C7 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b8-C7-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b8-C7-spr.png"), url("../../images/backsphere.svg");
     animation: C7F25 0.8s steps(25) infinite;
 }
 #g0b8-C7-pause:checked ~ .g0b8-C7 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b8-C7-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b8-C7-spr.png"), url("../../images/backsphere.svg");
     animation: C7F25 0.8s steps(25) infinite;
     animation-play-state: paused;
 }
@@ -469,11 +469,11 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b18-C16-play:checked ~ .g0b18-C16 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b18-C16-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b18-C16-spr.png"), url("../../images/backsphere.svg");
     animation: C16F11 0.4s steps(11) infinite;
 }
 #g0b18-C16-pause:checked ~ .g0b18-C16 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b18-C16-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b18-C16-spr.png"), url("../../images/backsphere.svg");
     animation: C16F11 0.4s steps(11) infinite;
     animation-play-state: paused;
 }
@@ -486,11 +486,11 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b12-C5-play:checked ~ .g0b12-C5 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b12-C5-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b12-C5-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
 }
 #g0b12-C5-pause:checked ~ .g0b12-C5 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b12-C5-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b12-C5-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
     animation-play-state: paused;
 }
@@ -503,11 +503,11 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b20-C5-play:checked ~ .g0b20-C5 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b20-C5-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b20-C5-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
 }
 #g0b20-C5-pause:checked ~ .g0b20-C5 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b20-C5-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b20-C5-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
     animation-play-state: paused;
 }
@@ -520,11 +520,11 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b32-C5-play:checked ~ .g0b32-C5 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b32-C5-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b32-C5-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
 }
 #g0b32-C5-pause:checked ~ .g0b32-C5 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b32-C5-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b32-C5-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
     animation-play-state: paused;
 }
@@ -537,11 +537,11 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b64-C16-play:checked ~ .g0b64-C16 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b64-C16-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b64-C16-spr.png"), url("../../images/backsphere.svg");
     animation: C16F11 0.4s steps(11) infinite;
 }
 #g0b64-C16-pause:checked ~ .g0b64-C16 {
-    background-image: url("../../images/frontsphere.svg"), url("g0b64-C16-spr.png"), url("../../images/backsphere.svg");
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b64-C16-spr.png"), url("../../images/backsphere.svg");
     animation: C16F11 0.4s steps(11) infinite;
     animation-play-state: paused;
 }
@@ -554,13 +554,13 @@
 	background-repeat: no-repeat, no-repeat, no-repeat;
 }
 #g0b61-play:checked ~ .g0b61 {
-	background-image: url("../../images/frontsphere.svg"), url("g0b61-C1-spr.png"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b61-C1-spr.png"), url("../../images/backsphere.svg");
     background-size: 100%, 200%, 100%;	
     animation: C1F180y 3.0s steps(90) infinite, 
 	           C1F180x 6.0s steps(2) infinite;
 }
 #g0b61-pause:checked ~ .g0b61 {
-	background-image: url("../../images/frontsphere.svg"), url("g0b61-C1-spr.png"), url("../../images/backsphere.svg");
+	background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_zero/g0b61-C1-spr.png"), url("../../images/backsphere.svg");
     background-size: 100%, 200%, 100%;	
     animation: C1F180y 3.0s steps(90) infinite, 
 	           C1F180x 6.0s steps(2) infinite;

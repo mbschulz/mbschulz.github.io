@@ -548,9 +548,7 @@
 
 .g0b61 {
 	width: 100%;
-	aspect-ratio: 1 / 1;
-    min-height: 1px;
-	display: block;
+	padding-top: 100%;
 	background-image: url("../../images/frontsphere.svg"), url("g0b61-C1-thumb.png"), url("../../images/backsphere.svg");
 	background-size: 100%, 100%, 100%;
 	background-repeat: no-repeat;

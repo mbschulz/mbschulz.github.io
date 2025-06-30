@@ -146,35 +146,35 @@
 
 
 
-.g8e3-A4 {
+.g6e3-A4 {
     width: 100%;
     padding-top: 100%;
-    background-image: url("g8e3-A4-thumb.png");
+    background-image: url("g6e3-A4-thumb.png");
     background-size: 100%;
     background-repeat: no-repeat;
 }
-#g8e3-A4-play:checked ~ .g8e3-A4,
-#g8e3-A4-pause:checked ~ .g8e3-A4 {
-    background-image: url("https://github.com/mbschulz/GAG-assets/releases/download/shrinkers/g8e3-A4-spr.png");
+#g6e3-A4-play:checked ~ .g6e3-A4,
+#g6e3-A4-pause:checked ~ .g6e3-A4 {
+    background-image: url("https://github.com/mbschulz/GAG-assets/releases/download/shrinkers/g6e3-A4-spr.png");
     animation: S4F45 1.5s steps(45) infinite;
 }
-#g8e3-A4-pause:checked ~ .g8e3-A4 {
+#g6e3-A4-pause:checked ~ .g6e3-A4 {
     animation-play-state: paused;
 }
 
-.g10e3-A5 {
+.g8e3-A5 {
     width: 100%;
     padding-top: 100%;
-    background-image: url("g10e3-A5-thumb.png");
+    background-image: url("g8e3-A5-thumb.png");
     background-size: 100%;
     background-repeat: no-repeat;
 }
-#g10e3-A5-play:checked ~ .g10e3-A5,
-#g10e3-A5-pause:checked ~ .g10e3-A5 {
-    background-image: url("https://github.com/mbschulz/GAG-assets/releases/download/shrinkers/g10e3-A5-spr.png");
+#g8e3-A5-play:checked ~ .g8e3-A5,
+#g8e3-A5-pause:checked ~ .g8e3-A5 {
+    background-image: url("https://github.com/mbschulz/GAG-assets/releases/download/shrinkers/g8e3-A5-spr.png");
     animation: S5F36 1.2s steps(36) infinite;
 }
-#g10e3-A5-pause:checked ~ .g10e3-A5 {
+#g8e3-A5-pause:checked ~ .g8e3-A5 {
     animation-play-state: paused;
 }
 

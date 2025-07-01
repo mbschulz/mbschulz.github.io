@@ -6,13 +6,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g2b2-P3-play:checked ~ .g2b2-P3 {
-    background-image: url("../../images/frontsphere.svg"), url("g2b2-P3-spr.png"), url("../../images/backsphere.svg");
+#g2b2-P3-play:checked ~ .g2b2-P3,
+#g2b2-P3-pause:checked ~ .g2b2-P3 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_two/g2b2-P3-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
 }
-#g2b2-P3-pause:checked ~ .g2b2-P3 {
-    background-image: url("../../images/frontsphere.svg"), url("g2b2-P3-spr.png"), url("../../images/backsphere.svg");
-    animation: C3F60 2.0s steps(60) infinite;
+#g2b2-P3-pause:checked ~ .g2b2-P3 { 
     animation-play-state: paused;
 }
 
@@ -23,13 +22,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g2b2-Y3-play:checked ~ .g2b2-Y3 {
-    background-image: url("../../images/frontsphere.svg"), url("g2b2-Y3-spr.png"), url("../../images/backsphere.svg");
+#g2b2-Y3-play:checked ~ .g2b2-Y3,
+#g2b2-Y3-pause:checked ~ .g2b2-Y3 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_two/g2b2-Y3-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
 }
-#g2b2-Y3-pause:checked ~ .g2b2-Y3 {
-    background-image: url("../../images/frontsphere.svg"), url("g2b2-Y3-spr.png"), url("../../images/backsphere.svg");
-    animation: C3F60 2.0s steps(60) infinite;
+#g2b2-Y3-pause:checked ~ .g2b2-Y3 { 
     animation-play-state: paused;
 }
 
@@ -40,13 +38,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g2b3-P3-play:checked ~ .g2b3-P3 {
-    background-image: url("../../images/frontsphere.svg"), url("g2b3-P3-spr.png"), url("../../images/backsphere.svg");
+#g2b3-P3-play:checked ~ .g2b3-P3,
+#g2b3-P3-pause:checked ~ .g2b3-P3 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_two/g2b3-P3-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
 }
-#g2b3-P3-pause:checked ~ .g2b3-P3 {
-    background-image: url("../../images/frontsphere.svg"), url("g2b3-P3-spr.png"), url("../../images/backsphere.svg");
-    animation: C3F60 2.0s steps(60) infinite;
+#g2b3-P3-pause:checked ~ .g2b3-P3 { 
     animation-play-state: paused;
 }
 
@@ -57,13 +54,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g2b4-Y3a-play:checked ~ .g2b4-Y3a {
-    background-image: url("../../images/frontsphere.svg"), url("g2b4-Y3a-spr.png"), url("../../images/backsphere.svg");
+#g2b4-Y3a-play:checked ~ .g2b4-Y3a,
+#g2b4-Y3a-pause:checked ~ .g2b4-Y3a {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_two/g2b4-Y3a-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
 }
-#g2b4-Y3a-pause:checked ~ .g2b4-Y3a {
-    background-image: url("../../images/frontsphere.svg"), url("g2b4-Y3a-spr.png"), url("../../images/backsphere.svg");
-    animation: C3F60 2.0s steps(60) infinite;
+#g2b4-Y3a-pause:checked ~ .g2b4-Y3a { 
     animation-play-state: paused;
 }
 
@@ -74,13 +70,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g2b4-Y3b-play:checked ~ .g2b4-Y3b {
-    background-image: url("../../images/frontsphere.svg"), url("g2b4-Y3b-spr.png"), url("../../images/backsphere.svg");
+#g2b4-Y3b-play:checked ~ .g2b4-Y3b,
+#g2b4-Y3b-pause:checked ~ .g2b4-Y3b {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_two/g2b4-Y3b-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
 }
-#g2b4-Y3b-pause:checked ~ .g2b4-Y3b {
-    background-image: url("../../images/frontsphere.svg"), url("g2b4-Y3b-spr.png"), url("../../images/backsphere.svg");
-    animation: C3F60 2.0s steps(60) infinite;
+#g2b4-Y3b-pause:checked ~ .g2b4-Y3b { 
     animation-play-state: paused;
 }
 
@@ -91,13 +86,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g2b5-Y3b-play:checked ~ .g2b5-Y3b {
-    background-image: url("../../images/frontsphere.svg"), url("g2b5-Y3b-spr.png"), url("../../images/backsphere.svg");
+#g2b5-Y3b-play:checked ~ .g2b5-Y3b,
+#g2b5-Y3b-pause:checked ~ .g2b5-Y3b {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_two/g2b5-Y3b-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
 }
-#g2b5-Y3b-pause:checked ~ .g2b5-Y3b {
-    background-image: url("../../images/frontsphere.svg"), url("g2b5-Y3b-spr.png"), url("../../images/backsphere.svg");
-    animation: C3F60 2.0s steps(60) infinite;
+#g2b5-Y3b-pause:checked ~ .g2b5-Y3b { 
     animation-play-state: paused;
 }
 
@@ -108,13 +102,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g2b5-Y3a-play:checked ~ .g2b5-Y3a {
-    background-image: url("../../images/frontsphere.svg"), url("g2b5-Y3a-spr.png"), url("../../images/backsphere.svg");
+#g2b5-Y3a-play:checked ~ .g2b5-Y3a,
+#g2b5-Y3a-pause:checked ~ .g2b5-Y3a {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_two/g2b5-Y3a-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
 }
-#g2b5-Y3a-pause:checked ~ .g2b5-Y3a {
-    background-image: url("../../images/frontsphere.svg"), url("g2b5-Y3a-spr.png"), url("../../images/backsphere.svg");
-    animation: C3F60 2.0s steps(60) infinite;
+#g2b5-Y3a-pause:checked ~ .g2b5-Y3a { 
     animation-play-state: paused;
 }
 
@@ -125,13 +118,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g2b5-P3-play:checked ~ .g2b5-P3 {
-    background-image: url("../../images/frontsphere.svg"), url("g2b5-P3-spr.png"), url("../../images/backsphere.svg");
+#g2b5-P3-play:checked ~ .g2b5-P3,
+#g2b5-P3-pause:checked ~ .g2b5-P3 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_two/g2b5-P3-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
 }
-#g2b5-P3-pause:checked ~ .g2b5-P3 {
-    background-image: url("../../images/frontsphere.svg"), url("g2b5-P3-spr.png"), url("../../images/backsphere.svg");
-    animation: C3F60 2.0s steps(60) infinite;
+#g2b5-P3-pause:checked ~ .g2b5-P3 { 
     animation-play-state: paused;
 }
 
@@ -142,13 +134,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g2b6-P3-play:checked ~ .g2b6-P3 {
-    background-image: url("../../images/frontsphere.svg"), url("g2b6-P3-spr.png"), url("../../images/backsphere.svg");
+#g2b6-P3-play:checked ~ .g2b6-P3,
+#g2b6-P3-pause:checked ~ .g2b6-P3 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_two/g2b6-P3-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
 }
-#g2b6-P3-pause:checked ~ .g2b6-P3 {
-    background-image: url("../../images/frontsphere.svg"), url("g2b6-P3-spr.png"), url("../../images/backsphere.svg");
-    animation: C3F60 2.0s steps(60) infinite;
+#g2b6-P3-pause:checked ~ .g2b6-P3 { 
     animation-play-state: paused;
 }
 
@@ -159,13 +150,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g2b7-Y3-play:checked ~ .g2b7-Y3 {
-    background-image: url("../../images/frontsphere.svg"), url("g2b7-Y3-spr.png"), url("../../images/backsphere.svg");
+#g2b7-Y3-play:checked ~ .g2b7-Y3,
+#g2b7-Y3-pause:checked ~ .g2b7-Y3 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_two/g2b7-Y3-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
 }
-#g2b7-Y3-pause:checked ~ .g2b7-Y3 {
-    background-image: url("../../images/frontsphere.svg"), url("g2b7-Y3-spr.png"), url("../../images/backsphere.svg");
-    animation: C3F60 2.0s steps(60) infinite;
+#g2b7-Y3-pause:checked ~ .g2b7-Y3 { 
     animation-play-state: paused;
 }
 
@@ -176,13 +166,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g2b8-P3-play:checked ~ .g2b8-P3 {
-    background-image: url("../../images/frontsphere.svg"), url("g2b8-P3-spr.png"), url("../../images/backsphere.svg");
+#g2b8-P3-play:checked ~ .g2b8-P3,
+#g2b8-P3-pause:checked ~ .g2b8-P3 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_two/g2b8-P3-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
 }
-#g2b8-P3-pause:checked ~ .g2b8-P3 {
-    background-image: url("../../images/frontsphere.svg"), url("g2b8-P3-spr.png"), url("../../images/backsphere.svg");
-    animation: C3F60 2.0s steps(60) infinite;
+#g2b8-P3-pause:checked ~ .g2b8-P3 { 
     animation-play-state: paused;
 }
 
@@ -193,13 +182,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g2b9-P3-play:checked ~ .g2b9-P3 {
-    background-image: url("../../images/frontsphere.svg"), url("g2b9-P3-spr.png"), url("../../images/backsphere.svg");
+#g2b9-P3-play:checked ~ .g2b9-P3,
+#g2b9-P3-pause:checked ~ .g2b9-P3 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_two/g2b9-P3-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
 }
-#g2b9-P3-pause:checked ~ .g2b9-P3 {
-    background-image: url("../../images/frontsphere.svg"), url("g2b9-P3-spr.png"), url("../../images/backsphere.svg");
-    animation: C3F60 2.0s steps(60) infinite;
+#g2b9-P3-pause:checked ~ .g2b9-P3 { 
     animation-play-state: paused;
 }
 
@@ -210,13 +198,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g2b12-P3-play:checked ~ .g2b12-P3 {
-    background-image: url("../../images/frontsphere.svg"), url("g2b12-P3-spr.png"), url("../../images/backsphere.svg");
+#g2b12-P3-play:checked ~ .g2b12-P3,
+#g2b12-P3-pause:checked ~ .g2b12-P3 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_two/g2b12-P3-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
 }
-#g2b12-P3-pause:checked ~ .g2b12-P3 {
-    background-image: url("../../images/frontsphere.svg"), url("g2b12-P3-spr.png"), url("../../images/backsphere.svg");
-    animation: C3F60 2.0s steps(60) infinite;
+#g2b12-P3-pause:checked ~ .g2b12-P3 { 
     animation-play-state: paused;
 }
 
@@ -227,13 +214,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g2b14-P3-play:checked ~ .g2b14-P3 {
-    background-image: url("../../images/frontsphere.svg"), url("g2b14-P3-spr.png"), url("../../images/backsphere.svg");
+#g2b14-P3-play:checked ~ .g2b14-P3,
+#g2b14-P3-pause:checked ~ .g2b14-P3 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/genus_two/g2b14-P3-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
 }
-#g2b14-P3-pause:checked ~ .g2b14-P3 {
-    background-image: url("../../images/frontsphere.svg"), url("g2b14-P3-spr.png"), url("../../images/backsphere.svg");
-    animation: C3F60 2.0s steps(60) infinite;
+#g2b14-P3-pause:checked ~ .g2b14-P3 { 
     animation-play-state: paused;
 }
 

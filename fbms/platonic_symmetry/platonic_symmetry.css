@@ -5,13 +5,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g3b4-C3-play:checked ~ .g3b4-C3 {
-    background-image: url("../../images/frontsphere.svg"), url("g3b4-C3-spr.png"), url("../../images/backsphere.svg");
+#g3b4-C3-play:checked ~ .g3b4-C3,
+#g3b4-C3-pause:checked ~ .g3b4-C3 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g3b4-C3-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
 }
 #g3b4-C3-pause:checked ~ .g3b4-C3 {
-    background-image: url("../../images/frontsphere.svg"), url("g3b4-C3-spr.png"), url("../../images/backsphere.svg");
-    animation: C3F60 2.0s steps(60) infinite;
     animation-play-state: paused;
 }
 
@@ -22,13 +21,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g3b6-C3-play:checked ~ .g3b6-C3 {
-    background-image: url("../../images/frontsphere.svg"), url("g3b6-C3-spr.png"), url("../../images/backsphere.svg");
+#g3b6-C3-play:checked ~ .g3b6-C3,
+#g3b6-C3-pause:checked ~ .g3b6-C3 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g3b6-C3-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
 }
 #g3b6-C3-pause:checked ~ .g3b6-C3 {
-    background-image: url("../../images/frontsphere.svg"), url("g3b6-C3-spr.png"), url("../../images/backsphere.svg");
-    animation: C3F60 2.0s steps(60) infinite;
     animation-play-state: paused;
 }
 
@@ -39,13 +37,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g8b4-C3a-play:checked ~ .g8b4-C3a {
-    background-image: url("../../images/frontsphere.svg"), url("g8b4-C3a-spr.png"), url("../../images/backsphere.svg");
+#g8b4-C3a-play:checked ~ .g8b4-C3a,
+#g8b4-C3a-pause:checked ~ .g8b4-C3a {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g8b4-C3a-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
 }
 #g8b4-C3a-pause:checked ~ .g8b4-C3a {
-    background-image: url("../../images/frontsphere.svg"), url("g8b4-C3a-spr.png"), url("../../images/backsphere.svg");
-    animation: C3F60 2.0s steps(60) infinite;
     animation-play-state: paused;
 }
 
@@ -56,13 +53,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g8b4-C3b-play:checked ~ .g8b4-C3b {
-    background-image: url("../../images/frontsphere.svg"), url("g8b4-C3b-spr.png"), url("../../images/backsphere.svg");
+#g8b4-C3b-play:checked ~ .g8b4-C3b,
+#g8b4-C3b-pause:checked ~ .g8b4-C3b {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g8b4-C3b-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
 }
 #g8b4-C3b-pause:checked ~ .g8b4-C3b {
-    background-image: url("../../images/frontsphere.svg"), url("g8b4-C3b-spr.png"), url("../../images/backsphere.svg");
-    animation: C3F60 2.0s steps(60) infinite;
     animation-play-state: paused;
 }
 
@@ -73,13 +69,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g9b4-C3a-play:checked ~ .g9b4-C3a {
-    background-image: url("../../images/frontsphere.svg"), url("g9b4-C3a-spr.png"), url("../../images/backsphere.svg");
+#g9b4-C3a-play:checked ~ .g9b4-C3a,
+#g9b4-C3a-pause:checked ~ .g9b4-C3a {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g9b4-C3a-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
 }
 #g9b4-C3a-pause:checked ~ .g9b4-C3a {
-    background-image: url("../../images/frontsphere.svg"), url("g9b4-C3a-spr.png"), url("../../images/backsphere.svg");
-    animation: C3F60 2.0s steps(60) infinite;
     animation-play-state: paused;
 }
 
@@ -90,13 +85,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g9b4-C3b-play:checked ~ .g9b4-C3b {
-    background-image: url("../../images/frontsphere.svg"), url("g9b4-C3b-spr.png"), url("../../images/backsphere.svg");
+#g9b4-C3b-play:checked ~ .g9b4-C3b,
+#g9b4-C3b-pause:checked ~ .g9b4-C3b {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g9b4-C3b-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
 }
 #g9b4-C3b-pause:checked ~ .g9b4-C3b {
-    background-image: url("../../images/frontsphere.svg"), url("g9b4-C3b-spr.png"), url("../../images/backsphere.svg");
-    animation: C3F60 2.0s steps(60) infinite;
     animation-play-state: paused;
 }
 
@@ -107,13 +101,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g12b10-C3-play:checked ~ .g12b10-C3 {
-    background-image: url("../../images/frontsphere.svg"), url("g12b10-C3-spr.png"), url("../../images/backsphere.svg");
+#g12b10-C3-play:checked ~ .g12b10-C3,
+#g12b10-C3-pause:checked ~ .g12b10-C3 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g12b10-C3-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
 }
 #g12b10-C3-pause:checked ~ .g12b10-C3 {
-    background-image: url("../../images/frontsphere.svg"), url("g12b10-C3-spr.png"), url("../../images/backsphere.svg");
-    animation: C3F60 2.0s steps(60) infinite;
     animation-play-state: paused;
 }
 
@@ -124,13 +117,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g13b4-C3-play:checked ~ .g13b4-C3 {
-    background-image: url("../../images/frontsphere.svg"), url("g13b4-C3-spr.png"), url("../../images/backsphere.svg");
+#g13b4-C3-play:checked ~ .g13b4-C3,
+#g13b4-C3-pause:checked ~ .g13b4-C3 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g13b4-C3-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
 }
 #g13b4-C3-pause:checked ~ .g13b4-C3 {
-    background-image: url("../../images/frontsphere.svg"), url("g13b4-C3-spr.png"), url("../../images/backsphere.svg");
-    animation: C3F60 2.0s steps(60) infinite;
     animation-play-state: paused;
 }
 
@@ -141,20 +133,14 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g15b8-C3-play:checked ~ .g15b8-C3 {
-    background-image: url("../../images/frontsphere.svg"), url("g15b8-C3-spr.png"), url("../../images/backsphere.svg");
+#g15b8-C3-play:checked ~ .g15b8-C3,
+#g15b8-C3-pause:checked ~ .g15b8-C3 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g15b8-C3-spr.png"), url("../../images/backsphere.svg");
     animation: C3F60 2.0s steps(60) infinite;
 }
 #g15b8-C3-pause:checked ~ .g15b8-C3 {
-    background-image: url("../../images/frontsphere.svg"), url("g15b8-C3-spr.png"), url("../../images/backsphere.svg");
-    animation: C3F60 2.0s steps(60) infinite;
     animation-play-state: paused;
 }
-
-
-
-
-
 
 .g5b8-C4 {
     width: 100%;
@@ -163,13 +149,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g5b8-C4-play:checked ~ .g5b8-C4 {
-    background-image: url("../../images/frontsphere.svg"), url("g5b8-C4-spr.png"), url("../../images/backsphere.svg");
+#g5b8-C4-play:checked ~ .g5b8-C4,
+#g5b8-C4-pause:checked ~ .g5b8-C4 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g5b8-C4-spr.png"), url("../../images/backsphere.svg");
     animation: C4F45 1.5s steps(45) infinite;
 }
 #g5b8-C4-pause:checked ~ .g5b8-C4 {
-    background-image: url("../../images/frontsphere.svg"), url("g5b8-C4-spr.png"), url("../../images/backsphere.svg");
-    animation: C4F45 1.5s steps(45) infinite;
     animation-play-state: paused;
 }
 
@@ -180,13 +165,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g7b6-C4-play:checked ~ .g7b6-C4 {
-    background-image: url("../../images/frontsphere.svg"), url("g7b6-C4-spr.png"), url("../../images/backsphere.svg");
+#g7b6-C4-play:checked ~ .g7b6-C4,
+#g7b6-C4-pause:checked ~ .g7b6-C4 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g7b6-C4-spr.png"), url("../../images/backsphere.svg");
     animation: C4F45 1.5s steps(45) infinite;
 }
 #g7b6-C4-pause:checked ~ .g7b6-C4 {
-    background-image: url("../../images/frontsphere.svg"), url("g7b6-C4-spr.png"), url("../../images/backsphere.svg");
-    animation: C4F45 1.5s steps(45) infinite;
     animation-play-state: paused;
 }
 
@@ -197,13 +181,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g11b14-C4-play:checked ~ .g11b14-C4 {
-    background-image: url("../../images/frontsphere.svg"), url("g11b14-C4-spr.png"), url("../../images/backsphere.svg");
+#g11b14-C4-play:checked ~ .g11b14-C4,
+#g11b14-C4-pause:checked ~ .g11b14-C4 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g11b14-C4-spr.png"), url("../../images/backsphere.svg");
     animation: C4F45 1.5s steps(45) infinite;
 }
 #g11b14-C4-pause:checked ~ .g11b14-C4 {
-    background-image: url("../../images/frontsphere.svg"), url("g11b14-C4-spr.png"), url("../../images/backsphere.svg");
-    animation: C4F45 1.5s steps(45) infinite;
     animation-play-state: paused;
 }
 
@@ -214,13 +197,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g12b6-C4-play:checked ~ .g12b6-C4 {
-    background-image: url("../../images/frontsphere.svg"), url("g12b6-C4-spr.png"), url("../../images/backsphere.svg");
+#g12b6-C4-play:checked ~ .g12b6-C4,
+#g12b6-C4-pause:checked ~ .g12b6-C4 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g12b6-C4-spr.png"), url("../../images/backsphere.svg");
     animation: C4F45 1.5s steps(45) infinite;
 }
 #g12b6-C4-pause:checked ~ .g12b6-C4 {
-    background-image: url("../../images/frontsphere.svg"), url("g12b6-C4-spr.png"), url("../../images/backsphere.svg");
-    animation: C4F45 1.5s steps(45) infinite;
     animation-play-state: paused;
 }
 
@@ -231,13 +213,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g12b8-C4-play:checked ~ .g12b8-C4 {
-    background-image: url("../../images/frontsphere.svg"), url("g12b8-C4-spr.png"), url("../../images/backsphere.svg");
+#g12b8-C4-play:checked ~ .g12b8-C4,
+#g12b8-C4-pause:checked ~ .g12b8-C4 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g12b8-C4-spr.png"), url("../../images/backsphere.svg");
     animation: C4F45 1.5s steps(45) infinite;
 }
 #g12b8-C4-pause:checked ~ .g12b8-C4 {
-    background-image: url("../../images/frontsphere.svg"), url("g12b8-C4-spr.png"), url("../../images/backsphere.svg");
-    animation: C4F45 1.5s steps(45) infinite;
     animation-play-state: paused;
 }
 
@@ -248,13 +229,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g17b8-C4-play:checked ~ .g17b8-C4 {
-    background-image: url("../../images/frontsphere.svg"), url("g17b8-C4-spr.png"), url("../../images/backsphere.svg");
+#g17b8-C4-play:checked ~ .g17b8-C4,
+#g17b8-C4-pause:checked ~ .g17b8-C4 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g17b8-C4-spr.png"), url("../../images/backsphere.svg");
     animation: C4F45 1.5s steps(45) infinite;
 }
 #g17b8-C4-pause:checked ~ .g17b8-C4 {
-    background-image: url("../../images/frontsphere.svg"), url("g17b8-C4-spr.png"), url("../../images/backsphere.svg");
-    animation: C4F45 1.5s steps(45) infinite;
     animation-play-state: paused;
 }
 
@@ -265,13 +245,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g18b6-C4a-play:checked ~ .g18b6-C4a {
-    background-image: url("../../images/frontsphere.svg"), url("g18b6-C4a-spr.png"), url("../../images/backsphere.svg");
+#g18b6-C4a-play:checked ~ .g18b6-C4a,
+#g18b6-C4a-pause:checked ~ .g18b6-C4a {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g18b6-C4a-spr.png"), url("../../images/backsphere.svg");
     animation: C4F45 1.5s steps(45) infinite;
 }
 #g18b6-C4a-pause:checked ~ .g18b6-C4a {
-    background-image: url("../../images/frontsphere.svg"), url("g18b6-C4a-spr.png"), url("../../images/backsphere.svg");
-    animation: C4F45 1.5s steps(45) infinite;
     animation-play-state: paused;
 }
 
@@ -282,13 +261,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g18b6-C4b-play:checked ~ .g18b6-C4b {
-    background-image: url("../../images/frontsphere.svg"), url("g18b6-C4b-spr.png"), url("../../images/backsphere.svg");
+#g18b6-C4b-play:checked ~ .g18b6-C4b,
+#g18b6-C4b-pause:checked ~ .g18b6-C4b {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g18b6-C4b-spr.png"), url("../../images/backsphere.svg");
     animation: C4F45 1.5s steps(45) infinite;
 }
 #g18b6-C4b-pause:checked ~ .g18b6-C4b {
-    background-image: url("../../images/frontsphere.svg"), url("g18b6-C4b-spr.png"), url("../../images/backsphere.svg");
-    animation: C4F45 1.5s steps(45) infinite;
     animation-play-state: paused;
 }
 
@@ -299,13 +277,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g19b6-C4a-play:checked ~ .g19b6-C4a {
-    background-image: url("../../images/frontsphere.svg"), url("g19b6-C4a-spr.png"), url("../../images/backsphere.svg");
+#g19b6-C4a-play:checked ~ .g19b6-C4a,
+#g19b6-C4a-pause:checked ~ .g19b6-C4a {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g19b6-C4a-spr.png"), url("../../images/backsphere.svg");
     animation: C4F45 1.5s steps(45) infinite;
 }
 #g19b6-C4a-pause:checked ~ .g19b6-C4a {
-    background-image: url("../../images/frontsphere.svg"), url("g19b6-C4a-spr.png"), url("../../images/backsphere.svg");
-    animation: C4F45 1.5s steps(45) infinite;
     animation-play-state: paused;
 }
 
@@ -316,13 +293,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g19b6-C4b-play:checked ~ .g19b6-C4b {
-    background-image: url("../../images/frontsphere.svg"), url("g19b6-C4b-spr.png"), url("../../images/backsphere.svg");
+#g19b6-C4b-play:checked ~ .g19b6-C4b,
+#g19b6-C4b-pause:checked ~ .g19b6-C4b {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g19b6-C4b-spr.png"), url("../../images/backsphere.svg");
     animation: C4F45 1.5s steps(45) infinite;
 }
 #g19b6-C4b-pause:checked ~ .g19b6-C4b {
-    background-image: url("../../images/frontsphere.svg"), url("g19b6-C4b-spr.png"), url("../../images/backsphere.svg");
-    animation: C4F45 1.5s steps(45) infinite;
     animation-play-state: paused;
 }
 
@@ -333,13 +309,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g23b12-C4b-play:checked ~ .g23b12-C4b {
-    background-image: url("../../images/frontsphere.svg"), url("g23b12-C4b-spr.png"), url("../../images/backsphere.svg");
+#g23b12-C4b-play:checked ~ .g23b12-C4b,
+#g23b12-C4b-pause:checked ~ .g23b12-C4b {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g23b12-C4b-spr.png"), url("../../images/backsphere.svg");
     animation: C4F45 1.5s steps(45) infinite;
 }
 #g23b12-C4b-pause:checked ~ .g23b12-C4b {
-    background-image: url("../../images/frontsphere.svg"), url("g23b12-C4b-spr.png"), url("../../images/backsphere.svg");
-    animation: C4F45 1.5s steps(45) infinite;
     animation-play-state: paused;
 }
 
@@ -350,13 +325,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g23b12-C4a-play:checked ~ .g23b12-C4a {
-    background-image: url("../../images/frontsphere.svg"), url("g23b12-C4a-spr.png"), url("../../images/backsphere.svg");
+#g23b12-C4a-play:checked ~ .g23b12-C4a,
+#g23b12-C4a-pause:checked ~ .g23b12-C4a {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g23b12-C4a-spr.png"), url("../../images/backsphere.svg");
     animation: C4F45 1.5s steps(45) infinite;
 }
 #g23b12-C4a-pause:checked ~ .g23b12-C4a {
-    background-image: url("../../images/frontsphere.svg"), url("g23b12-C4a-spr.png"), url("../../images/backsphere.svg");
-    animation: C4F45 1.5s steps(45) infinite;
     animation-play-state: paused;
 }
 
@@ -367,13 +341,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g24b8-C4-play:checked ~ .g24b8-C4 {
-    background-image: url("../../images/frontsphere.svg"), url("g24b8-C4-spr.png"), url("../../images/backsphere.svg");
+#g24b8-C4-play:checked ~ .g24b8-C4,
+#g24b8-C4-pause:checked ~ .g24b8-C4 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g24b8-C4-spr.png"), url("../../images/backsphere.svg");
     animation: C4F45 1.5s steps(45) infinite;
 }
 #g24b8-C4-pause:checked ~ .g24b8-C4 {
-    background-image: url("../../images/frontsphere.svg"), url("g24b8-C4-spr.png"), url("../../images/backsphere.svg");
-    animation: C4F45 1.5s steps(45) infinite;
     animation-play-state: paused;
 }
 
@@ -384,13 +357,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g25b6-C4-play:checked ~ .g25b6-C4 {
-    background-image: url("../../images/frontsphere.svg"), url("g25b6-C4-spr.png"), url("../../images/backsphere.svg");
+#g25b6-C4-play:checked ~ .g25b6-C4,
+#g25b6-C4-pause:checked ~ .g25b6-C4 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g25b6-C4-spr.png"), url("../../images/backsphere.svg");
     animation: C4F45 1.5s steps(45) infinite;
 }
 #g25b6-C4-pause:checked ~ .g25b6-C4 {
-    background-image: url("../../images/frontsphere.svg"), url("g25b6-C4-spr.png"), url("../../images/backsphere.svg");
-    animation: C4F45 1.5s steps(45) infinite;
     animation-play-state: paused;
 }
 
@@ -401,13 +373,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g27b8-C4a-play:checked ~ .g27b8-C4a {
-    background-image: url("../../images/frontsphere.svg"), url("g27b8-C4a-spr.png"), url("../../images/backsphere.svg");
+#g27b8-C4a-play:checked ~ .g27b8-C4a,
+#g27b8-C4a-pause:checked ~ .g27b8-C4a {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g27b8-C4a-spr.png"), url("../../images/backsphere.svg");
     animation: C4F45 1.5s steps(45) infinite;
 }
 #g27b8-C4a-pause:checked ~ .g27b8-C4a {
-    background-image: url("../../images/frontsphere.svg"), url("g27b8-C4a-spr.png"), url("../../images/backsphere.svg");
-    animation: C4F45 1.5s steps(45) infinite;
     animation-play-state: paused;
 }
 
@@ -418,13 +389,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g29b6-C4a-play:checked ~ .g29b6-C4a {
-    background-image: url("../../images/frontsphere.svg"), url("g29b6-C4a-spr.png"), url("../../images/backsphere.svg");
+#g29b6-C4a-play:checked ~ .g29b6-C4a,
+#g29b6-C4a-pause:checked ~ .g29b6-C4a {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g29b6-C4a-spr.png"), url("../../images/backsphere.svg");
     animation: C4F45 1.5s steps(45) infinite;
 }
 #g29b6-C4a-pause:checked ~ .g29b6-C4a {
-    background-image: url("../../images/frontsphere.svg"), url("g29b6-C4a-spr.png"), url("../../images/backsphere.svg");
-    animation: C4F45 1.5s steps(45) infinite;
     animation-play-state: paused;
 }
 
@@ -435,18 +405,14 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g41b12-C4-play:checked ~ .g41b12-C4 {
-    background-image: url("../../images/frontsphere.svg"), url("g41b12-C4-spr.png"), url("../../images/backsphere.svg");
+#g41b12-C4-play:checked ~ .g41b12-C4,
+#g41b12-C4-pause:checked ~ .g41b12-C4 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g41b12-C4-spr.png"), url("../../images/backsphere.svg");
     animation: C4F45 1.5s steps(45) infinite;
 }
 #g41b12-C4-pause:checked ~ .g41b12-C4 {
-    background-image: url("../../images/frontsphere.svg"), url("g41b12-C4-spr.png"), url("../../images/backsphere.svg");
-    animation: C4F45 1.5s steps(45) infinite;
     animation-play-state: paused;
 }
-
-
-
 
 .g11b20-C5 {
     width: 100%;
@@ -455,13 +421,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g11b20-C5-play:checked ~ .g11b20-C5 {
-    background-image: url("../../images/frontsphere.svg"), url("g11b20-C5-spr.png"), url("../../images/backsphere.svg");
+#g11b20-C5-play:checked ~ .g11b20-C5,
+#g11b20-C5-pause:checked ~ .g11b20-C5 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g11b20-C5-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
 }
 #g11b20-C5-pause:checked ~ .g11b20-C5 {
-    background-image: url("../../images/frontsphere.svg"), url("g11b20-C5-spr.png"), url("../../images/backsphere.svg");
-    animation: C5F36 1.2s steps(36) infinite;
     animation-play-state: paused;
 }
 
@@ -472,13 +437,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g19b12-C5-play:checked ~ .g19b12-C5 {
-    background-image: url("../../images/frontsphere.svg"), url("g19b12-C5-spr.png"), url("../../images/backsphere.svg");
+#g19b12-C5-play:checked ~ .g19b12-C5,
+#g19b12-C5-pause:checked ~ .g19b12-C5 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g19b12-C5-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
 }
 #g19b12-C5-pause:checked ~ .g19b12-C5 {
-    background-image: url("../../images/frontsphere.svg"), url("g19b12-C5-spr.png"), url("../../images/backsphere.svg");
-    animation: C5F36 1.2s steps(36) infinite;
     animation-play-state: paused;
 }
 
@@ -489,13 +453,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g30b12-C5-play:checked ~ .g30b12-C5 {
-    background-image: url("../../images/frontsphere.svg"), url("g30b12-C5-spr.png"), url("../../images/backsphere.svg");
+#g30b12-C5-play:checked ~ .g30b12-C5,
+#g30b12-C5-pause:checked ~ .g30b12-C5 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g30b12-C5-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
 }
 #g30b12-C5-pause:checked ~ .g30b12-C5 {
-    background-image: url("../../images/frontsphere.svg"), url("g30b12-C5-spr.png"), url("../../images/backsphere.svg");
-    animation: C5F36 1.2s steps(36) infinite;
     animation-play-state: paused;
 }
 
@@ -506,13 +469,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g30b20-C5-play:checked ~ .g30b20-C5 {
-    background-image: url("../../images/frontsphere.svg"), url("g30b20-C5-spr.png"), url("../../images/backsphere.svg");
+#g30b20-C5-play:checked ~ .g30b20-C5,
+#g30b20-C5-pause:checked ~ .g30b20-C5 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g30b20-C5-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
 }
 #g30b20-C5-pause:checked ~ .g30b20-C5 {
-    background-image: url("../../images/frontsphere.svg"), url("g30b20-C5-spr.png"), url("../../images/backsphere.svg");
-    animation: C5F36 1.2s steps(36) infinite;
     animation-play-state: paused;
 }
 
@@ -523,13 +485,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g41b20-C5a-play:checked ~ .g41b20-C5a {
-    background-image: url("../../images/frontsphere.svg"), url("g41b20-C5a-spr.png"), url("../../images/backsphere.svg");
+#g41b20-C5a-play:checked ~ .g41b20-C5a,
+#g41b20-C5a-pause:checked ~ .g41b20-C5a {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g41b20-C5a-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
 }
 #g41b20-C5a-pause:checked ~ .g41b20-C5a {
-    background-image: url("../../images/frontsphere.svg"), url("g41b20-C5a-spr.png"), url("../../images/backsphere.svg");
-    animation: C5F36 1.2s steps(36) infinite;
     animation-play-state: paused;
 }
 
@@ -540,13 +501,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g41b20-C5b-play:checked ~ .g41b20-C5b {
-    background-image: url("../../images/frontsphere.svg"), url("g41b20-C5b-spr.png"), url("../../images/backsphere.svg");
+#g41b20-C5b-play:checked ~ .g41b20-C5b,
+#g41b20-C5b-pause:checked ~ .g41b20-C5b {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g41b20-C5b-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
 }
 #g41b20-C5b-pause:checked ~ .g41b20-C5b {
-    background-image: url("../../images/frontsphere.svg"), url("g41b20-C5b-spr.png"), url("../../images/backsphere.svg");
-    animation: C5F36 1.2s steps(36) infinite;
     animation-play-state: paused;
 }
 
@@ -557,13 +517,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g48b12-C5a-play:checked ~ .g48b12-C5a {
-    background-image: url("../../images/frontsphere.svg"), url("g48b12-C5a-spr.png"), url("../../images/backsphere.svg");
+#g48b12-C5a-play:checked ~ .g48b12-C5a,
+#g48b12-C5a-pause:checked ~ .g48b12-C5a {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g48b12-C5a-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
 }
 #g48b12-C5a-pause:checked ~ .g48b12-C5a {
-    background-image: url("../../images/frontsphere.svg"), url("g48b12-C5a-spr.png"), url("../../images/backsphere.svg");
-    animation: C5F36 1.2s steps(36) infinite;
     animation-play-state: paused;
 }
 
@@ -574,13 +533,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g48b12-C5b-play:checked ~ .g48b12-C5b {
-    background-image: url("../../images/frontsphere.svg"), url("g48b12-C5b-spr.png"), url("../../images/backsphere.svg");
+#g48b12-C5b-play:checked ~ .g48b12-C5b,
+#g48b12-C5b-pause:checked ~ .g48b12-C5b {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g48b12-C5b-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
 }
 #g48b12-C5b-pause:checked ~ .g48b12-C5b {
-    background-image: url("../../images/frontsphere.svg"), url("g48b12-C5b-spr.png"), url("../../images/backsphere.svg");
-    animation: C5F36 1.2s steps(36) infinite;
     animation-play-state: paused;
 }
 
@@ -591,13 +549,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g49b12-C5a-play:checked ~ .g49b12-C5a {
-    background-image: url("../../images/frontsphere.svg"), url("g49b12-C5a-spr.png"), url("../../images/backsphere.svg");
+#g49b12-C5a-play:checked ~ .g49b12-C5a,
+#g49b12-C5a-pause:checked ~ .g49b12-C5a {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g49b12-C5a-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
 }
 #g49b12-C5a-pause:checked ~ .g49b12-C5a {
-    background-image: url("../../images/frontsphere.svg"), url("g49b12-C5a-spr.png"), url("../../images/backsphere.svg");
-    animation: C5F36 1.2s steps(36) infinite;
     animation-play-state: paused;
 }
 
@@ -608,13 +565,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g49b12-C5b-play:checked ~ .g49b12-C5b {
-    background-image: url("../../images/frontsphere.svg"), url("g49b12-C5b-spr.png"), url("../../images/backsphere.svg");
+#g49b12-C5b-play:checked ~ .g49b12-C5b,
+#g49b12-C5b-pause:checked ~ .g49b12-C5b {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g49b12-C5b-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
 }
 #g49b12-C5b-pause:checked ~ .g49b12-C5b {
-    background-image: url("../../images/frontsphere.svg"), url("g49b12-C5b-spr.png"), url("../../images/backsphere.svg");
-    animation: C5F36 1.2s steps(36) infinite;
     animation-play-state: paused;
 }
 
@@ -625,13 +581,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g59b24-C5-play:checked ~ .g59b24-C5 {
-    background-image: url("../../images/frontsphere.svg"), url("g59b24-C5-spr.png"), url("../../images/backsphere.svg");
+#g59b24-C5-play:checked ~ .g59b24-C5,
+#g59b24-C5-pause:checked ~ .g59b24-C5 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g59b24-C5-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
 }
 #g59b24-C5-pause:checked ~ .g59b24-C5 {
-    background-image: url("../../images/frontsphere.svg"), url("g59b24-C5-spr.png"), url("../../images/backsphere.svg");
-    animation: C5F36 1.2s steps(36) infinite;
     animation-play-state: paused;
 }
 
@@ -642,13 +597,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g59b44-C5-play:checked ~ .g59b44-C5 {
-    background-image: url("../../images/frontsphere.svg"), url("g59b44-C5-spr.png"), url("../../images/backsphere.svg");
+#g59b44-C5-play:checked ~ .g59b44-C5,
+#g59b44-C5-pause:checked ~ .g59b44-C5 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g59b44-C5-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
 }
 #g59b44-C5-pause:checked ~ .g59b44-C5 {
-    background-image: url("../../images/frontsphere.svg"), url("g59b44-C5-spr.png"), url("../../images/backsphere.svg");
-    animation: C5F36 1.2s steps(36) infinite;
     animation-play-state: paused;
 }
 
@@ -659,13 +613,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g60b32-C5-play:checked ~ .g60b32-C5 {
-    background-image: url("../../images/frontsphere.svg"), url("g60b32-C5-spr.png"), url("../../images/backsphere.svg");
+#g60b32-C5-play:checked ~ .g60b32-C5,
+#g60b32-C5-pause:checked ~ .g60b32-C5 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g60b32-C5-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
 }
 #g60b32-C5-pause:checked ~ .g60b32-C5 {
-    background-image: url("../../images/frontsphere.svg"), url("g60b32-C5-spr.png"), url("../../images/backsphere.svg");
-    animation: C5F36 1.2s steps(36) infinite;
     animation-play-state: paused;
 }
 
@@ -676,13 +629,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g67b12-C5-play:checked ~ .g67b12-C5 {
-    background-image: url("../../images/frontsphere.svg"), url("g67b12-C5-spr.png"), url("../../images/backsphere.svg");
+#g67b12-C5-play:checked ~ .g67b12-C5,
+#g67b12-C5-pause:checked ~ .g67b12-C5 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g67b12-C5-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
 }
 #g67b12-C5-pause:checked ~ .g67b12-C5 {
-    background-image: url("../../images/frontsphere.svg"), url("g67b12-C5-spr.png"), url("../../images/backsphere.svg");
-    animation: C5F36 1.2s steps(36) infinite;
     animation-play-state: paused;
 }
 
@@ -693,13 +645,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g70b20-C5a-play:checked ~ .g70b20-C5a {
-    background-image: url("../../images/frontsphere.svg"), url("g70b20-C5a-spr.png"), url("../../images/backsphere.svg");
+#g70b20-C5a-play:checked ~ .g70b20-C5a,
+#g70b20-C5a-pause:checked ~ .g70b20-C5a {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g70b20-C5a-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
 }
 #g70b20-C5a-pause:checked ~ .g70b20-C5a {
-    background-image: url("../../images/frontsphere.svg"), url("g70b20-C5a-spr.png"), url("../../images/backsphere.svg");
-    animation: C5F36 1.2s steps(36) infinite;
     animation-play-state: paused;
 }
 
@@ -710,13 +661,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g77b12-C5a-play:checked ~ .g77b12-C5a {
-    background-image: url("../../images/frontsphere.svg"), url("g77b12-C5a-spr.png"), url("../../images/backsphere.svg");
+#g77b12-C5a-play:checked ~ .g77b12-C5a,
+#g77b12-C5a-pause:checked ~ .g77b12-C5a {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g77b12-C5a-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
 }
 #g77b12-C5a-pause:checked ~ .g77b12-C5a {
-    background-image: url("../../images/frontsphere.svg"), url("g77b12-C5a-spr.png"), url("../../images/backsphere.svg");
-    animation: C5F36 1.2s steps(36) infinite;
     animation-play-state: paused;
 }
 
@@ -727,13 +677,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g80b20-C5-play:checked ~ .g80b20-C5 {
-    background-image: url("../../images/frontsphere.svg"), url("g80b20-C5-spr.png"), url("../../images/backsphere.svg");
+#g80b20-C5-play:checked ~ .g80b20-C5,
+#g80b20-C5-pause:checked ~ .g80b20-C5 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g80b20-C5-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
 }
 #g80b20-C5-pause:checked ~ .g80b20-C5 {
-    background-image: url("../../images/frontsphere.svg"), url("g80b20-C5-spr.png"), url("../../images/backsphere.svg");
-    animation: C5F36 1.2s steps(36) infinite;
     animation-play-state: paused;
 }
 
@@ -744,13 +693,28 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g96b24-C5-play:checked ~ .g96b24-C5 {
-    background-image: url("../../images/frontsphere.svg"), url("g96b24-C5-spr.png"), url("../../images/backsphere.svg");
+#g96b24-C5-play:checked ~ .g96b24-C5,
+#g96b24-C5-pause:checked ~ .g96b24-C5 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g96b24-C5-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
 }
 #g96b24-C5-pause:checked ~ .g96b24-C5 {
-    background-image: url("../../images/frontsphere.svg"), url("g96b24-C5-spr.png"), url("../../images/backsphere.svg");
+    animation-play-state: paused;
+}
+
+.g96b24-C5b {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g96b24-C5b-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g96b24-C5b-play:checked ~ .g96b24-C5b,
+#g96b24-C5b-pause:checked ~ .g96b24-C5b {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g96b24-C5b-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
+}
+#g96b24-C5b-pause:checked ~ .g96b24-C5b {
     animation-play-state: paused;
 }
 
@@ -761,13 +725,11 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g117b20-C5-play:checked ~ .g117b20-C5 {
-    background-image: url("../../images/frontsphere.svg"), url("g117b20-C5-spr.png"), url("../../images/backsphere.svg");
+#g117b20-C5-play:checked ~ .g117b20-C5,
+#g117b20-C5-pause:checked ~ .g117b20-C5 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g117b20-C5-spr.png"), url("../../images/backsphere.svg");
     animation: C5F36 1.2s steps(36) infinite;
 }
 #g117b20-C5-pause:checked ~ .g117b20-C5 {
-    background-image: url("../../images/frontsphere.svg"), url("g117b20-C5-spr.png"), url("../../images/backsphere.svg");
-    animation: C5F36 1.2s steps(36) infinite;
     animation-play-state: paused;
 }
-

@@ -5,13 +5,12 @@
 	background-size: 100%, 100%, 100%;
 	background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g0b3-P3-play:checked ~ .g0b3-P3 {
-	background-image: url("../../images/frontsphere.svg"), url("g0b3-P3-spr.png"), url("../../images/backsphere.svg");
+#g0b3-P3-play:checked ~ .g0b3-P3,
+#g0b3-P3-pause:checked ~ .g0b3-P3 {
+	background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/arbitrary_topology/g0b3-P3-spr.png"), url("../../images/backsphere.svg");
 	animation: C2F90 3.0s steps(90) infinite;
 }
 #g0b3-P3-pause:checked ~ .g0b3-P3 {
-	background-image: url("../../images/frontsphere.svg"), url("g0b3-P3-spr.png"), url("../../images/backsphere.svg");
-	animation: C2F90 3.0s steps(90) infinite;
 	animation-play-state:paused;
 }
 
@@ -22,13 +21,12 @@
 	background-size: 100%, 100%, 100%;
 	background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g1b2-Y2-play:checked ~ .g1b2-Y2 {
-	background-image: url("../../images/frontsphere.svg"), url("g1b2-Y2-spr.png"), url("../../images/backsphere.svg");
+#g1b2-Y2-play:checked ~ .g1b2-Y2,
+#g1b2-Y2-pause:checked ~ .g1b2-Y2 {
+	background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/arbitrary_topology/g1b2-Y2-spr.png"), url("../../images/backsphere.svg");
 	animation: C2F90 3.0s steps(90) infinite;
 }
 #g1b2-Y2-pause:checked ~ .g1b2-Y2 {
-	background-image: url("../../images/frontsphere.svg"), url("g1b2-Y2-spr.png"), url("../../images/backsphere.svg");
-	animation: C2F90 3.0s steps(90) infinite;
 	animation-play-state:paused;
 }
 
@@ -39,13 +37,12 @@
 	background-size: 100%, 100%, 100%;
 	background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g2b1-Y2-play:checked ~ .g2b1-Y2 {
-	background-image: url("../../images/frontsphere.svg"), url("g2b1-Y2-spr.png"), url("../../images/backsphere.svg");
+#g2b1-Y2-play:checked ~ .g2b1-Y2,
+#g2b1-Y2-pause:checked ~ .g2b1-Y2 {
+	background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/arbitrary_topology/g2b1-Y2-spr.png"), url("../../images/backsphere.svg");
 	animation: C2F90 3.0s steps(90) infinite;
 }
 #g2b1-Y2-pause:checked ~ .g2b1-Y2 {
-	background-image: url("../../images/frontsphere.svg"), url("g2b1-Y2-spr.png"), url("../../images/backsphere.svg");
-	animation: C2F90 3.0s steps(90) infinite;
 	animation-play-state:paused;
 }
 
@@ -56,13 +53,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g2b2-P3-play:checked ~ .g2b2-P3 {
-	background-image: url("../../images/frontsphere.svg"), url("g2b2-P3-spr.png"), url("../../images/backsphere.svg");
+#g2b2-P3-play:checked ~ .g2b2-P3,
+#g2b2-P3-pause:checked ~ .g2b2-P3 {
+	background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/arbitrary_topology/g2b2-P3-spr.png"), url("../../images/backsphere.svg");
 	animation: C2F90 3.0s steps(90) infinite;
 }
 #g2b2-P3-pause:checked ~ .g2b2-P3 {
-	background-image: url("../../images/frontsphere.svg"), url("g2b2-P3-spr.png"), url("../../images/backsphere.svg");
-	animation: C2F90 3.0s steps(90) infinite;
 	animation-play-state:paused;
 }
 
@@ -73,13 +69,12 @@
 	background-size: 100%, 100%, 100%;
 	background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g0b4-P4-play:checked ~ .g0b4-P4 {
-	background-image: url("../../images/frontsphere.svg"), url("g0b4-P4-spr.png"), url("../../images/backsphere.svg");
+#g0b4-P4-play:checked ~ .g0b4-P4,
+#g0b4-P4-pause:checked ~ .g0b4-P4 {
+	background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/arbitrary_topology/g0b4-P4-spr.png"), url("../../images/backsphere.svg");
 	animation: C2F90 3.0s steps(90) infinite;
 }
 #g0b4-P4-pause:checked ~ .g0b4-P4 {
-	background-image: url("../../images/frontsphere.svg"), url("g0b4-P4-spr.png"), url("../../images/backsphere.svg");
-	animation: C2F90 3.0s steps(90) infinite;
 	animation-play-state:paused;
 }
 
@@ -90,13 +85,12 @@
 	background-size: 100%, 100%, 100%;
 	background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g1b3-Y2-play:checked ~ .g1b3-Y2 {
-	background-image: url("../../images/frontsphere.svg"), url("g1b3-Y2-spr.png"), url("../../images/backsphere.svg");
+#g1b3-Y2-play:checked ~ .g1b3-Y2,
+#g1b3-Y2-pause:checked ~ .g1b3-Y2 {
+	background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/arbitrary_topology/g1b3-Y2-spr.png"), url("../../images/backsphere.svg");
 	animation: C2F90 3.0s steps(90) infinite;
 }
 #g1b3-Y2-pause:checked ~ .g1b3-Y2 {
-	background-image: url("../../images/frontsphere.svg"), url("g1b3-Y2-spr.png"), url("../../images/backsphere.svg");
-	animation: C2F90 3.0s steps(90) infinite;
 	animation-play-state:paused;
 } 
 
@@ -107,13 +101,12 @@
     background-size: 100%, 100%, 100%;
     background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g2b2-P2-play:checked ~ .g2b2-P2 {
-	background-image: url("../../images/frontsphere.svg"), url("g2b2-P2-spr.png"), url("../../images/backsphere.svg");
+#g2b2-P2-play:checked ~ .g2b2-P2,
+#g2b2-P2-pause:checked ~ .g2b2-P2 {
+	background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/arbitrary_topology/g2b2-P2-spr.png"), url("../../images/backsphere.svg");
 	animation: C2F90 3.0s steps(90) infinite;
 }
 #g2b2-P2-pause:checked ~ .g2b2-P2 {
-	background-image: url("../../images/frontsphere.svg"), url("g2b2-P2-spr.png"), url("../../images/backsphere.svg");
-	animation: C2F90 3.0s steps(90) infinite;
 	animation-play-state:paused;
 }
 
@@ -124,13 +117,12 @@
 	background-size: 100%, 100%, 100%;
 	background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g2b2-Y2-play:checked ~ .g2b2-Y2 {
-	background-image: url("../../images/frontsphere.svg"), url("g2b2-Y2-spr.png"), url("../../images/backsphere.svg");
+#g2b2-Y2-play:checked ~ .g2b2-Y2,
+#g2b2-Y2-pause:checked ~ .g2b2-Y2 {
+	background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/arbitrary_topology/g2b2-Y2-spr.png"), url("../../images/backsphere.svg");
 	animation: C2F90 3.0s steps(90) infinite;
 }
 #g2b2-Y2-pause:checked ~ .g2b2-Y2 {
-	background-image: url("../../images/frontsphere.svg"), url("g2b2-Y2-spr.png"), url("../../images/backsphere.svg");
-	animation: C2F90 3.0s steps(90) infinite;
 	animation-play-state:paused;
 }
 
@@ -141,13 +133,12 @@
 	background-size: 100%, 100%, 100%;
 	background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g3b1-Y2-play:checked ~ .g3b1-Y2 {
-	background-image: url("../../images/frontsphere.svg"), url("g3b1-Y2-spr.png"), url("../../images/backsphere.svg");
+#g3b1-Y2-play:checked ~ .g3b1-Y2,
+#g3b1-Y2-pause:checked ~ .g3b1-Y2 {
+	background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/arbitrary_topology/g3b1-Y2-spr.png"), url("../../images/backsphere.svg");
 	animation: C2F90 3.0s steps(90) infinite;
 }
 #g3b1-Y2-pause:checked ~ .g3b1-Y2 {
-	background-image: url("../../images/frontsphere.svg"), url("g3b1-Y2-spr.png"), url("../../images/backsphere.svg");
-	animation: C2F90 3.0s steps(90) infinite;
 	animation-play-state:paused;
 }
 
@@ -158,13 +149,12 @@
 	background-size: 100%, 100%, 100%;
 	background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g3b2-P4-play:checked ~ .g3b2-P4 {
-	background-image: url("../../images/frontsphere.svg"), url("g3b2-P4-spr.png"), url("../../images/backsphere.svg");
+#g3b2-P4-play:checked ~ .g3b2-P4,
+#g3b2-P4-pause:checked ~ .g3b2-P4 {
+	background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/arbitrary_topology/g3b2-P4-spr.png"), url("../../images/backsphere.svg");
 	animation: C2F90 3.0s steps(90) infinite;
 }
 #g3b2-P4-pause:checked ~ .g3b2-P4 {
-	background-image: url("../../images/frontsphere.svg"), url("g3b2-P4-spr.png"), url("../../images/backsphere.svg");
-	animation: C2F90 3.0s steps(90) infinite;
 	animation-play-state:paused;
 }
 
@@ -175,18 +165,11 @@
 	background-size: 100%, 100%, 100%;
 	background-repeat: no-repeat, no-repeat, no-repeat;
 }
-#g3b3-P3-play:checked ~ .g3b3-P3 {
-	background-image: url("../../images/frontsphere.svg"), url("g3b3-P3-spr.png"), url("../../images/backsphere.svg");
+#g3b3-P3-play:checked ~ .g3b3-P3,
+#g3b3-P3-pause:checked ~ .g3b3-P3 {
+	background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/arbitrary_topology/g3b3-P3-spr.png"), url("../../images/backsphere.svg");
 	animation: C2F90 3.0s steps(90) infinite;
 }
 #g3b3-P3-pause:checked ~ .g3b3-P3 {
-	background-image: url("../../images/frontsphere.svg"), url("g3b3-P3-spr.png"), url("../../images/backsphere.svg");
-	animation: C2F90 3.0s steps(90) infinite;
 	animation-play-state:paused;
 }
- 
-
-
- 
-
- 

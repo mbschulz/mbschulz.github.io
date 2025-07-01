@@ -1,0 +1,6 @@
+# Ignore temporary files created by the update script
+*.html.tmp
+
+# Ignore common macOS and Windows system files
+.DS_Store
+Thumbs.db

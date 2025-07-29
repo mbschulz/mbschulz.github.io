@@ -34,8 +34,9 @@ process_file() {
         active_filename=$(basename "$file")
     else
         template_file="$TEMPLATE_SUB"
-        # Correctly get the relative path for the active link, e.g., "fbms/genus_zero.html"
-        active_filename="${dir_name#./}/$(basename "$file")"
+        # For sub-page files, the href in the template is e.g., ../fbms/genus_zero.html
+        # We construct this path from the file variable.
+        active_filename="../${file#./}" # <-- THIS IS THE CORRECTED LINE
     fi
 
     # Read the content of the correct template

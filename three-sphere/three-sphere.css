@@ -1,0 +1,263 @@
+
+.lawson-1-2 {
+    width: 100%;
+    padding-top: 150%;
+    background-image: url("lawson-1-2-thumb.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#lawson-1-2-play:checked ~ .lawson-1-2,
+#lawson-1-2-pause:checked ~ .lawson-1-2 {
+    background-image: url("https://github.com/mbschulz/GAG-assets/releases/download/three-sphere/lawson-1-2-spr.png");
+    animation: S3F60 2.0s steps(60) infinite;
+}
+#lawson-1-2-pause:checked ~ .lawson-1-2 {
+    animation-play-state: paused;
+}
+
+.lawson-1-3 {
+    width: 100%;
+    padding-top: 150%;
+    background-image: url("lawson-1-3-thumb.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#lawson-1-3-play:checked ~ .lawson-1-3,
+#lawson-1-3-pause:checked ~ .lawson-1-3 {
+    background-image: url("https://github.com/mbschulz/GAG-assets/releases/download/three-sphere/lawson-1-3-spr.png");
+    animation: S4F45 1.5s steps(45) infinite;
+}
+#lawson-1-3-pause:checked ~ .lawson-1-3 {
+    animation-play-state: paused;
+}
+
+.lawson-2-2 {
+    width: 100%;
+    padding-top: 150%;
+    background-image: url("lawson-2-2-thumb.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#lawson-2-2-play:checked ~ .lawson-2-2,
+#lawson-2-2-pause:checked ~ .lawson-2-2 {
+    background-image: url("https://github.com/mbschulz/GAG-assets/releases/download/three-sphere/lawson-2-2-spr.png");
+    animation: S3F60 2.0s steps(60) infinite;
+}
+#lawson-2-2-pause:checked ~ .lawson-2-2 {
+    animation-play-state: paused;
+}
+
+.lawson-2-3 {
+    width: 100%;
+    padding-top: 150%;
+    background-image: url("lawson-2-3-thumb.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#lawson-2-3-play:checked ~ .lawson-2-3,
+#lawson-2-3-pause:checked ~ .lawson-2-3 {
+    background-image: url("https://github.com/mbschulz/GAG-assets/releases/download/three-sphere/lawson-2-3-spr.png");
+    animation: S4F45 1.5s steps(45) infinite;
+}
+#lawson-2-3-pause:checked ~ .lawson-2-3 {
+    animation-play-state: paused;
+}
+
+.lawson-3-3 {
+    width: 100%;
+    padding-top: 150%;
+    background-image: url("lawson-3-3-thumb.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#lawson-3-3-play:checked ~ .lawson-3-3,
+#lawson-3-3-pause:checked ~ .lawson-3-3 {
+    background-image: url("https://github.com/mbschulz/GAG-assets/releases/download/three-sphere/lawson-3-3-spr.png");
+    animation: S4F45 1.5s steps(45) infinite;
+}
+#lawson-3-3-pause:checked ~ .lawson-3-3 {
+    animation-play-state: paused;
+}
+
+.lawson-3-4 {
+    width: 100%;
+    padding-top: 150%;
+    background-image: url("lawson-3-4-thumb.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#lawson-3-4-play:checked ~ .lawson-3-4,
+#lawson-3-4-pause:checked ~ .lawson-3-4 {
+    background-image: url("https://github.com/mbschulz/GAG-assets/releases/download/three-sphere/lawson-3-4-spr.png");
+    animation: S5F36 1.2s steps(36) infinite;
+}
+#lawson-3-4-pause:checked ~ .lawson-3-4 {
+    animation-play-state: paused;
+}
+
+
+
+.Gamma2 {
+    width: 100%;
+    padding-top: 87%;
+    background-image: url("Gamma2-thumb.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#Gamma2-play:checked ~ .Gamma2,
+#Gamma2-pause:checked ~ .Gamma2 {
+    background-image: url("https://github.com/mbschulz/GAG-assets/releases/download/three-sphere/Gamma2-spr.png");
+    animation: S2F90 3.0s steps(90) infinite;
+}
+#Gamma2-pause:checked ~ .Gamma2 {
+    animation-play-state: paused;
+}
+
+.Gamma3 {
+    width: 100%;
+    padding-top: 87%;
+    background-image: url("Gamma3-thumb.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#Gamma3-play:checked ~ .Gamma3,
+#Gamma3-pause:checked ~ .Gamma3 {
+    background-image: url("https://github.com/mbschulz/GAG-assets/releases/download/three-sphere/Gamma3-spr.png");
+    animation: S3F60 2.0s steps(60) infinite;
+}
+#Gamma3-pause:checked ~ .Gamma3 {
+    animation-play-state: paused;
+}
+
+.Gamma4 {
+    width: 100%;
+    padding-top: 87%;
+    background-image: url("Gamma4-thumb.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#Gamma4-play:checked ~ .Gamma4,
+#Gamma4-pause:checked ~ .Gamma4 {
+    background-image: url("https://github.com/mbschulz/GAG-assets/releases/download/three-sphere/Gamma4-spr.png");
+    animation: S4F45 1.5s steps(45) infinite;
+}
+#Gamma4-pause:checked ~ .Gamma4 {
+    animation-play-state: paused;
+}
+
+.Gamma5 {
+    width: 100%;
+    padding-top: 87%;
+    background-image: url("Gamma5-thumb.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#Gamma5-play:checked ~ .Gamma5,
+#Gamma5-pause:checked ~ .Gamma5 {
+    background-image: url("https://github.com/mbschulz/GAG-assets/releases/download/three-sphere/Gamma5-spr.png");
+    animation: S5F36 1.2s steps(36) infinite;
+}
+#Gamma5-pause:checked ~ .Gamma5 {
+    animation-play-state: paused;
+}
+
+
+
+
+.g3KPS {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("g3KPS-thumb.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#g3KPS-play:checked ~ .g3KPS,
+#g3KPS-pause:checked ~ .g3KPS {
+    background-image: url("https://github.com/mbschulz/GAG-assets/releases/download/three-sphere/g3KPS-spr.png");
+    animation: S3F60 2.0s steps(60) infinite;
+}
+#g3KPS-pause:checked ~ .g3KPS {
+    animation-play-state: paused;
+}
+
+.g5KPS {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("g5KPS-thumb.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#g5KPS-play:checked ~ .g5KPS,
+#g5KPS-pause:checked ~ .g5KPS {
+    background-image: url("https://github.com/mbschulz/GAG-assets/releases/download/three-sphere/g5KPS-spr.png");
+    animation: S4F45 1.5s steps(45) infinite;
+}
+#g5KPS-pause:checked ~ .g5KPS {
+    animation-play-state: paused;
+}
+
+.g6KPS {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("g6KPS-thumb.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#g6KPS-play:checked ~ .g6KPS,
+#g6KPS-pause:checked ~ .g6KPS {
+    background-image: url("https://github.com/mbschulz/GAG-assets/releases/download/three-sphere/g6KPS-spr.png");
+    animation: S3F60 2.0s steps(60) infinite;
+}
+#g6KPS-pause:checked ~ .g6KPS {
+    animation-play-state: paused;
+}
+
+.g7KPS {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("g7KPS-thumb.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#g7KPS-play:checked ~ .g7KPS,
+#g7KPS-pause:checked ~ .g7KPS {
+    background-image: url("https://github.com/mbschulz/GAG-assets/releases/download/three-sphere/g7KPS-spr.png");
+    animation: S4F45 1.5s steps(45) infinite;
+}
+#g7KPS-pause:checked ~ .g7KPS {
+    animation-play-state: paused;
+}
+
+.g17KPS {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("g17KPS-thumb.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#g17KPS-play:checked ~ .g17KPS,
+#g17KPS-pause:checked ~ .g17KPS {
+    background-image: url("https://github.com/mbschulz/GAG-assets/releases/download/three-sphere/g17KPS-spr.png");
+    animation: S4F45 1.5s steps(45) infinite;
+}
+#g17KPS-pause:checked ~ .g17KPS {
+    animation-play-state: paused;
+}
+
+.g73KPS {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("g73KPS-thumb.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#g73KPS-play:checked ~ .g73KPS,
+#g73KPS-pause:checked ~ .g73KPS {
+    background-image: url("https://github.com/mbschulz/GAG-assets/releases/download/three-sphere/g73KPS-spr.png");
+    animation: S4F45 1.5s steps(45) infinite;
+}
+#g73KPS-pause:checked ~ .g73KPS {
+    animation-play-state: paused;
+}
+
+ 

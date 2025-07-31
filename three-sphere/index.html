@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Geometric Analysis Gallery</title>
+<meta name="author" content="Mario B. Schulz"/>
+<meta name="keywords" content="Mario B. Schulz, Lawson, minimal surface, 3-sphere, differential geometry"/>
+<meta name="description" content="minimal surfaces"/>
+<link href="../mbs.css" rel="stylesheet" type="text/css"/>
+<link href="three-sphere.css" rel="stylesheet" type="text/css"/> 
+</head>
+<link rel="icon" href="../images/pmhgm.png">
+
+<body>
+
+<!-- SIDEBAR-START -->
+<div class="sidebar">
+<a href="../index.html">Home</a>
+<a href="../publications.html">Publications</a>    
+<a href="../fbms/genus_zero.html">FBMS of genus zero</a>  
+<a href="../fbms/genus_one.html">FBMS of genus one</a>  
+<a href="../fbms/genus_two.html">FBMS of genus two</a>  
+<a href="../fbms/connected_boundary.html">FBMS with connected boundary</a>
+<a href="../fbms/nested_boundaries.html">FBMS with nested boundary components</a> 
+<a href="../fbms/arbitrary_topology.html">FBMS with arbitrary topology</a>
+<a href="../fbms/platonic_symmetry.html">FBMS with Platonic symmetry</a>
+<a href="../fbms/immersed.html">Immersed FBMS</a>    
+<a href="../fbms/catenoid.html">Index of the catenoid</a>  
+<a href="../fbms/ellipsoids.html">FBMS in ellipsoids</a> 
+<a href="../fbms/toroids.html">FBMS in toroids</a>
+<a href="../three-sphere/index.html" class="active">MS in the three-sphere</a>        
+<a href="../shrinkers/index.html">Self-shrinkers</a>   
+<a href="../impressum.html">Contact</a>      
+  
+<span class="copyright">&copy Mario B. Schulz </span>
+</div>
+<!-- SIDEBAR-END -->
+
+<div class="content">
+<h2>Minimal surfaces in the three-dimensional sphere</h2>
+<p>
+The three-sphere &Sopf;<sup>3</sup> is the three-dimensional boundary of a four-dimensional unit ball, much like the familiar two-sphere &Sopf;<sup>2</sup> is the boundary of a three-dimensional unit ball. 
+It is a classical setting for the study of minimal surfaces. 
+In contrast to Euclidean space &Ropf;<sup>3</sup>, where minimal surfaces are either noncompact or with boundary, the three-sphere &Sopf;<sup>3</sup> 
+contains a rich variety of <i>closed</i> minimal surfaces. 
+</p> 
+<p>
+Visualizing any surface in &Sopf;<sup>3</sup> is challenging because &Sopf;<sup>3</sup> is a three-dimensional manifold embedded in four-dimensional space. 
+Since ancient times, <b>stereographic projection</b> is a standard method for displaying spherical geometry in our Euclidean world. 
+This mapping necessarily distorts distances and areas (just like any flat map of the Earth), but it preserves all angles. 
+In particular, circles in the sphere are mapped to perfect circles or straight lines in Euclidean space.
+The figures displayed here are the images of minimal surfaces in &Sopf;<sup>3</sup> after stereographic projection to &Ropf;<sup>3</sup>. 
+Regions of the surface that were near the pole of projection appear much larger than they really are, but in essence, we see a conformally faithful &ldquo;shadow&rdquo; of an object from &Sopf;<sup>3</sup>.
+</p>
+
+<h3>References</h3> 
+
+<ul class="reference-list">
+    
+<li id="Lawson">H. B. Lawson, Jr., 
+    <i><a href="https://doi.org/10.2307/1970625" target="_blank">Complete minimal surfaces in S<sup>3</sup></a>.</i> 
+    Ann. of Math. (2) 92 (1970).
+</li>  
+
+<li id="SchulzWiygul">M. B. Schulz and D. Wiygul,
+<i>A new family of minimal surfaces of even genus in the three-dimensional sphere.</i> 
+Preprint (<a href="https://arxiv.org/abs/2507.22531" target="_blank">arXiv:2507.22531</a>).
+</li>
+ 
+<li id="KPS">H. Karcher, U. Pinkall, and I. Sterling,  
+    <i><a href="https://doi.org/10.4310/jdg/1214442276" target="_blank">New minimal surfaces in S<sup>3</sup></a>.</i> 
+    J. Differential Geom. 28 (1988).
+</li>  
+
+</ul>
+ 
+<h3>The Lawson surfaces</h3>
+<p> 
+The simplest minimal surfaces in &Sopf;<sup>3</sup> are the totally geodesic equatorial sphere and the flat Clifford torus. 
+Beyond these, Lawson [<a href="#Lawson">1</a>] constructed minimal surfaces &xi;<sub><i>m</i>,<i>k</i></sub> of genus
+<i>m</i>&middot;<i>k</i> for any positive integers <i>m</i>,<i>k</i>. 
+The surfaces &xi;<sub><i>m</i>,<i>k</i></sub> and &xi;<sub><i>k</i>,<i>m</i></sub> are congruent in &Sopf;<sup>3</sup>. 
+When <i>k</i> is large, &xi;<sub><i>m</i>,<i>k</i></sub> can be interpreted as a desingularisation of <i>m+1</i> great spheres
+intersecting along a common equator at equal angles. 
+In this sense, the Lawson surfaces are spherical analogues of the (later constructed) 
+<a href="https://doi.org/10.1007/BF01258269" target="_blank">Karcher–Scherk</a> towers in &Ropf;<sup>3</sup> which desingularise <i>m+1</i> planes intersecting along a common line.
+</p>
+
+ 
+
+<div class="responsive">
+    <div class="gallery">
+        <img src="lawson-1-1.png" alt="lawson-1-1">
+        <div class="desc">
+            Clifford torus &xi;<sub><i>1</i>,<i>1</i></sub> &nbsp; <br> 
+            genus 1 <br> 
+            area = 2&pi;<sup>2</sup>
+        </div>
+    </div>
+</div> 
+<div class="responsive">
+<div class="gallery">
+    <input type="radio" id="lawson-1-2-pause" name="lawson-1-2-toggle"/>
+    <label for="lawson-1-2-pause" class="playpause"></label>
+    <input type="radio" id="lawson-1-2-play" name="lawson-1-2-toggle" class="play"/>
+    <label for="lawson-1-2-play" class="playpause"></label>
+    <div class="lawson-1-2"></div>
+    <div class="descPlayStop">
+        <input type="radio" id="lawson-1-2-stop" name="lawson-1-2-toggle"/>
+        <label for="lawson-1-2-stop" class="stop"></label>
+            &xi;<sub><i>1</i>,<i>2</i></sub> &nbsp;
+            genus 2  <br> 
+            area &asymp; 6.973&#8239;&pi; <br>
+            symmetry order 48
+    </div>
+</div>
+</div>
+<div class="responsive">
+<div class="gallery">
+    <input type="radio" id="lawson-1-3-pause" name="lawson-1-3-toggle"/>
+    <label for="lawson-1-3-pause" class="playpause"></label>
+    <input type="radio" id="lawson-1-3-play" name="lawson-1-3-toggle" class="play"/>
+    <label for="lawson-1-3-play" class="playpause"></label>
+    <div class="lawson-1-3"></div>
+    <div class="descPlayStop">
+        <input type="radio" id="lawson-1-3-stop" name="lawson-1-3-toggle"/>
+        <label for="lawson-1-3-stop" class="stop"></label>
+            &xi;<sub><i>1</i>,<i>3</i></sub> &nbsp;
+            genus 3 <br>  
+            area &asymp; 7.263&#8239;&pi;  <br>
+            symmetry order 64
+    </div>
+</div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <img src="lawson-1-6.png" alt="lawson-1-6">
+        <div class="desc">&xi;<sub><i>1</i>,<i>6</i></sub> &nbsp; 
+            genus 6 <br>
+            area &asymp; 7.595&#8239;&pi;  <br>
+            symmetry order 112
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="responsive">
+<div class="gallery">
+    <input type="radio" id="lawson-2-2-pause" name="lawson-2-2-toggle"/>
+    <label for="lawson-2-2-pause" class="playpause"></label>
+    <input type="radio" id="lawson-2-2-play" name="lawson-2-2-toggle" class="play"/>
+    <label for="lawson-2-2-play" class="playpause"></label>
+    <div class="lawson-2-2"></div>
+    <div class="descPlayStop">
+        <input type="radio" id="lawson-2-2-stop" name="lawson-2-2-toggle"/>
+        <label for="lawson-2-2-stop" class="stop"></label>
+            &xi;<sub><i>2</i>,<i>2</i></sub> &nbsp; 
+            genus 4 <br>
+            area &asymp; 8.578&#8239;&pi;  <br>
+            symmetry order 144
+    </div>
+</div>
+</div>
+<div class="responsive">
+<div class="gallery">
+    <input type="radio" id="lawson-2-3-pause" name="lawson-2-3-toggle"/>
+    <label for="lawson-2-3-pause" class="playpause"></label>
+    <input type="radio" id="lawson-2-3-play" name="lawson-2-3-toggle" class="play"/>
+    <label for="lawson-2-3-play" class="playpause"></label>
+    <div class="lawson-2-3"></div>
+    <div class="descPlayStop">
+        <input type="radio" id="lawson-2-3-stop" name="lawson-2-3-toggle"/>
+        <label for="lawson-2-3-stop" class="stop"></label>
+            &xi;<sub><i>2</i>,<i>3</i></sub> &nbsp; 
+            genus 6 <br>
+            area &asymp; 9.453&#8239;&pi;  <br>
+            symmetry order 96
+    </div>
+</div>
+</div> 
+<div class="responsive">
+    <div class="gallery">
+        <img src="lawson-2-6.png" alt="lawson-2-6"> 
+        <div class="desc">&xi;<sub><i>2</i>,<i>6</i></sub> &nbsp; 
+            genus 12 <br>
+            area &asymp; 10.570&#8239;&pi;  <br>
+            symmetry order 168
+        </div>
+    </div>
+</div>
+ 
+
+<div class="responsive">
+<div class="gallery">
+    <input type="radio" id="lawson-3-3-pause" name="lawson-3-3-toggle"/>
+    <label for="lawson-3-3-pause" class="playpause"></label>
+    <input type="radio" id="lawson-3-3-play" name="lawson-3-3-toggle" class="play"/>
+    <label for="lawson-3-3-play" class="playpause"></label>
+    <div class="lawson-3-3"></div>
+    <div class="descPlayStop">
+        <input type="radio" id="lawson-3-3-stop" name="lawson-3-3-toggle"/>
+        <label for="lawson-3-3-stop" class="stop"></label>
+            &xi;<sub><i>3</i>,<i>3</i></sub> &nbsp; 
+            genus 9 <br>
+            area &asymp; 10.890&#8239;&pi;  <br>
+            symmetry order 256
+    </div>
+</div>
+</div>
+<div class="responsive">
+<div class="gallery">
+    <input type="radio" id="lawson-3-4-pause" name="lawson-3-4-toggle"/>
+    <label for="lawson-3-4-pause" class="playpause"></label>
+    <input type="radio" id="lawson-3-4-play" name="lawson-3-4-toggle" class="play"/>
+    <label for="lawson-3-4-play" class="playpause"></label>
+    <div class="lawson-3-4"></div>
+    <div class="descPlayStop">
+        <input type="radio" id="lawson-3-4-stop" name="lawson-3-4-toggle"/>
+        <label for="lawson-3-4-stop" class="stop"></label>
+            &xi;<sub><i>3</i>,<i>4</i></sub> &nbsp; 
+            genus 12 <br>
+            area &asymp; 11.850&#8239;&pi;  <br>
+            symmetry order 160
+    </div>
+</div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <img src="lawson-3-6.png" alt="lawson-3-6">
+        <div class="desc">&xi;<sub><i>3</i>,<i>6</i></sub> &nbsp; 
+            genus 18 <br>
+            area &asymp; 13.006&#8239;&pi;  <br>
+            symmetry order 224
+        </div>
+    </div>
+</div>
+ 
+
+
+<div class="responsive">
+    <div class="gallery">
+        <img src="lawson-4-4.png" alt="lawson-4-4">
+        <div class="desc">&xi;<sub><i>4</i>,<i>4</i></sub> &nbsp; 
+            genus 16 <br>
+            area &asymp; 13.212&#8239;&pi;  <br>
+            symmetry order 400
+        </div>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <img src="lawson-4-5.png" alt="lawson-4-5">
+        <div class="desc">&xi;<sub><i>4</i>,<i>5</i></sub> &nbsp; 
+            genus 20 <br>
+            area &asymp; 14.219&#8239;&pi;  <br>
+            symmetry order 240
+        </div>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <img src="lawson-4-6.png" alt="lawson-4-6">
+        <div class="desc">&xi;<sub><i>4</i>,<i>6</i></sub> &nbsp; 
+            genus 24 <br>
+            area &asymp; 14.981&#8239;&pi;  <br>
+            symmetry order 280
+        </div>
+    </div>
+</div>
+
+
+<div class="responsive">
+    <div class="gallery">
+        <img src="lawson-5-5.png" alt="lawson-5-5">
+        <div class="desc">&xi;<sub><i>5</i>,<i>5</i></sub> &nbsp; 
+            genus 25 <br>
+            area &asymp; 15.540&#8239;&pi;  <br>
+            symmetry order 576
+        </div>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <img src="lawson-5-6.png" alt="lawson-5-6">
+        <div class="desc">&xi;<sub><i>5</i>,<i>6</i></sub> &nbsp; 
+            genus 30 <br>
+            area &asymp; 16.577&#8239;&pi;  <br>
+            symmetry order 336
+        </div>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <img src="lawson-6-6.png" alt="lawson-6-6">
+        <div class="desc">&xi;<sub><i>6</i>,<i>6</i></sub> &nbsp; 
+            genus 36 <br>
+            area &asymp; 17.871&#8239;&pi;  <br>
+            symmetry order 784
+        </div>
+    </div>
+</div>
+
+
+
+<div class="clearfix"></div>
+
+    
+<h3>New minimal surfaces of even genus in the 3-sphere</h3>
+<p>   
+The following minimal surfaces in &Sopf;<sup>3</sup> have been discovered recently in [<a href="#SchulzWiygul">2</a>] as spherical analogues of the celebrated 
+<a href="https://doi.org/10.2307/1971506" target="_blank">Costa&ndash;Hoffman&ndash;Meeks</a> surfaces in &Ropf;<sup>3</sup> 
+(in the same sense as the Lawson surfaces are spherical analogues of the Karcher–Scherk towers).
+In this analogy, the equatorial sphere plays the role of the plane and the Clifford torus plays the role of the complete catenoid. 
+The surface of genus 4 in this family is conjectured to be congruent with the Lawson surface &xi;<sub><i>2</i>,<i>2</i></sub>, while the remaining surfaces are geometrically distinct from any other known example. 
+</p>
+ 
+
+<div class="responsive">
+<div class="gallery">
+    <input type="radio" id="Gamma2-pause" name="Gamma2-toggle"/>
+    <label for="Gamma2-pause" class="playpause"></label>
+    <input type="radio" id="Gamma2-play" name="Gamma2-toggle" class="play"/>
+    <label for="Gamma2-play" class="playpause"></label>
+    <div class="Gamma2"></div>
+    <div class="descPlayStop">
+        <input type="radio" id="Gamma2-stop" name="Gamma2-toggle"/>
+        <label for="Gamma2-stop" class="stop"></label>
+            genus 4 <br>
+            symmetry order 144
+    </div>
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+    <input type="radio" id="Gamma3-pause" name="Gamma3-toggle"/>
+    <label for="Gamma3-pause" class="playpause"></label>
+    <input type="radio" id="Gamma3-play" name="Gamma3-toggle" class="play"/>
+    <label for="Gamma3-play" class="playpause"></label>
+    <div class="Gamma3"></div>
+    <div class="descPlayStop">
+        <input type="radio" id="Gamma3-stop" name="Gamma3-toggle"/>
+        <label for="Gamma3-stop" class="stop"></label>
+            genus 6 <br> &nbsp;
+    </div>
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+    <input type="radio" id="Gamma4-pause" name="Gamma4-toggle"/>
+    <label for="Gamma4-pause" class="playpause"></label>
+    <input type="radio" id="Gamma4-play" name="Gamma4-toggle" class="play"/>
+    <label for="Gamma4-play" class="playpause"></label>
+    <div class="Gamma4"></div>
+    <div class="descPlayStop">
+        <input type="radio" id="Gamma4-stop" name="Gamma4-toggle"/>
+        <label for="Gamma4-stop" class="stop"></label>
+            genus 8 <br> 
+            symmetry order 32
+    </div>
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+    <input type="radio" id="Gamma5-pause" name="Gamma5-toggle"/>
+    <label for="Gamma5-pause" class="playpause"></label>
+    <input type="radio" id="Gamma5-play" name="Gamma5-toggle" class="play"/>
+    <label for="Gamma5-play" class="playpause"></label>
+    <div class="Gamma5"></div>
+    <div class="descPlayStop">
+        <input type="radio" id="Gamma5-stop" name="Gamma5-toggle"/>
+        <label for="Gamma5-stop" class="stop"></label>
+            genus 10 <br> 
+            symmetry order 40
+    </div>
+</div>
+</div>
+
+
+
+<div class="responsive">
+    <div class="gallery">
+        <img src="Gamma6.png" alt="Gamma6">
+        <div class="desc"> 
+            genus 12 <br> 
+            symmetry order 48
+        </div>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <img src="Gamma7.png" alt="Gamma7">
+        <div class="desc"> 
+            genus 14 <br> 
+            symmetry order 56
+        </div>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <img src="Gamma12.png" alt="Gamma12">
+        <div class="desc"> 
+            genus 24 <br> 
+            symmetry order 96
+        </div>
+    </div>
+</div>
+
+
+
+<div class="clearfix"></div>
+
+
+
+
+<h3>The Karcher&ndash;Pinkall&ndash;Sterling surfaces</h3>
+
+
+
+<div class="responsive">
+<div class="gallery">
+    <input type="radio" id="g3KPS-pause" name="g3KPS-toggle"/>
+    <label for="g3KPS-pause" class="playpause"></label>
+    <input type="radio" id="g3KPS-play" name="g3KPS-toggle" class="play"/>
+    <label for="g3KPS-play" class="playpause"></label>
+    <div class="g3KPS"></div>
+    <div class="descPlayStop">
+        <input type="radio" id="g3KPS-stop" name="g3KPS-toggle"/>
+        <label for="g3KPS-stop" class="stop"></label>
+        genus 3 <br>&nbsp;
+    </div>
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+    <input type="radio" id="g5KPS-pause" name="g5KPS-toggle"/>
+    <label for="g5KPS-pause" class="playpause"></label>
+    <input type="radio" id="g5KPS-play" name="g5KPS-toggle" class="play"/>
+    <label for="g5KPS-play" class="playpause"></label>
+    <div class="g5KPS"></div>
+    <div class="descPlayStop">
+        <input type="radio" id="g5KPS-stop" name="g5KPS-toggle"/>
+        <label for="g5KPS-stop" class="stop"></label>
+        genus 5 <br>&nbsp;
+    </div>
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+    <input type="radio" id="g6KPS-pause" name="g6KPS-toggle"/>
+    <label for="g6KPS-pause" class="playpause"></label>
+    <input type="radio" id="g6KPS-play" name="g6KPS-toggle" class="play"/>
+    <label for="g6KPS-play" class="playpause"></label>
+    <div class="g6KPS"></div>
+    <div class="descPlayStop">
+        <input type="radio" id="g6KPS-stop" name="g6KPS-toggle"/>
+        <label for="g6KPS-stop" class="stop"></label>
+            genus 6 <br> 
+            symmetry order 240
+    </div>
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+    <input type="radio" id="g7KPS-pause" name="g7KPS-toggle"/>
+    <label for="g7KPS-pause" class="playpause"></label>
+    <input type="radio" id="g7KPS-play" name="g7KPS-toggle" class="play"/>
+    <label for="g7KPS-play" class="playpause"></label>
+    <div class="g7KPS"></div>
+    <div class="descPlayStop">
+        <input type="radio" id="g7KPS-stop" name="g7KPS-toggle"/>
+        <label for="g7KPS-stop" class="stop"></label>
+        genus 7 <br>&nbsp;
+    </div>
+</div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <img src="g11KPS.png" alt="g11KPS">
+        <div class="desc"> 
+            genus 11 <br> &nbsp; 
+        </div>
+    </div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+    <input type="radio" id="g17KPS-pause" name="g17KPS-toggle"/>
+    <label for="g17KPS-pause" class="playpause"></label>
+    <input type="radio" id="g17KPS-play" name="g17KPS-toggle" class="play"/>
+    <label for="g17KPS-play" class="playpause"></label>
+    <div class="g17KPS"></div>
+    <div class="descPlayStop">
+        <input type="radio" id="g17KPS-stop" name="g17KPS-toggle"/>
+        <label for="g17KPS-stop" class="stop"></label>
+         genus 17 <br> &nbsp; 
+    </div>
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+    <input type="radio" id="g73KPS-pause" name="g73KPS-toggle"/>
+    <label for="g73KPS-pause" class="playpause"></label>
+    <input type="radio" id="g73KPS-play" name="g73KPS-toggle" class="play"/>
+    <label for="g73KPS-play" class="playpause"></label>
+    <div class="g73KPS"></div>
+    <div class="descPlayStop">
+        <input type="radio" id="g73KPS-stop" name="g73KPS-toggle"/>
+        <label for="g73KPS-stop" class="stop"></label>
+            genus 73 <br> 
+            symmetry order 2304
+    </div>
+</div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <img src="https://github.com/mbschulz/GAG-assets/releases/download/three-sphere/g601KPS.png" alt="g601KPS">
+        <div class="desc"> 
+            genus 601 <br> symmetry order 14400
+        </div>
+    </div>
+</div>
+ 
+
+
+
+<div class="clearfix"></div>
+
+<div class="footer">
+<img src="../images/pmhgm.png" height="45" alt="" align="right">
+</div> 
+
+<!-- Preload sprites from GitHub Releases -->
+<div style="display: none;" aria-hidden="true">
+    <img src="https://github.com/mbschulz/GAG-assets/releases/download/three-sphere/lawson-1-2-spr.png" alt=""> 
+    <img src="https://github.com/mbschulz/GAG-assets/releases/download/three-sphere/lawson-1-3-spr.png" alt="">
+    <img src="https://github.com/mbschulz/GAG-assets/releases/download/three-sphere/lawson-2-2-spr.png" alt="">
+    <img src="https://github.com/mbschulz/GAG-assets/releases/download/three-sphere/Gamma2-spr.png" alt="">
+    <img src="https://github.com/mbschulz/GAG-assets/releases/download/three-sphere/Gamma3-spr.png" alt="">
+    <img src="https://github.com/mbschulz/GAG-assets/releases/download/three-sphere/g6KPS-spr.png" alt="">     
+</div>
+
+</body>
+</html>
+
+

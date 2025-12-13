@@ -128,70 +128,6 @@
     animation-play-state: paused;
 }
 
-.g15b3KL {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../../images/frontsphere.svg"), url("g15b3KL-thumb.png"), url("../../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-}
-#g15b3KL-play:checked ~ .g15b3KL,
-#g15b3KL-pause:checked ~ .g15b3KL {
-    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/nested_boundaries/g15b3KL-spr.png"), url("../../images/backsphere.svg");
-    animation: C16F11 0.4s steps(11) infinite;
-}
-#g15b3KL-pause:checked ~ .g15b3KL {
-    animation-play-state: paused;
-}
-
-.g15b3CSW {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../../images/frontsphere.svg"), url("g15b3CSW-thumb.png"), url("../../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-}
-#g15b3CSW-play:checked ~ .g15b3CSW,
-#g15b3CSW-pause:checked ~ .g15b3CSW {
-    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/nested_boundaries/g15b3CSW-spr.png"), url("../../images/backsphere.svg");
-    animation: C16F11 0.4s steps(11) infinite;
-}
-#g15b3CSW-pause:checked ~ .g15b3CSW {
-    animation-play-state: paused;
-}
-
-.g19b3KL {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../../images/frontsphere.svg"), url("g19b3KL-thumb.png"), url("../../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-}
-#g19b3KL-play:checked ~ .g19b3KL,
-#g19b3KL-pause:checked ~ .g19b3KL {
-    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/nested_boundaries/g19b3KL-spr.png"), url("../../images/backsphere.svg");
-    animation: C20F9 0.3s steps(9) infinite;
-}
-#g19b3KL-pause:checked ~ .g19b3KL {
-    animation-play-state: paused;
-}
-
-.g19b3CSW {
-    width: 100%;
-    padding-top: 100%;
-    background-image: url("../../images/frontsphere.svg"), url("g19b3CSW-thumb.png"), url("../../images/backsphere.svg");
-    background-size: 100%, 100%, 100%;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-}
-#g19b3CSW-play:checked ~ .g19b3CSW,
-#g19b3CSW-pause:checked ~ .g19b3CSW {
-    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/nested_boundaries/g19b3CSW-spr.png"), url("../../images/backsphere.svg");
-    animation: C20F9 0.3s steps(9) infinite;
-}
-#g19b3CSW-pause:checked ~ .g19b3CSW {
-    animation-play-state: paused;
-}
-
 .g27b3KL {
     width: 100%;
     padding-top: 100%;
@@ -306,3 +242,246 @@
 #g10b4-P6-pause:checked ~ .g10b4-P6 {
     animation-play-state: paused;
 }
+
+
+
+
+/* ---- Surfaces with 5 Boundary Components ---- */
+
+
+.g12b5-A5 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g12b5-A5-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g12b5-A5-play:checked ~ .g12b5-A5,
+#g12b5-A5-pause:checked ~ .g12b5-A5 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/nested_boundaries/g12b5-A5-spr.png"), url("../../images/backsphere.svg");
+    animation: C5F36 1.2s steps(36) infinite;
+}
+#g12b5-A5-pause:checked ~ .g12b5-A5 {
+    animation-play-state: paused;
+}
+
+.g12b5-A5ii {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g12b5-A5ii-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g12b5-A5ii-play:checked ~ .g12b5-A5ii,
+#g12b5-A5ii-pause:checked ~ .g12b5-A5ii {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/nested_boundaries/g12b5-A5ii-spr.png"), url("../../images/backsphere.svg");
+    animation: C5F36 1.2s steps(36) infinite;
+}
+#g12b5-A5ii-pause:checked ~ .g12b5-A5ii {
+    animation-play-state: paused;
+}
+.g21b5-A8 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g21b5-A8-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g21b5-A8-play:checked ~ .g21b5-A8,
+#g21b5-A8-pause:checked ~ .g21b5-A8 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/nested_boundaries/g21b5-A8-spr.png"), url("../../images/backsphere.svg");
+    animation: C8F22 0.7s steps(22) infinite;
+}
+#g21b5-A8-pause:checked ~ .g21b5-A8 {
+    animation-play-state: paused;
+}
+
+.g21b5-A8ii {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g21b5-A8ii-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g21b5-A8ii-play:checked ~ .g21b5-A8ii,
+#g21b5-A8ii-pause:checked ~ .g21b5-A8ii {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/nested_boundaries/g21b5-A8ii-spr.png"), url("../../images/backsphere.svg");
+    animation: C8F22 0.7s steps(22) infinite;
+}
+#g21b5-A8ii-pause:checked ~ .g21b5-A8ii {
+    animation-play-state: paused;
+}
+
+.g35b5-A8i {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g35b5-A8i-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g35b5-A8i-play:checked ~ .g35b5-A8i,
+#g35b5-A8i-pause:checked ~ .g35b5-A8i {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/nested_boundaries/g35b5-A8i-spr.png"), url("../../images/backsphere.svg");
+    animation: C8F22 0.7s steps(22) infinite;
+}
+#g35b5-A8i-pause:checked ~ .g35b5-A8i {
+    animation-play-state: paused;
+}
+
+.g120b5-A25ii {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g120b5-A25ii-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g120b5-A25ii-play:checked ~ .g120b5-A25ii,
+#g120b5-A25ii-pause:checked ~ .g120b5-A25ii {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/nested_boundaries/g120b5-A25ii-spr.png"), url("../../images/backsphere.svg");
+    animation: C25F7 0.3s steps(7) infinite;
+}
+#g120b5-A25ii-pause:checked ~ .g120b5-A25ii {
+    animation-play-state: paused;
+}
+
+
+
+
+
+/* ---- Surfaces with 7 Boundary Components ---- */
+
+.g55b7-A12 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g55b7-A12-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g55b7-A12-play:checked ~ .g55b7-A12,
+#g55b7-A12-pause:checked ~ .g55b7-A12 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/nested_boundaries/g55b7-A12-spr.png"), url("../../images/backsphere.svg");
+    animation: C12F15 0.5s steps(15) infinite;
+}
+#g55b7-A12-pause:checked ~ .g55b7-A12 {
+    animation-play-state: paused;
+}
+
+.g55b7-A12ii {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g55b7-A12ii-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g55b7-A12ii-play:checked ~ .g55b7-A12ii,
+#g55b7-A12ii-pause:checked ~ .g55b7-A12ii {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/nested_boundaries/g55b7-A12ii-spr.png"), url("../../images/backsphere.svg");
+    animation: C12F15 0.5s steps(15) infinite;
+}
+#g55b7-A12ii-pause:checked ~ .g55b7-A12ii {
+    animation-play-state: paused;
+}
+
+.g30b7-A7 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g30b7-A7-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g30b7-A7-play:checked ~ .g30b7-A7,
+#g30b7-A7-pause:checked ~ .g30b7-A7 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/nested_boundaries/g30b7-A7-spr.png"), url("../../images/backsphere.svg");
+    animation: C7F25 0.8s steps(25) infinite;
+}
+#g30b7-A7-pause:checked ~ .g30b7-A7 {
+    animation-play-state: paused;
+}
+
+.g30b7-A7ii {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g30b7-A7ii-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g30b7-A7ii-play:checked ~ .g30b7-A7ii,
+#g30b7-A7ii-pause:checked ~ .g30b7-A7ii {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/nested_boundaries/g30b7-A7ii-spr.png"), url("../../images/backsphere.svg");
+    animation: C7F25 0.8s steps(25) infinite;
+}
+#g30b7-A7ii-pause:checked ~ .g30b7-A7ii {
+    animation-play-state: paused;
+}
+
+
+
+
+
+
+/* ---- Surfaces with 9 Boundary Components ---- */
+
+.g63b9-A10 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g63b9-A10-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g63b9-A10-play:checked ~ .g63b9-A10,
+#g63b9-A10-pause:checked ~ .g63b9-A10 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/nested_boundaries/g63b9-A10-spr.png"), url("../../images/backsphere.svg");
+    animation: C10F18 0.6s steps(18) infinite;
+}
+#g63b9-A10-pause:checked ~ .g63b9-A10 {
+    animation-play-state: paused;
+}
+
+.g63b9-A10ii {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g63b9-A10ii-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g63b9-A10ii-play:checked ~ .g63b9-A10ii,
+#g63b9-A10ii-pause:checked ~ .g63b9-A10ii {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/nested_boundaries/g63b9-A10ii-spr.png"), url("../../images/backsphere.svg");
+    animation: C10F18 0.6s steps(18) infinite;
+}
+#g63b9-A10ii-pause:checked ~ .g63b9-A10ii {
+    animation-play-state: paused;
+}
+
+.g105b9-A16 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g105b9-A16-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g105b9-A16-play:checked ~ .g105b9-A16,
+#g105b9-A16-pause:checked ~ .g105b9-A16 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/nested_boundaries/g105b9-A16-spr.png"), url("../../images/backsphere.svg");
+    animation: C16F11 0.4s steps(11) infinite;
+}
+#g105b9-A16-pause:checked ~ .g105b9-A16 {
+    animation-play-state: paused;
+}
+
+.g105b9-A16ii {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g105b9-A16ii-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g105b9-A16ii-play:checked ~ .g105b9-A16ii,
+#g105b9-A16ii-pause:checked ~ .g105b9-A16ii {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/nested_boundaries/g105b9-A16ii-spr.png"), url("../../images/backsphere.svg");
+    animation: C16F11 0.4s steps(11) infinite;
+}
+#g105b9-A16ii-pause:checked ~ .g105b9-A16ii {
+    animation-play-state: paused;
+}
+

@@ -313,6 +313,12 @@ body:after{
   from { background-position: 0px 0px, 0px 0px, 0px 0px; }
   to { background-position: 0px 0px, 0px 112.5%, 0px 0px; }	
 } 
+@keyframes C25F7 {
+  from { background-position: 0px 0px, 0px 0px, 0px 0px; }
+  to { background-position: 0px 0px, 0px 116.667%, 0px 0px; }	
+} 
+
+
 @keyframes C1F180x {
   from { background-position-x: 0px, 0px, 0px; }
   to { background-position-x: 0px, 200%, 0px; }	

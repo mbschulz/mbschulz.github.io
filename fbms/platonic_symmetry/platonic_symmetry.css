@@ -414,6 +414,23 @@
     animation-play-state: paused;
 }
 
+.g48b6-C4 {
+    width: 100%;
+    padding-top: 100%;
+    background-image: url("../../images/frontsphere.svg"), url("g48b6-C4-thumb.png"), url("../../images/backsphere.svg");
+    background-size: 100%, 100%, 100%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g48b6-C4-play:checked ~ .g48b6-C4,
+#g48b6-C4-pause:checked ~ .g48b6-C4 {
+    background-image: url("../../images/frontsphere.svg"), url("https://github.com/mbschulz/GAG-assets/releases/download/platonic_symmetry/g48b6-C4-spr.png"), url("../../images/backsphere.svg");
+    animation: C4F45 1.5s steps(45) infinite;
+}
+#g48b6-C4-pause:checked ~ .g48b6-C4 {
+    animation-play-state: paused;
+}
+
+
 .g11b20-C5 {
     width: 100%;
     padding-top: 100%;

@@ -66,3 +66,87 @@
 	animation-play-state:paused;
 }
 
+.g1b1-i1 {
+    width: 100%;
+padding-top: 100%;
+background-image: url("../../images/frontsphere.svg"), url("g1b1-i1-spr.png"), url("../../images/backsphere.svg");
+background-size: 100%, 100%, 100%;
+background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g1b1-i1-play:checked ~ .g1b1-i1 {
+background-image: url("../../images/frontsphere.svg"), url("g1b1-i1-spr.png"), url("../../images/backsphere.svg");
+animation: C12F15 1.25s steps(15) infinite alternate;
+}
+#g1b1-i1-pause:checked ~ .g1b1-i1 {
+background-image: url("../../images/frontsphere.svg"), url("g1b1-i1-spr.png"), url("../../images/backsphere.svg");
+animation: C12F15 1.25s steps(15) infinite alternate;
+animation-play-state:paused;
+}
+
+.g1b1-i2 {
+    width: 100%;
+padding-top: 100%;
+background-image: url("../../images/frontsphere.svg"), url("g1b1-i2-spr.png"), url("../../images/backsphere.svg");
+background-size: 100%, 100%, 100%;
+background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g1b1-i2-play:checked ~ .g1b1-i2 {
+background-image: url("../../images/frontsphere.svg"), url("g1b1-i2-spr.png"), url("../../images/backsphere.svg");
+animation: C12F15 1.25s steps(15) infinite alternate;
+}
+#g1b1-i2-pause:checked ~ .g1b1-i2 {
+background-image: url("../../images/frontsphere.svg"), url("g1b1-i2-spr.png"), url("../../images/backsphere.svg");
+animation: C12F15 1.25s steps(15) infinite alternate;
+animation-play-state:paused;
+}
+
+.g1b1-i3 {
+    width: 100%;
+padding-top: 100%;
+background-image: url("../../images/frontsphere.svg"), url("g1b1-i3-spr.png"), url("../../images/backsphere.svg");
+background-size: 100%, 100%, 100%;
+background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g1b1-i3-play:checked ~ .g1b1-i3 {
+background-image: url("../../images/frontsphere.svg"), url("g1b1-i3-spr.png"), url("../../images/backsphere.svg");
+animation: C12F15 1.25s steps(15) infinite alternate;
+}
+#g1b1-i3-pause:checked ~ .g1b1-i3 {
+background-image: url("../../images/frontsphere.svg"), url("g1b1-i3-spr.png"), url("../../images/backsphere.svg");
+animation: C12F15 1.25s steps(15) infinite alternate;
+animation-play-state:paused;
+}
+
+.g1b1-i4 {
+    width: 100%;
+padding-top: 100%;
+background-image: url("../../images/frontsphere.svg"), url("g1b1-i4-spr.png"), url("../../images/backsphere.svg");
+background-size: 100%, 100%, 100%;
+background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g1b1-i4-play:checked ~ .g1b1-i4 {
+background-image: url("../../images/frontsphere.svg"), url("g1b1-i4-spr.png"), url("../../images/backsphere.svg");
+animation: C12F15 1.25s steps(15) infinite alternate;
+}
+#g1b1-i4-pause:checked ~ .g1b1-i4 {
+background-image: url("../../images/frontsphere.svg"), url("g1b1-i4-spr.png"), url("../../images/backsphere.svg");
+animation: C12F15 1.25s steps(15) infinite alternate;
+animation-play-state:paused;
+}
+
+.g1b1-i5 {
+    width: 100%;
+padding-top: 100%;
+background-image: url("../../images/frontsphere.svg"), url("g1b1-i5-spr.png"), url("../../images/backsphere.svg");
+background-size: 100%, 100%, 100%;
+background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#g1b1-i5-play:checked ~ .g1b1-i5 {
+background-image: url("../../images/frontsphere.svg"), url("g1b1-i5-spr.png"), url("../../images/backsphere.svg");
+animation: C12F15 1.25s steps(15) infinite alternate;
+}
+#g1b1-i5-pause:checked ~ .g1b1-i5 {
+background-image: url("../../images/frontsphere.svg"), url("g1b1-i5-spr.png"), url("../../images/backsphere.svg");
+animation: C12F15 1.25s steps(15) infinite alternate;
+animation-play-state:paused;
+}
